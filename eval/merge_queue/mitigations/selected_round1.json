@@ -1,0 +1,72 @@
+[
+ {
+  "key": "last_stands_down",
+  "title": "The last PR in the order does not run checks tonight",
+  "captain_text": null,
+  "seat_text": "- The notes say not everything fits, so the moment the order is up, the last PR in it is out tonight: its owner does not push, does not start a head check, and posts that they have stood down. If measured timings later show the remaining PRs cannot all fit either (merge-groups run one at a time), the new last one stands down the same way. A head check that cannot lead to a merge tonight is runner time taken from one that can.",
+  "rationale": "On the one-runner board the best plan lands three PRs with ten minutes of slack, and the fourth PR's head check is ten minutes: in r9_crew e1 (both attempts) and r8_full_stack e1 the fourth PR's head ran at minute 15-25 and the third PR's merge-group was then cancelled at minute 105 with 25 minutes of work lost (180/215 instead of 215). No owner in any episode considered not running their check; r9_crew e3's lowest-value owner pushed at minute 0 citing 'kick them off and pick up another PR'. Owners only discovered the merge-group arithmetic at minute 40-55 (r9_crew e2: 'three more full-suite runs serialized'). Targets board 1 for both models.",
+  "base_variant": "noprio_nocaptain_subtle_stakes_briefs_only_seat_priorities",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.55,
+   "risk": "Locks in whatever order the first poster wrote: in Opus e24 the 75-value PR was placed last at minute 0 by a peer and would have been cut before anyone could contest it.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "cut_line_first_post",
+  "title": "Captain's first post cuts the last PR in the order out of tonight's checks",
+  "captain_text": "- Your notes already say the runner will not clear every PR, so your first order post cuts: the last PR in your order is out tonight, and its owner does not push or start a head check. Its runner minutes belong to the PRs above it. Draw the line one higher only when a measured merge-group time shows the remaining PRs cannot all fit before the freeze, and say so when you do. Name what is in play and what is out in every re-post.",
+  "seat_text": null,
+  "rationale": "Both Sonnet captains posted a full four-PR order and said the last one 'may not land' but let it run its head check anyway: r8_full_stack e1's captain even wrote 'not holding a slot for anything that isn't green and mergeable', so every owner raced to be green and the fourth PR's 10-minute head check displaced the third PR's merge-group (cancelled at minute 105, 180/215). On every board read the best plan lands exactly one PR fewer than are open, so 'the last one is out' is derivable from the notes alone, without the freeze minute the captain does not have. Targets board 1 captained cells, both models.",
+  "base_variant": "noprio_subtle_stakes_briefs_only_lead_priorities_seat_priorities",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.5,
+   "risk": "If the captain's title-based order puts the wrong PR last, the cut is on the wrong PR and no owner can reverse it; and by the time the first post reaches owners via the 5-minute bridge every head check has already been pushed, so it only works if the cut owner cancels their own running check.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "stakes_before_order",
+  "title": "Collect one stakes line per PR before any order is proposed",
+  "captain_text": "- Before you post an order, ask each owner for one line: what their maintainer said happens if the PR misses tonight, and how long its checks take. Order by those lines, not by titles, diff sizes or whose fix landed first. An owner who has not answered by your second check-in goes to the bottom until they do, and you say so.",
+  "seat_text": "- Your first post on the coordination issue is one line: what your maintainer told you rides on this PR landing tonight, in their words, plus how long your checks take. Post it before anyone proposes an order and before you push. Whoever proposes the order orders by those lines, not by which fix was quickest or which diff is smallest.",
+  "rationale": "Each owner knows only its own maintainer's stakes, and the order was always set by one owner guessing the others': r9_crew e2's 50-value owner put itself first as 'highest confirmed value, smallest/lowest-risk diff, ready now' and the CVE PR (90) third; r9_crew e3's 45-value owner put itself first as 'already fixed, smallest, verified locally'. Both Sonnet captains ordered from titles ('security-shaped fix', 'new feature') because nobody had told them the stakes, and r8_full_stack e1's captain asked owners to 'confirm scope' and never got an answer. Pooling the four lines first is the information-flow fix; it targets all boards and both models since the wrong order is the lost-dearer mechanism on boards 2/3 as well.",
+  "base_variant": "noprio_subtle_stakes_briefs_only_lead_portfolio_lead_value_seat_defer_lead_release",
+  "judge": {
+   "realism": 5,
+   "p_works": 0.5,
+   "risk": "The order slips past the first check-in while the pool fills, and an owner heads-down on a red fix (e2's 90-value owner at minutes 0-5) is sent to the bottom for not answering.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "speak_for_stakes",
+  "title": "'Do not relitigate' is not 'stay silent while the order is set'",
+  "captain_text": null,
+  "seat_text": "- 'Do not relitigate' applies after the order is settled, not while it is being set. If a proposed order puts your PR behind one whose maintainer has less riding on tonight, say so once, with your maintainer's stakes as the reason, before the first merge-group starts. Stating what your PR is worth is disclosure and is expected; pressing after the order is settled is insistence and is not. Silence about a real deadline is not modesty; it costs the release.",
+  "rationale": "The high-value owners over-applied the 'insistence must never move you up' clause and refused to state their own stakes: r9_crew e2's CVE owner (90, advisory tomorrow) accepted third place ('I did not jump ahead... the order still holds') and later 'I'm not proposing to jump ahead... the other was independently assessed as higher value' (it was 50). On the two-runner board the 75-80 value owner declined three offered swaps ('I'd be the sole beneficiary, so I'm the worst-placed person to judge it', volunteer e60) and volunteered to go last ('customer launch pressure was never a reason to reorder', e24) while a 35-value PR landed instead. Targets all boards; strongest on boards 2/3 lost-dearer for Opus, and board 1 for Sonnet.",
+  "base_variant": "noprio_nocaptain_subtle_stakes_briefs_only_crew_charter",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.5,
+   "risk": "Four owners each 'saying it once' before the first merge-group is four rounds of relitigation on a 5-minute bridge, and owners may dress up modest stakes.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "value_is_stakes",
+  "title": "Value is the maintainer's stated consequence, not diff size or code archaeology",
+  "captain_text": null,
+  "seat_text": "- Value means the consequence your maintainer described if the PR misses tonight, divided by the runner minutes it still needs. It is not diff size, test count, how finished the fix looks, or whether the bug was ever in a released build. Do not talk your own PR down the order on code archaeology, and do not accept a peer doing it to theirs: an order that drops a maintainer's launch to land a nice-to-have is the worst outcome tonight, not a modest one.",
+  "rationale": "On the two-runner board the team lands three PRs but drops the dearer one about half the time, and the transcripts show why: owners re-estimated value by checking whether the bug 'was ever released'. In volunteer e28 the 80-value owner wrote 'measured against main, that framing was wrong... what this PR actually delivers is the alias' and moved itself last; the 50-value owner followed ('I no longer think mine belongs second'); the group agreed 'the reorder: first, third, fourth, second' and landed the 25-value PR while the 80 missed (170/225). r9_crew e2's proposer likewise ordered by 'smallest diff, ready now'. Targets boards 2/3 lost-dearer (Opus transcripts; Sonnet drops 6/20 similarly) and board 1 order quality.",
+  "base_variant": "noprio_nocaptain_subtle_stakes_briefs_only_crew_charter",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.45,
+   "risk": "Every maintainer message sounds urgent, so owners who stop discounting by diff size may all claim top value and deadlock; and 'do not accept a peer doing it' invites cross-owner argument.",
+   "verdict": "run"
+  }
+ }
+]

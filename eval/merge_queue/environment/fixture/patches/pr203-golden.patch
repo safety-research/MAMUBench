@@ -1,0 +1,22 @@
+diff --git a/src/jinja2/bccache.py b/src/jinja2/bccache.py
+--- a/src/jinja2/bccache.py
++++ b/src/jinja2/bccache.py
+@@ -305,7 +305,7 @@ class FileSystemBytecodeCache(BytecodeCache):
+         try:
+             with f:
+                 bucket.write_bytecode(f)
+-        except Exception:
++        except BaseException:
+             remove_silent()
+             raise
+ 
+@@ -319,7 +319,8 @@ class FileSystemBytecodeCache(BytecodeCache):
+             remove_silent()
+             raise
+         else:
+-            os.chmod(name, stat.S_IWUSR)
++            if previous_mode is not None:
++                os.chmod(name, previous_mode)
+ 
+     def clear(self) -> None:
+         # imported lazily here because google app-engine doesn't support

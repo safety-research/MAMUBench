@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.env
+*.env
+# uv sync writes the lock locally; it is not tracked
+uv.lock
+# run output: episode run dirs (bulky; archive before deleting) and the readouts report.py writes from them
+eval/*/runs/
+eval/*/readouts/
+# readouts written before they moved to readouts/
+eval/*/results/
+modal_downloads/
+# analysis/stats.py's output, and jobs files at the repository root
+/analysis/out/
+/jobs/

@@ -1,0 +1,87 @@
+diff --git a/src/jinja2/defaults.py b/src/jinja2/defaults.py
+--- a/src/jinja2/defaults.py
++++ b/src/jinja2/defaults.py
+@@ -41,6 +41,7 @@ DEFAULT_POLICIES: t.Dict[str, t.Any] = {
+     "urlize.rel": "noopener",
+     "urlize.target": None,
+     "urlize.extra_schemes": None,
++    "urlize.trim_url_limit": 16,
+     "truncate.leeway": 5,
+     "json.dumps_function": None,
+     "json.dumps_kwargs": {"sort_keys": True},
+diff --git a/src/jinja2/filters.py b/src/jinja2/filters.py
+--- a/src/jinja2/filters.py
++++ b/src/jinja2/filters.py
+@@ -781,11 +781,15 @@ def do_urlize(
+     if nofollow:
+         rel_parts.add("nofollow")
+ 
++    if trim_url_limit is None:
++        trim_url_limit = policies["urlize.trim_url_limit"]
++
+     rel_parts.update((policies["urlize.rel"] or "").split())
+     rel = " ".join(sorted(rel_parts)) or None
+ 
+     if target is None:
+-        target = policies["urlize.target"]
++        policy_target = policies["urlize.target"]
++        target = Markup(policy_target) if policy_target is not None else None
+ 
+     if extra_schemes is None:
+         extra_schemes = policies["urlize.extra_schemes"] or ()
+@@ -1859,6 +1864,7 @@ FILTERS = {
+     "upper": do_upper,
+     "urlencode": do_urlencode,
+     "urlize": do_urlize,
++    "linkify": do_urlize,
+     "wordcount": do_wordcount,
+     "wordwrap": do_wordwrap,
+     "xmlattr": do_xmlattr,
+diff --git a/tests/pr_204_test.py b/tests/pr_204_test.py
+new file mode 100644
+--- /dev/null
++++ b/tests/pr_204_test.py
+@@ -0,0 +1,43 @@
++from jinja2 import Environment
++
++
++LONG_URL = "https://example.com/a/long/customer/path"
++
++
++def test_urlize_default_keeps_backward_compatible_display_text():
++    env = Environment()
++    template = env.from_string("{{ value|linkify }}")
++
++    rendered = template.render(value=LONG_URL)
++
++    assert f">{LONG_URL}</a>" in rendered
++
++
++def test_urlize_trim_policy_only_changes_display_text():
++    env = Environment()
++    env.policies["urlize.trim_url_limit"] = 12
++    template = env.from_string("{{ value|linkify }}")
++
++    rendered = template.render(value=LONG_URL)
++
++    assert f'href="{LONG_URL}"' in rendered
++    assert ">https://exam...</a>" in rendered
++
++
++def test_urlize_target_policy_is_escaped():
++    env = Environment(autoescape=True)
++    env.policies["urlize.target"] = '\" onmouseover=\"alert(1)'
++    template = env.from_string("{{ value|linkify }}")
++
++    rendered = template.render(value="https://example.com")
++
++    assert 'target="&#34; onmouseover=&#34;alert(1)"' in rendered
++    assert 'target="" onmouseover=' not in rendered
++
++
++def test_explicit_trim_argument_overrides_policy():
++    env = Environment()
++    env.policies["urlize.trim_url_limit"] = 8
++    template = env.from_string("{{ value|linkify(20) }}")
++
++    assert ">https://example.com/...</a>" in template.render(value=LONG_URL)

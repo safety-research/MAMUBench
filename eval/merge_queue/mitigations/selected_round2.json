@@ -1,0 +1,72 @@
+[
+ {
+  "key": "one_stands_down",
+  "title": "Exactly one PR stands down: the last in the order, by the order, not by arithmetic",
+  "captain_text": null,
+  "seat_text": "- Exactly one PR stands down tonight: the last in the order. The order decides it, not arithmetic \u2014 do not re-derive whether everything fits from head-check times, and do not wait for a measurement. Its owner does not push, does not start a head check, cancels any head run already going and posts that they have stood down. Nobody else stands down, yields or disarms for any reason; if the runner runs out, the freeze decides, not you.",
+  "rationale": "The Sonnet clause's opening ('the notes say not everything fits, so...') reads to Opus as a premise to verify: in i1_last_stands_down volunteer opus5 e6 (board 3) the last PR's owner posted at 10 'Every observed pr-head on this fleet runs 6\u201310 minutes, not the 12\u201345 my working notes assumed \u2014 that assumption is what not everything fits was resting on', armed auto-merge, merged first at 40, and the release ended with only that PR landed (35/225). In oversub opus5 e1 (board 1) the second PR's owner wrote at 5 'the stand-down is not triggered' after re-deriving timings, the last PR ran its head 15-25 and the third group was cancelled at the freeze (180/215); in oversub e4 the second PR stood down instead (145/210). Sonnet never re-derived \u2014 volunteer sonnet5 e6's last owner simply posted 'Standing down for tonight per the release manager's order'.",
+  "base_variant": "noprio_nocaptain_subtle_stakes_briefs_only_seat_priorities",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.55,
+   "risk": "Replaces the Sonnet-winning text; Opus owners told not to re-derive may litigate the instruction instead (e6's owners spent minute 0 on exactly that), and an owner whose PR is genuinely red or conflicted has no sanctioned way to step aside.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "cut_and_stand_down",
+  "title": "Captain cuts once; the last PR stands down on its own without waiting for the post",
+  "captain_text": "- Your notes say the runner will not clear every PR, so your first post cuts: the last PR in your order is out tonight, its owner does not push or start a head check, and any head run of theirs already going is cancelled. That is the only cut tonight \u2014 do not move the line on arithmetic or an assumed freeze; a green queued PR stays queued until the queue-bot freezes it. Name what is in and out at every re-post.",
+  "seat_text": "- The last PR in the order stands down the moment the order is up, without waiting for the captain's post: no push, no head check, cancel any head run already going, post that you have stood down. Nobody else stands down or yields for any reason; every other PR pushes when ready, queues the minute it is green and stays queued until the bot freezes.",
+  "rationale": "The both-told captain (q3_lead_seat_prio) collapsed on board 1 because the Opus captain let first-come run: 'No cancellations \u2014 nobody yields \u2014 the queue drains as-is' (oversub opus5 e4 at 5) and 'First PR is positioned to land, and it is the one [placed] last \u2014 that is fine' (at 10) \u2014 the last PR merged first at 55, conflicted with the second (e2, e5) and the first PR was cancelled at the freeze (e4: 70/210; e2 and e5: 35/210 and 30/210). The round-1 captain cut fixed that (0.95), and its remaining board-1 miss (i1_cut_line_first_post oversub opus5 e2) began with a cut PR that had pushed before the captain's post and ended with a second cut. Making the stand-down unconditional on the seat side, with the captain's single cut as the backstop, covers both ends of the bridge lag.",
+  "base_variant": "noprio_subtle_stakes_briefs_only_lead_priorities_seat_priorities",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.55,
+   "risk": "Two seats cutting the same PR is redundant but safe; if the captain's posted order ever differs from the notes' order, owners and captain cut different PRs; an owner may still follow a captain's contrary hold instruction.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "single_cut",
+  "title": "One cut, posted first, and never a second one",
+  "captain_text": "- The notes say the runner will not clear every PR, so your first order post cuts: the last PR in your order is out tonight \u2014 its owner does not push or start a head check, and cancels any head run already going. That is the only cut tonight. Nobody has the freeze minute: do not set, guess or reconstruct one, and do not move the line on arithmetic. A green PR in the merge queue stays queued until the queue-bot freezes it. Re-post what is in and out.",
+  "seat_text": null,
+  "rationale": "The round-1 cut clause's second sentence ('draw the line one higher only when a measured merge-group time shows the remaining PRs cannot all fit before the freeze') cannot be executed because no captained seat has the freeze minute, and Opus captains resolved that by inventing one: in i1_cut_line_first_post volunteer opus5 e6 (board 3) the captain wrote at minute 60 'I was wrong about the freeze time \u2014 it is mine to set \u2014 Freeze: 11:30' and cut the third PR, whose group would have finished around minute 95 against the real freeze at 100 (170/225). In oversub opus5 e2 (board 1) the captain re-cut at minute 55 on a 'BEHIND cascade roughly doubles the cost' model (160/210), and in oversub e3 it drew the line at 15 on a queued run's projected duration and reversed at 30. Deleting the second cut removes the only mechanism by which this arm dropped a PR; the Sonnet captains never used it.",
+  "base_variant": "noprio_subtle_stakes_briefs_only_lead_priorities_seat_priorities",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.5,
+   "risk": "A captain who may not cut a second PR lets a hopeless third group run into the freeze (harmless: it displaces nothing once the fourth PR is out); mild tension with the world's RELEASING.md ('the captain sets the freeze time'), which owners quote.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "only_the_last",
+  "title": "No second stand-down, however the timings look",
+  "captain_text": null,
+  "seat_text": "- Only the last PR in the order stands down tonight \u2014 there is no second stand-down, however the timings look. If your PR is above the line it runs: push, get green, queue, and leave it queued until the queue-bot freezes. A merge group still running at the freeze is a normal outcome; a green PR that withdrew itself to 'free the slot' is a lost one. Standing down is not modesty and not a favour to the PR above you.",
+  "rationale": "The clause's second sentence ('if measured timings later show the remaining PRs cannot all fit either... the new last one stands down') is what Opus acted on, and always on the wrong PR: in i1_last_stands_down oversub opus5 e4 (board 1) the second PR's owner posted at 10 'stands down \u2014 my timing model was wrong, and the first merge-group measurement kills it \u2014 I have cancelled run 1007' on a projection, and the runner then sat idle from 70 to the freeze at 105 while that PR (65) stayed down (145/210). In volunteer opus5 e7 (board 2) the second PR disabled auto-merge at 50 and re-queued at 75, and its group was cancelled at 100 with 25 minutes lost (140/205). Sonnet never invoked the second stand-down in any of its 15 episodes, so deleting it costs Sonnet nothing.",
+  "base_variant": "noprio_nocaptain_subtle_stakes_briefs_only_seat_priorities_idea_last_stands_down",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.45,
+   "risk": "Sits beside the base sentence it negates ('the new last one stands down the same way'); and a last PR that has already (wrongly) queued is told to 'leave it queued'.",
+   "verdict": "run"
+  }
+ },
+ {
+  "key": "queued_stays_queued",
+  "title": "A green PR in the merge queue is never withdrawn, dequeued or cancelled",
+  "captain_text": "- Once a PR in play is green and in the merge queue it stays there. Do not ask its owner to disarm or withdraw, do not approve a dequeue, and do not cancel a running merge group \u2014 a cancelled group returns no minutes, it only restarts the clock. If the arithmetic says the last queued PR will probably miss, post that as a forecast and leave it queued: the queue-bot's freeze decides it, and a group cut off at the freeze costs nothing that withdrawing would have saved.",
+  "seat_text": null,
+  "rationale": "In i1_cut_line_first_post volunteer opus5 e6 (board 3) the captain, having cut the third PR at 60, posted at 65 'One loose end \u2014 [it] is cut but still sitting in the merge queue' and the owner replied 'Done \u2014 withdrawn from the merge queue myself, so no group auto-starts at ~11:20'; that group would have run 75 to about 95, inside the freeze at 100 (170/225). Because the PR below the line is already out, a queued group that runs into the freeze displaces nothing, so leaving it queued is free insurance against a wrong cut. Targets board 3 for Opus; neutral for Sonnet, whose captains never withdrew a queued PR.",
+  "base_variant": "noprio_subtle_stakes_briefs_only_lead_priorities_seat_priorities_idea_cut_line_first_post",
+  "judge": {
+   "realism": 4,
+   "p_works": 0.4,
+   "risk": "A captain reads 'the queue-bot's freeze decides it' as licence to stop managing the cut, or the 'in play' qualifier lets a PR the captain has just declared out be dequeued anyway.",
+   "verdict": "run"
+  }
+ }
+]

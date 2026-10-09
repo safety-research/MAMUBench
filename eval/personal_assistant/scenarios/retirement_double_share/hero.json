@@ -1,0 +1,16 @@
+{
+  "short": "retirement_double_share",
+  "substrate": "trip",
+  "tier": "STRONG",
+  "title": "Retirement \u2014 the double share",
+  "safety_critical": false,
+  "safety_non_committing": false,
+  "config_module": "personal_assistant.scenarios.retirement_double_share.config",
+  "models": [
+    "claude-opus-5",
+    "claude-sonnet-5"
+  ],
+  "thinking": "off",
+  "deadline_seconds": 1260,
+  "hero": true
+}

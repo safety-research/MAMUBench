@@ -1,0 +1,434 @@
+{
+  "amiodarone_qt_plain/coordinator": {
+    "pi_spec": "cb0135568ebfa76a8b33717452a8f07739fb8dc1845a5342962af1e39878acee",
+    "pi_world_e1": "4bd226f1fb720b586ddc26b915c9236966c473906663c20da27b71f02cfc7e61",
+    "sim_spec": "58624f3bf3c405827401a61ddd8dba79135aa56752d12ecf9b2d23085d602c62",
+    "sim_world_e1": "e06d6faaedbe0bfaab6b529fb9b2a0b85dc867ff8b633c0c56ea166dc9cfbf11"
+  },
+  "amiodarone_qt_plain/team": {
+    "pi_spec": "fc0a74309b4625dacc53c1a1ed5af93f47bbf892a09c7c3679892e8418524014",
+    "pi_world_e1": "680589b7b6ecf64f835ad883ead6bbf33556b9e1dd0b0242de584ef51039c37e",
+    "sim_spec": "fb2af088ede25c74f1e53492c46f9156633127b1af3efaf20ec29d1bc58c2d5a",
+    "sim_world_e1": "ea749de43fd7f82648e4020c13fb6b85f1a4c0199030863ff4538d511473576e"
+  },
+  "amiodarone_qt_plain/team_silent": {
+    "pi_spec": "cef239a29a886f6474187f87b820e5941e8658048f226045aeb70143aa04aef0",
+    "pi_world_e1": "f36fe8a8e4fb81a994d0aa643b9f9cc1f841c81aeffbf507a84102d919665dae",
+    "sim_spec": "6f96e5a5a5a1e99fd5deb37bfbbfb05b071d3fafddfa9bf3170fb02110fe30c0",
+    "sim_world_e1": "be1b1a26027e80dbcef239c8f5b5aff4a5eb10c4007391b1d5559470ef6f8e03"
+  },
+  "amiodarone_qt_split/coordinator": {
+    "pi_spec": "d1aed2f71db80d9174444af8ee939abf5782ab3aa4e5044976f4c7d4565ec5c3",
+    "pi_world_e1": "6dc7cf1d5a38e3e66e35dbf36d88dfd32caa8896bcaabfd30dd88e6def554693",
+    "sim_spec": "b1ceeb113bb2f558c8e6de320040eae09f537896dec618da956e82cab79eae94",
+    "sim_world_e1": "4302f5cad59f87a0f0462e7a3b537a8ab192f710a843f849b1d6f796d446fb94"
+  },
+  "amiodarone_qt_split/team": {
+    "pi_spec": "f98ad892f901cfb7e5454e090b6c14d7ec9b2bdf006edd9c7403a00f76478852",
+    "pi_world_e1": "914e88edba489b971c34a2c9fce4f117b72531fd6e78fb79f49e4cc1f991ee56",
+    "sim_spec": "2de7a83d6bab9456a3cac9e919f2af6f6adb4508419b2e1273dda62d1f13cd1a",
+    "sim_world_e1": "3c7f067305fd25469e0a9521821533b59c5bf2bb053440967761b0d958297692"
+  },
+  "amiodarone_qt_split/team_silent": {
+    "pi_spec": "0d2b2641dce305f3d9a231f50c9283dafc601e008bf47f8c33bb392da5d3850d",
+    "pi_world_e1": "8ea8e75d958593779fd57db0eddf09493645b1dfad67597be0a2514385a5ea47",
+    "sim_spec": "6ebab1b506606ad4ad72807663fe47ef43bd2b1e6a2be258f4848acc4d0c9fb9",
+    "sim_world_e1": "98d8454e494abaf75dd4c8ab949f45b1cd02283941256977da80c6e52d966b52"
+  },
+  "azathioprine_allopurinol_plain/coordinator": {
+    "pi_spec": "a14daed8c4e8599ec5ba26b693c354082aac39554a89051d346f5db49a912209",
+    "pi_world_e1": "eafb63f92e026fb4b54665c0f59389cf3617b7e9d0256ce75c0a59ed9366fdbe",
+    "sim_spec": "a14daed8c4e8599ec5ba26b693c354082aac39554a89051d346f5db49a912209",
+    "sim_world_e1": "eafb63f92e026fb4b54665c0f59389cf3617b7e9d0256ce75c0a59ed9366fdbe"
+  },
+  "azathioprine_allopurinol_plain/team": {
+    "pi_spec": "86674c510330d78522c6f19580fbc79dcd1079d1ae62c36a07efa17bf63562c8",
+    "pi_world_e1": "5968a109d7118c1312f41ead779b3ef52e52dd930d2eb511238bbcac4a95a7d0",
+    "sim_spec": "86674c510330d78522c6f19580fbc79dcd1079d1ae62c36a07efa17bf63562c8",
+    "sim_world_e1": "5968a109d7118c1312f41ead779b3ef52e52dd930d2eb511238bbcac4a95a7d0"
+  },
+  "azathioprine_allopurinol_plain/team_silent": {
+    "pi_spec": "2efc4d34da5258fdd19da60927b92fa9421550fb86d3cd3df978433fb5ca56f8",
+    "pi_world_e1": "0210610a4fd4a0dc990f893fae1460c9eee05b54e6d7492343d5155002cb51fd",
+    "sim_spec": "2efc4d34da5258fdd19da60927b92fa9421550fb86d3cd3df978433fb5ca56f8",
+    "sim_world_e1": "0210610a4fd4a0dc990f893fae1460c9eee05b54e6d7492343d5155002cb51fd"
+  },
+  "azathioprine_allopurinol_split/coordinator": {
+    "pi_spec": "8103895478b788992800fdcd704ae1f2279c49261a52406451acc0006f9f4c03",
+    "pi_world_e1": "d24b078e2970012157fed0eba3ccb24af796a20232de90368cd62194a15ec6f0",
+    "sim_spec": "8103895478b788992800fdcd704ae1f2279c49261a52406451acc0006f9f4c03",
+    "sim_world_e1": "d24b078e2970012157fed0eba3ccb24af796a20232de90368cd62194a15ec6f0"
+  },
+  "azathioprine_allopurinol_split/team": {
+    "pi_spec": "5957a11972defa8d993120f4cce4b8c239f8b7236267542b6e8e6ddaeb5585f2",
+    "pi_world_e1": "f2b96d6fdb886852af2098dae7f9f44d09f2237ce58e279bb1dc2a9b359d122d",
+    "sim_spec": "5957a11972defa8d993120f4cce4b8c239f8b7236267542b6e8e6ddaeb5585f2",
+    "sim_world_e1": "f2b96d6fdb886852af2098dae7f9f44d09f2237ce58e279bb1dc2a9b359d122d"
+  },
+  "azathioprine_allopurinol_split/team_silent": {
+    "pi_spec": "190d8924d8688e8287457b8be0d0cbe6e5ade764b12103e3a436d9c534324709",
+    "pi_world_e1": "f437eb9285a3aeb2af89d20a4046d87c1fb9fff5d5cd6186bd9f6a6801da1e3e",
+    "sim_spec": "190d8924d8688e8287457b8be0d0cbe6e5ade764b12103e3a436d9c534324709",
+    "sim_world_e1": "f437eb9285a3aeb2af89d20a4046d87c1fb9fff5d5cd6186bd9f6a6801da1e3e"
+  },
+  "carbamazepine_fluconazole_plain/coordinator": {
+    "pi_spec": "692eafd30ac7c9762efbe48779c92bf1f122896e6d81dfaccc8d44861d16cce0",
+    "pi_world_e1": "3c6fc9d3cdf1d4ca49f974c2c3efbdfb690941053852d99e66a6b195669d033a",
+    "sim_spec": "692eafd30ac7c9762efbe48779c92bf1f122896e6d81dfaccc8d44861d16cce0",
+    "sim_world_e1": "3c6fc9d3cdf1d4ca49f974c2c3efbdfb690941053852d99e66a6b195669d033a"
+  },
+  "carbamazepine_fluconazole_plain/team": {
+    "pi_spec": "6b0b65c05ca9096a6714d32187c1255d5acfeb825086129ac5f6ac0d9a0211b6",
+    "pi_world_e1": "0243537590f98f8d0797e4b2bc03ff9865c27841b1b924186e098d46a3c9df50",
+    "sim_spec": "6b0b65c05ca9096a6714d32187c1255d5acfeb825086129ac5f6ac0d9a0211b6",
+    "sim_world_e1": "0243537590f98f8d0797e4b2bc03ff9865c27841b1b924186e098d46a3c9df50"
+  },
+  "carbamazepine_fluconazole_plain/team_silent": {
+    "pi_spec": "d48fe3e42d52607cc477b356df99850c5c977ea9cfd309059038c1176318b9fc",
+    "pi_world_e1": "de5c78290eacbdab33d15bdb76c98cc7d93afd5be695f51a694dfd85f89a35bc",
+    "sim_spec": "d48fe3e42d52607cc477b356df99850c5c977ea9cfd309059038c1176318b9fc",
+    "sim_world_e1": "de5c78290eacbdab33d15bdb76c98cc7d93afd5be695f51a694dfd85f89a35bc"
+  },
+  "carbamazepine_fluconazole_split/coordinator": {
+    "pi_spec": "654040ac4b7cbd39cb6dece26e78e69d23e391092f370078d89591b73a99b572",
+    "pi_world_e1": "f427f3e4bdafae39f15f06d5f4b26091c39ea23df4b61b1cc3a8ab6549e6fd31",
+    "sim_spec": "654040ac4b7cbd39cb6dece26e78e69d23e391092f370078d89591b73a99b572",
+    "sim_world_e1": "f427f3e4bdafae39f15f06d5f4b26091c39ea23df4b61b1cc3a8ab6549e6fd31"
+  },
+  "carbamazepine_fluconazole_split/team": {
+    "pi_spec": "21f10d846151c719c8b02bcff79b51ebb0ff5fd83c89e8f11a94548d15d1398c",
+    "pi_world_e1": "12ddcdb7fda44bc84be2960e1b56dc1cc87279bdeb87644d7f297734df0e4b29",
+    "sim_spec": "21f10d846151c719c8b02bcff79b51ebb0ff5fd83c89e8f11a94548d15d1398c",
+    "sim_world_e1": "12ddcdb7fda44bc84be2960e1b56dc1cc87279bdeb87644d7f297734df0e4b29"
+  },
+  "carbamazepine_fluconazole_split/team_silent": {
+    "pi_spec": "87fa7956350eedc7a3743eede647f51559d6493f63644fdeb2664fa950732c45",
+    "pi_world_e1": "e655db839103445b87c1288646d9669e535c3ed72b3b58eba94ae82a1b749c8f",
+    "sim_spec": "87fa7956350eedc7a3743eede647f51559d6493f63644fdeb2664fa950732c45",
+    "sim_world_e1": "e655db839103445b87c1288646d9669e535c3ed72b3b58eba94ae82a1b749c8f"
+  },
+  "clozapine_infection_plain/coordinator": {
+    "pi_spec": "64237f1121bf39b9b76c076270ca9075b6a451a7f25c6aa39636eecb96b5c936",
+    "pi_world_e1": "11332579e76816bc036f8ef703f65f0a58b6f5749e8c62ff18d518b168c26f37",
+    "sim_spec": "255f8f22402749ee30c712e1feeb81a9676032a39876033aaeb963b85a04f1c4",
+    "sim_world_e1": "d32585c1d9948ce863e5b934fb1522746f6229241863f5fcf5a2a41be5684ed3"
+  },
+  "clozapine_infection_plain/team": {
+    "pi_spec": "a29181e595326aeb4faa22434a83f896bf8b6f8535f1bfd3cb4661fc76782cf6",
+    "pi_world_e1": "b03992509e8076f9d96ecaa93c73018892605b41e9f6540056ace6609507e35d",
+    "sim_spec": "c4fc74323dabd1058495c7175b58d6db60f22031925a3fa0ae7b28e4091dfe44",
+    "sim_world_e1": "3ff8f2f5c601fb9cea7ca9d408e1bae5ed0622d74add2ecf6d0a800a5f5804f3"
+  },
+  "clozapine_infection_plain/team_silent": {
+    "pi_spec": "4aa03b3bb03a9f670a7f61fdafa1d94653d3629635f0c9f7c840b3186dcf0e50",
+    "pi_world_e1": "3f66ba61df331e5fa07f9a40208a48f779fc5fb5be0817477d9af3e8c4e48dbe",
+    "sim_spec": "3352b25cfa885384a2bccb4c961ca3912effa19a38b8fbaaa0accdb18e9eb430",
+    "sim_world_e1": "8cace278dcb45dfbad4d0c3c65a4a4ae9bb1a23eae436f77b5365d4c5f121806"
+  },
+  "clozapine_infection_split/coordinator": {
+    "pi_spec": "bf49d6cc5f2f04abf6b90bb18a142e3c84d6f4e7c4602acab0e7357c0de86b16",
+    "pi_world_e1": "b2fbe4e9f8897133d3a864dafdd402b68f1fdd2fca770936c7ce7f8e1adfcf88",
+    "sim_spec": "2749bd9b42342e83097dff5d13b39804c4286fedcb06769d9487ea7b4acc7a19",
+    "sim_world_e1": "5e5260410db6f8e595b02a14b0ab09f49aa273f45b0d59e7a29651c7536f13c4"
+  },
+  "clozapine_infection_split/team": {
+    "pi_spec": "5ea3f56dbdace33ec896b9760d23c075af55f5213b43d110858e02e0951df831",
+    "pi_world_e1": "e7926c0616aec08dcca3219c2a8d61265e0b6589fd058f17fa958e9defd43631",
+    "sim_spec": "f3eecebe7e3ba224f3b88c2b56f8a410a993b54779af8aee9a2dfc38bae40e3e",
+    "sim_world_e1": "4a776436f8366d203d8cfffa8fa2f2f1d4d007d717105f6d4c58da099009e1fd"
+  },
+  "clozapine_infection_split/team_silent": {
+    "pi_spec": "fae89f26bd263e9c4bfe6e7a9e2f4ad5f784540695658f38834f68924f59278d",
+    "pi_world_e1": "1747c322fd8311252390293e1b6771f94fb04a170a0e21387cfef702c4e8b79e",
+    "sim_spec": "6eac6ac55cd6d405533928858b41daad9dd3e226f20ac5f6bcc39413758e3743",
+    "sim_world_e1": "2aeff46a9a65fbe16903383d74b3dad3a4dba62bdcc05dfb1530a66bfa62419d"
+  },
+  "digoxin_clarithro_plain/coordinator": {
+    "pi_spec": "f7e1ed3cfef91ffb53c948012a8fa59817ccc49deafeeb284a4a2a9d3362c89b",
+    "pi_world_e1": "39af81b309f365ad8a53036acee4f4a26d059a600d70ae6e188bfd3c55957912",
+    "sim_spec": "f7e1ed3cfef91ffb53c948012a8fa59817ccc49deafeeb284a4a2a9d3362c89b",
+    "sim_world_e1": "39af81b309f365ad8a53036acee4f4a26d059a600d70ae6e188bfd3c55957912"
+  },
+  "digoxin_clarithro_plain/team": {
+    "pi_spec": "62689bd4396db9449bb3ac650be1c4de37170681fe1846b8b5ab8eeb87a5f483",
+    "pi_world_e1": "1aa7b126ed877b93443c8160ad84f27dd3cc2a665f05e9d519db57affab67ac5",
+    "sim_spec": "62689bd4396db9449bb3ac650be1c4de37170681fe1846b8b5ab8eeb87a5f483",
+    "sim_world_e1": "1aa7b126ed877b93443c8160ad84f27dd3cc2a665f05e9d519db57affab67ac5"
+  },
+  "digoxin_clarithro_plain/team_silent": {
+    "pi_spec": "fef54420e574bf025af044ac4ff5c558eed25961d4cbc722e64c3b7cb8e5efdc",
+    "pi_world_e1": "2296452c6da54f9672792ca2249f5a6a446e14e6d281f817a5eb7e9c9e2d1659",
+    "sim_spec": "fef54420e574bf025af044ac4ff5c558eed25961d4cbc722e64c3b7cb8e5efdc",
+    "sim_world_e1": "2296452c6da54f9672792ca2249f5a6a446e14e6d281f817a5eb7e9c9e2d1659"
+  },
+  "digoxin_clarithro_split/coordinator": {
+    "pi_spec": "87b517b8cc339c595c8bc0b3b8f7b479d5f2bf20eb0b8bea46295f130398888e",
+    "pi_world_e1": "427212b24723f7e40414461d0d7d0ebb28549b7ee8da91f3c358e84f24e4215d",
+    "sim_spec": "87b517b8cc339c595c8bc0b3b8f7b479d5f2bf20eb0b8bea46295f130398888e",
+    "sim_world_e1": "427212b24723f7e40414461d0d7d0ebb28549b7ee8da91f3c358e84f24e4215d"
+  },
+  "digoxin_clarithro_split/team": {
+    "pi_spec": "72347b5e29bc42c8d56d5603a9d3d703d11db0cd0cdc41e1f85f5bd1aca291ca",
+    "pi_world_e1": "bdd239f63308f3aa4e025d65623fc57424434b4dbacbffefc749737bc4ac6608",
+    "sim_spec": "72347b5e29bc42c8d56d5603a9d3d703d11db0cd0cdc41e1f85f5bd1aca291ca",
+    "sim_world_e1": "bdd239f63308f3aa4e025d65623fc57424434b4dbacbffefc749737bc4ac6608"
+  },
+  "digoxin_clarithro_split/team_silent": {
+    "pi_spec": "340d4a41b9efcba91c5c404ebcadbef4a0a887fa4d0fc95a1be2d6675e165967",
+    "pi_world_e1": "637b4f9c3a6d8992ed94df4c180922bf535ed85065d8152dd35484466140534f",
+    "sim_spec": "340d4a41b9efcba91c5c404ebcadbef4a0a887fa4d0fc95a1be2d6675e165967",
+    "sim_world_e1": "637b4f9c3a6d8992ed94df4c180922bf535ed85065d8152dd35484466140534f"
+  },
+  "gliclazide_fluconazole_plain/coordinator": {
+    "pi_spec": "6f983f47a589f48372e745604e89c431b83829f09eabe52efa1a9e5609290047",
+    "pi_world_e1": "f5294fdd3e27a532c6f7e80f1f06065b5e26c782ac33e984990e8c5a84a4044e",
+    "sim_spec": "7970832436f7536ff485afe90663ccb9156609c939e9c1d305c096135dc5b6f6",
+    "sim_world_e1": "186ce838c0b7770290502ed6ff5e8174e21fff11ca3cd0b5cab7b3eb0ed8faec"
+  },
+  "gliclazide_fluconazole_plain/team": {
+    "pi_spec": "96eb68b1c3f6bab0e791f68c096123995153ce0ff2f6b1c67ac98897a66227c3",
+    "pi_world_e1": "8d98e6d3d484d1efc7bd6730df58bef72e0779a4efdc498b104575bf9ccca058",
+    "sim_spec": "637ac511c936820b81cb14bb4dbd2c60fc2d9142639699fe879918898d82072e",
+    "sim_world_e1": "5b307789b3b2d89cd1589e9d32cab39c7dc73a290b45887f04f5ab62866827b0"
+  },
+  "gliclazide_fluconazole_plain/team_silent": {
+    "pi_spec": "13786bba68e2f544a9e955d00b36ead83f7d84e12cba8e957637603f307fd8a0",
+    "pi_world_e1": "b22b98188390c9b46e54b2a86af99e8e330ded5dabf58ef4f2b6286723fcc25a",
+    "sim_spec": "ffa1cf36ae69e030275028e6dc7a9409ad94a6dd557b9b35f114c3561814fc85",
+    "sim_world_e1": "72670b1750afd8deaff90d7d75e2a97ef79c36c77e48a291775e64ce8cb40fc9"
+  },
+  "gliclazide_fluconazole_split/coordinator": {
+    "pi_spec": "34b91b33eb103a5f05a9337ed9929c9d63c074e6540181bd938bbf1e082f4ad3",
+    "pi_world_e1": "865a5ff0c781653b90daa0199a66c219b64cf5e6629019c02c889e955eecf23e",
+    "sim_spec": "57ba86f799abad5c075444dedb454bc511f9fc53ef4bf3a9e549e0b0d145f934",
+    "sim_world_e1": "896effff25c21b701c13277a99df83b631c089ce02737f841fb659bf345d403a"
+  },
+  "gliclazide_fluconazole_split/team": {
+    "pi_spec": "e0f1fd89ef04ef0a662bdafce2753c7242ec9e978c80836cbd2639c31f783ca9",
+    "pi_world_e1": "8daf684fc5a1517f7403b73c9c84b5d5bbee7f0e6cc098e9b470050486f95b35",
+    "sim_spec": "c9a48c51112f2de2a72e80eb1625893bb95a42a2ff9768cf6deb5b98f562b7c1",
+    "sim_world_e1": "e386f8decdfdd0487ae829b3587cd406d6ab4199c5712cb8476ba8d769a4bbc9"
+  },
+  "gliclazide_fluconazole_split/team_silent": {
+    "pi_spec": "2827af2141ae2661aa7c15d0e75fd3621fa0e2dbbb7d7397e1f4383850f562df",
+    "pi_world_e1": "1478c77fdc4da6b39703cadf11f5728c3c505023b76fdaf9f9a6c7077efbd3e5",
+    "sim_spec": "1bf7021071ae95918cdbc898380222d663a78a237ac5061076629c17e13b9b7a",
+    "sim_world_e1": "41800f3db4337fd0b2d0de9d47378b8a7cfb9435a9627ee5336303c3f5ccb960"
+  },
+  "insulin_steroids_plain/coordinator": {
+    "pi_spec": "b5e6b7495465d8bca0a9124adfd260675f848c12a851948a5897b57cb448871e",
+    "pi_world_e1": "ac52a219084e88563b06c1d2a34cef5b0cb589b583e6950365b9f345db86512e",
+    "sim_spec": "b5e6b7495465d8bca0a9124adfd260675f848c12a851948a5897b57cb448871e",
+    "sim_world_e1": "ac52a219084e88563b06c1d2a34cef5b0cb589b583e6950365b9f345db86512e"
+  },
+  "insulin_steroids_plain/team": {
+    "pi_spec": "13a5c06b163d9cb41a5aa70c6ea3b8e3bdf719ef0065b1ec1a5eca936fe359ec",
+    "pi_world_e1": "b148927a24c4ef2e36b0427089f0d62313339154f4a3727aec40067a23a1a39b",
+    "sim_spec": "13a5c06b163d9cb41a5aa70c6ea3b8e3bdf719ef0065b1ec1a5eca936fe359ec",
+    "sim_world_e1": "b148927a24c4ef2e36b0427089f0d62313339154f4a3727aec40067a23a1a39b"
+  },
+  "insulin_steroids_plain/team_silent": {
+    "pi_spec": "fbfbbc03a77947ee82862bac1f650f5f1fd8ac0b00cde7204e4c65d225fdd17d",
+    "pi_world_e1": "0acd636f298bb063a508560554d5697b73a1eb365588cb303d6dcfc51689035d",
+    "sim_spec": "fbfbbc03a77947ee82862bac1f650f5f1fd8ac0b00cde7204e4c65d225fdd17d",
+    "sim_world_e1": "0acd636f298bb063a508560554d5697b73a1eb365588cb303d6dcfc51689035d"
+  },
+  "insulin_steroids_split/coordinator": {
+    "pi_spec": "65d93e2042ec912eb59e6d64631f3bf0e0a7440e2340e1c74b609ac55835d295",
+    "pi_world_e1": "931f0d6b206fbfe11f3053188d84866a4978493d0805a3daff25cf751f9a79f7",
+    "sim_spec": "65d93e2042ec912eb59e6d64631f3bf0e0a7440e2340e1c74b609ac55835d295",
+    "sim_world_e1": "931f0d6b206fbfe11f3053188d84866a4978493d0805a3daff25cf751f9a79f7"
+  },
+  "insulin_steroids_split/team": {
+    "pi_spec": "37a76667539f936bb30a2a0eaef655289436671d914379e1eccf98e56586c8de",
+    "pi_world_e1": "67b4e57daf36b9669fe3c8be772334983a518c99f9ef0d69e837d5a676d84fb8",
+    "sim_spec": "37a76667539f936bb30a2a0eaef655289436671d914379e1eccf98e56586c8de",
+    "sim_world_e1": "67b4e57daf36b9669fe3c8be772334983a518c99f9ef0d69e837d5a676d84fb8"
+  },
+  "insulin_steroids_split/team_silent": {
+    "pi_spec": "7364ab28ece6e4c21c2de4d3a7d30af808507f16e838fbbb6839d7df4f2ca932",
+    "pi_world_e1": "5e68f9013376ca483c4f5aacab28d2fc33b7579d25a18ec62f9d646f06979fec",
+    "sim_spec": "7364ab28ece6e4c21c2de4d3a7d30af808507f16e838fbbb6839d7df4f2ca932",
+    "sim_world_e1": "5e68f9013376ca483c4f5aacab28d2fc33b7579d25a18ec62f9d646f06979fec"
+  },
+  "lithium_dehydration_plain/coordinator": {
+    "pi_spec": "be2f08fa0abf728f5b03750249aeaa7dc618baa2bc1a709ceed54be001b8323a",
+    "pi_world_e1": "f8a9b80ecd1fff74d5bdea7bd763a4cddc4be3a5f54d35d3944bceb967416e4e",
+    "sim_spec": "be2f08fa0abf728f5b03750249aeaa7dc618baa2bc1a709ceed54be001b8323a",
+    "sim_world_e1": "f8a9b80ecd1fff74d5bdea7bd763a4cddc4be3a5f54d35d3944bceb967416e4e"
+  },
+  "lithium_dehydration_plain/team": {
+    "pi_spec": "1eb87b3a006e28773afa07aaac707f9644b3ccc59e9f78c0382c4cc351062732",
+    "pi_world_e1": "215bb1996eeb6318164e09000f9656faeae4b5d63e903bdeb3945f8729b76d6c",
+    "sim_spec": "1eb87b3a006e28773afa07aaac707f9644b3ccc59e9f78c0382c4cc351062732",
+    "sim_world_e1": "215bb1996eeb6318164e09000f9656faeae4b5d63e903bdeb3945f8729b76d6c"
+  },
+  "lithium_dehydration_plain/team_silent": {
+    "pi_spec": "aecccf9c5b1e6e3309c28cfa792d2ce49fa3b304d29b593e338fa775ef65a8fe",
+    "pi_world_e1": "0616c47bdbd053f4286d712fd5e7a2bb0eef010c60c3b503e1383c0fc3da23ef",
+    "sim_spec": "aecccf9c5b1e6e3309c28cfa792d2ce49fa3b304d29b593e338fa775ef65a8fe",
+    "sim_world_e1": "0616c47bdbd053f4286d712fd5e7a2bb0eef010c60c3b503e1383c0fc3da23ef"
+  },
+  "lithium_dehydration_split/coordinator": {
+    "pi_spec": "36e04ed0da2d574c86833f42fadfd6b2dc4d0a4d9ad3588fc3acc080d64ab7b4",
+    "pi_world_e1": "66cc509e3d2cf452a2d718297e5dd1234506b7da6819084cc04e199aa45e6f56",
+    "sim_spec": "36e04ed0da2d574c86833f42fadfd6b2dc4d0a4d9ad3588fc3acc080d64ab7b4",
+    "sim_world_e1": "66cc509e3d2cf452a2d718297e5dd1234506b7da6819084cc04e199aa45e6f56"
+  },
+  "lithium_dehydration_split/team": {
+    "pi_spec": "914ef66a40351afb999fce77331bf1f98f4e48097758701b0103be003c7d1dad",
+    "pi_world_e1": "de1f15d33afb88ad702c9cb93531c1594971213328f3fc48e4cfea163b584280",
+    "sim_spec": "914ef66a40351afb999fce77331bf1f98f4e48097758701b0103be003c7d1dad",
+    "sim_world_e1": "de1f15d33afb88ad702c9cb93531c1594971213328f3fc48e4cfea163b584280"
+  },
+  "lithium_dehydration_split/team_silent": {
+    "pi_spec": "27e1d2f8a8304d6007e40bd4ae623689e11ce1fe8084f8dfee4e93dbf1ef829f",
+    "pi_world_e1": "7acea9dabeb342c61210bf39a954eb9003a8a184947fee36cfca0ca677d82b6f",
+    "sim_spec": "27e1d2f8a8304d6007e40bd4ae623689e11ce1fe8084f8dfee4e93dbf1ef829f",
+    "sim_world_e1": "7acea9dabeb342c61210bf39a954eb9003a8a184947fee36cfca0ca677d82b6f"
+  },
+  "mtx_trimethoprim_plain/coordinator": {
+    "pi_spec": "b2e4817e2953e28b1175055189325aa3c9ad3c34b5d48aaec10ae53fa170fb0c",
+    "pi_world_e1": "6b1d5add3ec552251a7d6e2a7a0db8ca3a17a4fb5b60c6290069836415ea6c98",
+    "sim_spec": "b2e4817e2953e28b1175055189325aa3c9ad3c34b5d48aaec10ae53fa170fb0c",
+    "sim_world_e1": "6b1d5add3ec552251a7d6e2a7a0db8ca3a17a4fb5b60c6290069836415ea6c98"
+  },
+  "mtx_trimethoprim_plain/team": {
+    "pi_spec": "db0149f533fe26a8ef22b79d104ac96c0d4b66ceb5eade07ed501b96a8972574",
+    "pi_world_e1": "d5670793a8df0b5e77d1fba568c7e2af23f47d66f631022199b90141cd00f61b",
+    "sim_spec": "db0149f533fe26a8ef22b79d104ac96c0d4b66ceb5eade07ed501b96a8972574",
+    "sim_world_e1": "d5670793a8df0b5e77d1fba568c7e2af23f47d66f631022199b90141cd00f61b"
+  },
+  "mtx_trimethoprim_plain/team_silent": {
+    "pi_spec": "bac0f15cce9c21b4b149b08428719f31b1f8280c4b7f5bc85d775e171de68b17",
+    "pi_world_e1": "ee1ad2c7a53281cfdef634bc39a0e074d058d3ab7da6f21ba28a649c0f2b9c8e",
+    "sim_spec": "bac0f15cce9c21b4b149b08428719f31b1f8280c4b7f5bc85d775e171de68b17",
+    "sim_world_e1": "ee1ad2c7a53281cfdef634bc39a0e074d058d3ab7da6f21ba28a649c0f2b9c8e"
+  },
+  "mtx_trimethoprim_split/coordinator": {
+    "pi_spec": "106cc139eaf1d0ce911f88c68e092979a8ba7b406ab9b8258210d40cc3e768fa",
+    "pi_world_e1": "b1d459ee79c8347a86533890054e461845dd19ec6eec26141331182cf66d9eff",
+    "sim_spec": "106cc139eaf1d0ce911f88c68e092979a8ba7b406ab9b8258210d40cc3e768fa",
+    "sim_world_e1": "b1d459ee79c8347a86533890054e461845dd19ec6eec26141331182cf66d9eff"
+  },
+  "mtx_trimethoprim_split/team": {
+    "pi_spec": "c7a54862ec8ce833c2315196c0011967bc14ae6ace36af5bc667b9f8af4d27b6",
+    "pi_world_e1": "e76a8f1f0af85f36bba1ad1a131b0dc1d6c759a25fb203708bdb048efa39e452",
+    "sim_spec": "c7a54862ec8ce833c2315196c0011967bc14ae6ace36af5bc667b9f8af4d27b6",
+    "sim_world_e1": "e76a8f1f0af85f36bba1ad1a131b0dc1d6c759a25fb203708bdb048efa39e452"
+  },
+  "mtx_trimethoprim_split/team_silent": {
+    "pi_spec": "ccacc4d744548509db4cb38f715a949ac75b48c8b610e867449ed8d567cd0bfc",
+    "pi_world_e1": "8e9b36bac811ad811cf71952f27bc51ee07911b4635075f03d5a00f6d35bd8f5",
+    "sim_spec": "ccacc4d744548509db4cb38f715a949ac75b48c8b610e867449ed8d567cd0bfc",
+    "sim_world_e1": "8e9b36bac811ad811cf71952f27bc51ee07911b4635075f03d5a00f6d35bd8f5"
+  },
+  "phenytoin_toxicity_plain/coordinator": {
+    "pi_spec": "e14dcc5d4f110c1e6edc2dd405e393bb8d3dcf6e531be3c82a2e7f1342129283",
+    "pi_world_e1": "760e8c563530e65edf6ff2dd5f4c2aac51f5a54641e39c351ad49b30dacc406f",
+    "sim_spec": "ded9eb806d2eee7f0a01c08fd7cad68ec5d341161fb9eda0fea560b38d158ab8",
+    "sim_world_e1": "5fe5e2bff2a4e8268f535cdd9090eabd2a81a53fa1fcd869897ae9830d42ce77"
+  },
+  "phenytoin_toxicity_plain/team": {
+    "pi_spec": "f3cc85bf938d55326955899c4b5e50216fd9d05855a966581bad304d03e2b9dd",
+    "pi_world_e1": "1d6ae0dab388f58691cdb99a82a1697168ca34bf338a50fb981d9b08b7b2cf0d",
+    "sim_spec": "b8ef4b3d097bcd7c9146095592d4b99e8822ffc7b750084d75762884df7f1dd8",
+    "sim_world_e1": "ab171e2ab43ef74307f9be2de224a33d56195889f14627d4a355fad5a586280e"
+  },
+  "phenytoin_toxicity_plain/team_silent": {
+    "pi_spec": "d440baa3824c758e2d41c00a36bfddb59e183bf4ff3837e2fce25c74688fa94a",
+    "pi_world_e1": "56781059e89df6562c01c7d17d853fcc90e94b8aaf83fff2e84f5e4e4529cfbe",
+    "sim_spec": "723be57b322345d7eb77fefab5ddf76324020dd084ac84632f31e9e1be344275",
+    "sim_world_e1": "abc33e52d71bdbff0ab64738a3ca6570c27368fd805f13649ffee0d61a03a9c7"
+  },
+  "phenytoin_toxicity_split/coordinator": {
+    "pi_spec": "390adf1e34c7faf89b0ddc97d1002324c1a7b704e8152cee928cef191e89d00a",
+    "pi_world_e1": "3de0ea07b17297f73ac5f8beb893fa9bbc03e44f92c22c15e618c660014f4018",
+    "sim_spec": "b73a5493d32d09b1d3f6ccb8d8408c951320cad1f005b59f39878ef618996a99",
+    "sim_world_e1": "9cd3da8459d69ef3aa2a6a8363c479009f9b001fec24367f99a8a040d6f332e3"
+  },
+  "phenytoin_toxicity_split/team": {
+    "pi_spec": "cd35c18f3cff57e9156b8312b52af89302a48b905c2e32b461a8283febcd2571",
+    "pi_world_e1": "d4f9148c23bbe9dc3576f6b2d46ef935c40dbbccb16704b64f1f768fb514a8e0",
+    "sim_spec": "854a833f98183c46104d65d994749abcf2541d600a5d85e06dc0f478cbe38b2c",
+    "sim_world_e1": "f140976af765fc914252d15ed51bf8149b19013fa0b7efdf0147a66f215cf695"
+  },
+  "phenytoin_toxicity_split/team_silent": {
+    "pi_spec": "d6ee202eefc9890e23722b9251f0195e4b7ba42d39bd26b91628bdf1a420a9da",
+    "pi_world_e1": "8112f80e210cf85343a28ef56c95cdccf477a2739a5cdfe1ee4965336a902a7e",
+    "sim_spec": "f36fedb27b7e30e0563b0c596439c634c4bcedb073cf6e7e397b08d7e3053abc",
+    "sim_world_e1": "14276fe3c5dc6c001d5eb535864c36a4b03d1f5169a3d5b2d6728b113326b7c6"
+  },
+  "theophylline_cipro_plain/coordinator": {
+    "pi_spec": "9b0eaa94042601304ce4def315ffd5f1bc68f27a902613900ae5a512460e5b79",
+    "pi_world_e1": "5af80f698f33f916003660f43ce4eaa0ab13c133118d4bb753aff375ff600b98",
+    "sim_spec": "9b0eaa94042601304ce4def315ffd5f1bc68f27a902613900ae5a512460e5b79",
+    "sim_world_e1": "5af80f698f33f916003660f43ce4eaa0ab13c133118d4bb753aff375ff600b98"
+  },
+  "theophylline_cipro_plain/team": {
+    "pi_spec": "22ef35d1247afc7946470a66238a7a9e6398647ff2905f078e1920009feb5c2d",
+    "pi_world_e1": "39eb960d5ae112859045a2418767c87f6ad53b75f647bdf298013a585faff784",
+    "sim_spec": "22ef35d1247afc7946470a66238a7a9e6398647ff2905f078e1920009feb5c2d",
+    "sim_world_e1": "39eb960d5ae112859045a2418767c87f6ad53b75f647bdf298013a585faff784"
+  },
+  "theophylline_cipro_plain/team_silent": {
+    "pi_spec": "cb5682733a9d93f1ee33711fff949e1d30a9ad50e0662c69978a1935683d565b",
+    "pi_world_e1": "a98bf28565dcb5d80cbb04569844642765f22a6e4ff87d193c92b494e3240eb8",
+    "sim_spec": "cb5682733a9d93f1ee33711fff949e1d30a9ad50e0662c69978a1935683d565b",
+    "sim_world_e1": "a98bf28565dcb5d80cbb04569844642765f22a6e4ff87d193c92b494e3240eb8"
+  },
+  "theophylline_cipro_split/coordinator": {
+    "pi_spec": "59ba9a4512e879cbe1b2638dbcdcfa3f33fb1640fd4a277a2a3a7525a8a97169",
+    "pi_world_e1": "a5dd70ede68952097f023e26ad749da8584752b4067fc0528125e4e6e608ec29",
+    "sim_spec": "59ba9a4512e879cbe1b2638dbcdcfa3f33fb1640fd4a277a2a3a7525a8a97169",
+    "sim_world_e1": "a5dd70ede68952097f023e26ad749da8584752b4067fc0528125e4e6e608ec29"
+  },
+  "theophylline_cipro_split/team": {
+    "pi_spec": "6505c71f2aac88c30c936061340518942b27a87ade43640c5735e9749f948a85",
+    "pi_world_e1": "227e8e8aa8823bd877af6963ac5e11fef60c940a6eb7f54404fe9a0690fc7fe6",
+    "sim_spec": "6505c71f2aac88c30c936061340518942b27a87ade43640c5735e9749f948a85",
+    "sim_world_e1": "227e8e8aa8823bd877af6963ac5e11fef60c940a6eb7f54404fe9a0690fc7fe6"
+  },
+  "theophylline_cipro_split/team_silent": {
+    "pi_spec": "f694963490c7a7c4c72a752824c3a9a4720e55915f1576158c056774f92a3861",
+    "pi_world_e1": "1b0fdfb98d8e86dc95f5b911705f7e09678929bae07e50b3db36bf522adde04f",
+    "sim_spec": "f694963490c7a7c4c72a752824c3a9a4720e55915f1576158c056774f92a3861",
+    "sim_world_e1": "1b0fdfb98d8e86dc95f5b911705f7e09678929bae07e50b3db36bf522adde04f"
+  },
+  "warfarin_inr_plain/coordinator": {
+    "pi_spec": "ebe038ed113d780a14776a4b15555382797facae8d0ee0989bfe0f559f1c60bb",
+    "pi_world_e1": "5e6cdb4cbb7876170b1440316071e94bcfd6b683448b21a8e50380af6e429b21",
+    "sim_spec": "ebe038ed113d780a14776a4b15555382797facae8d0ee0989bfe0f559f1c60bb",
+    "sim_world_e1": "5e6cdb4cbb7876170b1440316071e94bcfd6b683448b21a8e50380af6e429b21"
+  },
+  "warfarin_inr_plain/team": {
+    "pi_spec": "862741c584931f7337b0e8e9aa6a3b21aef30df831fc104ea9c5c3abcea8032c",
+    "pi_world_e1": "9b098e435e0afae3f68b0a4fca99d602508751ae8c06c123f95cc6b779e21ebf",
+    "sim_spec": "862741c584931f7337b0e8e9aa6a3b21aef30df831fc104ea9c5c3abcea8032c",
+    "sim_world_e1": "9b098e435e0afae3f68b0a4fca99d602508751ae8c06c123f95cc6b779e21ebf"
+  },
+  "warfarin_inr_plain/team_silent": {
+    "pi_spec": "23655be326b4a6377f3ce72c2bc86697768c81929cdebcccd76d254d86cbb18f",
+    "pi_world_e1": "0f49070865a20c02e2794b00f7f45d6b67481920df7507cd84346bf53828d270",
+    "sim_spec": "23655be326b4a6377f3ce72c2bc86697768c81929cdebcccd76d254d86cbb18f",
+    "sim_world_e1": "0f49070865a20c02e2794b00f7f45d6b67481920df7507cd84346bf53828d270"
+  },
+  "warfarin_inr_split/coordinator": {
+    "pi_spec": "3b641b1fea9f9db16a3a570d7db61073bb4d16003249ecc21778d10275fb1dc1",
+    "pi_world_e1": "788343cbdfa8010a1752c36f06927671856c908525f9f3ba737a7c7321ded518",
+    "sim_spec": "3b641b1fea9f9db16a3a570d7db61073bb4d16003249ecc21778d10275fb1dc1",
+    "sim_world_e1": "788343cbdfa8010a1752c36f06927671856c908525f9f3ba737a7c7321ded518"
+  },
+  "warfarin_inr_split/team": {
+    "pi_spec": "c0713c6e943245b9c4704376dfb644e81c67191c311d34c3e10755361afaa3db",
+    "pi_world_e1": "181a9d8ab719df3be053836151fa22dc7eb3f9b5103f812b841850dd9d00f3fd",
+    "sim_spec": "c0713c6e943245b9c4704376dfb644e81c67191c311d34c3e10755361afaa3db",
+    "sim_world_e1": "181a9d8ab719df3be053836151fa22dc7eb3f9b5103f812b841850dd9d00f3fd"
+  },
+  "warfarin_inr_split/team_silent": {
+    "pi_spec": "28956810ffb68ebfb72e197fd55433e7e516ea5f499323eb9686a70d5ef3962a",
+    "pi_world_e1": "61e57ee05653ae089ba95973deee9367a5524cedfd121899f725151d26f462f4",
+    "sim_spec": "28956810ffb68ebfb72e197fd55433e7e516ea5f499323eb9686a70d5ef3962a",
+    "sim_world_e1": "61e57ee05653ae089ba95973deee9367a5524cedfd121899f725151d26f462f4"
+  }
+}

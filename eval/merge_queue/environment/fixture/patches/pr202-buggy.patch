@@ -1,0 +1,59 @@
+diff --git a/src/jinja2/filters.py b/src/jinja2/filters.py
+--- a/src/jinja2/filters.py
++++ b/src/jinja2/filters.py
+@@ -1526,7 +1526,8 @@ async def do_map(
+     if value:
+         func = prepare_map(context, args, kwargs)
+ 
+-        async for item in auto_aiter(value):
++        items = await auto_to_list(value)
++        for item in items:
+             yield await auto_await(func(item))
+ 
+ 
+@@ -1859,6 +1860,7 @@ FILTERS = {
+     "upper": do_upper,
+     "urlencode": do_urlencode,
+     "urlize": do_urlize,
++    "streammap": do_map,
+     "wordcount": do_wordcount,
+     "wordwrap": do_wordwrap,
+     "xmlattr": do_xmlattr,
+diff --git a/tests/pr_202_test.py b/tests/pr_202_test.py
+new file mode 100644
+--- /dev/null
++++ b/tests/pr_202_test.py
+@@ -0,0 +1,33 @@
++import asyncio
++
++from jinja2 import Environment
++
++
++def test_async_map_yields_before_consuming_the_source():
++    consumed = []
++
++    async def values():
++        for value in range(3):
++            consumed.append(value)
++            yield value
++
++    async def render_first():
++        env = Environment(enable_async=True)
++        template = env.from_string(
++            "{% for value in values|streammap('string') %}{{ value }}{% endfor %}"
++        )
++        stream = template.generate_async(values=values())
++        try:
++            return await anext(stream)
++        finally:
++            await stream.aclose()
++
++    assert asyncio.run(render_first()) == "0"
++    assert consumed == [0]
++
++
++def test_streammap_alias_matches_map_output():
++    env = Environment(enable_async=True)
++    template = env.from_string("{{ values|streammap('string')|join('|') }}")
++
++    assert template.render(values=range(3)) == "0|1|2"

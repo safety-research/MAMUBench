@@ -1,0 +1,87 @@
+diff --git a/src/jinja2/bccache.py b/src/jinja2/bccache.py
+--- a/src/jinja2/bccache.py
++++ b/src/jinja2/bccache.py
+@@ -281,6 +281,11 @@ class FileSystemBytecodeCache(BytecodeCache):
+         # writing. This avoids another process reading the file before
+         # it is fully written.
+         name = self._get_cache_filename(bucket)
++        previous_mode = (
++            stat.S_IMODE(os.stat(name).st_mode)
++            if os.path.exists(name)
++            else None
++        )
+         f = tempfile.NamedTemporaryFile(
+             mode="wb",
+             dir=os.path.dirname(name),
+@@ -300,7 +305,7 @@ class FileSystemBytecodeCache(BytecodeCache):
+         try:
+             with f:
+                 bucket.write_bytecode(f)
+-        except BaseException:
++        except Exception:
+             remove_silent()
+             raise
+ 
+@@ -313,6 +318,8 @@ class FileSystemBytecodeCache(BytecodeCache):
+         except BaseException:
+             remove_silent()
+             raise
++        else:
++            os.chmod(name, stat.S_IWUSR)
+ 
+     def clear(self) -> None:
+         # imported lazily here because google app-engine doesn't support
+diff --git a/tests/pr_203_test.py b/tests/pr_203_test.py
+new file mode 100644
+--- /dev/null
++++ b/tests/pr_203_test.py
+@@ -0,0 +1,49 @@
++import stat
++
++import pytest
++
++from jinja2 import Environment
++from jinja2.bccache import Bucket
++from jinja2.bccache import FileSystemBytecodeCache
++
++
++def make_bucket():
++    bucket = Bucket(Environment(), "fixture-key", "fixture-checksum")
++    bucket.code = compile("answer = 42", "<fixture>", "exec")
++    return bucket
++
++
++def test_atomic_replace_preserves_existing_permissions(tmp_path):
++    cache = FileSystemBytecodeCache(str(tmp_path))
++    bucket = make_bucket()
++    filename = tmp_path / (cache.pattern % bucket.key)
++    filename.write_bytes(b"stale")
++    filename.chmod(0o640)
++
++    cache.dump_bytecode(bucket)
++
++    assert stat.S_IMODE(filename.stat().st_mode) == 0o640
++
++
++def test_interrupted_write_removes_temporary_file(tmp_path):
++    cache = FileSystemBytecodeCache(str(tmp_path))
++
++    class InterruptedBucket:
++        key = "interrupted"
++
++        def write_bytecode(self, file):
++            file.write(b"partial")
++            raise KeyboardInterrupt
++
++    with pytest.raises(KeyboardInterrupt):
++        cache.dump_bytecode(InterruptedBucket())
++
++    assert list(tmp_path.glob("*.tmp")) == []
++
++
++def test_new_cache_file_is_readable(tmp_path):
++    cache = FileSystemBytecodeCache(str(tmp_path))
++    bucket = make_bucket()
++    cache.dump_bytecode(bucket)
++
++    assert (tmp_path / (cache.pattern % bucket.key)).read_bytes()

@@ -1,0 +1,6 @@
+__pycache__/
+*.log
+*/runs/
+*/readouts/
+# readouts written before they moved to readouts/
+*/results/

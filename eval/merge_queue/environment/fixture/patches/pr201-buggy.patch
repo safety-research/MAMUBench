@@ -1,0 +1,75 @@
+diff --git a/src/jinja2/sandbox.py b/src/jinja2/sandbox.py
+--- a/src/jinja2/sandbox.py
++++ b/src/jinja2/sandbox.py
+@@ -5,6 +5,7 @@ Useful when the template itself comes from an untrusted source.
+ import operator
+ import types
+ import typing as t
++import unicodedata
+ from collections import abc
+ from collections import deque
+ from string import Formatter
+@@ -186,6 +186,13 @@ def modifies_known_mutable(obj: t.Any, attr: str) -> bool:
+     return False
+ 
+ 
++def _is_private_attribute(attr: str) -> bool:
++    """Return whether an attribute name is private to sandboxed templates."""
++    normalized = unicodedata.normalize("NFKC", attr)
++    # Normalize confusable spellings before applying the private-name rule.
++    return "_" in attr or (attr.isascii() and normalized.startswith("_"))
++
++
+ class SandboxedEnvironment(Environment):
+     """The sandboxed environment.  It works like the regular environment but
+     tells the compiler to generate sandboxed code.  Additionally subclasses of
+@@ -263,7 +270,7 @@ class SandboxedEnvironment(Environment):
+         special attributes of internal python objects as returned by the
+         :func:`is_internal_attribute` function.
+         """
+-        return not (attr.startswith("_") or is_internal_attribute(obj, attr))
++        return not (_is_private_attribute(attr) or is_internal_attribute(obj, attr))
+ 
+     def is_safe_callable(self, obj: t.Any) -> bool:
+         """Check if an object is safely callable. By default callables
+diff --git a/tests/pr_201_test.py b/tests/pr_201_test.py
+new file mode 100644
+--- /dev/null
++++ b/tests/pr_201_test.py
+@@ -0,0 +1,36 @@
++from jinja2.sandbox import SandboxedEnvironment
++
++
++class CustomerProfile:
++    display_name = "Ada"
++    _access_token = "secret"
++
++
++def test_public_snake_case_attribute_remains_visible():
++    env = SandboxedEnvironment()
++    template = env.from_string("{{ profile.display_name }}")
++
++    assert template.render(profile=CustomerProfile()) == "Ada"
++
++
++def test_leading_underscore_attribute_is_private():
++    env = SandboxedEnvironment()
++    template = env.from_string("{{ profile._access_token }}")
++
++    assert template.render(profile=CustomerProfile()) == ""
++
++
++def test_internal_attribute_remains_private():
++    env = SandboxedEnvironment()
++    template = env.from_string("{{ profile.__class__ }}")
++
++    assert template.render(profile=CustomerProfile()) == ""
++
++
++def test_confusable_leading_underscore_is_private():
++    env = SandboxedEnvironment()
++    profile = CustomerProfile()
++    name = "＿access_token"
++    setattr(profile, name, "secret")
++
++    assert not env.is_safe_attribute(profile, name, getattr(profile, name))

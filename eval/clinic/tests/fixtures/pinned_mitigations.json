@@ -1,0 +1,174 @@
+{
+ "desk_prompts_warfarin_inr_split": {
+  "r2_stack_s11": [
+   "071916b4c71b8c787a858b8373f26fa32eef1ae0999dbc79f1c6a864cfddb2eb",
+   "0f0e1b339945ab7124323fed281a8f6764df03422f6266756cf6daeb81b6f3cd",
+   "1023fe54e97c4401ca477ca75021149ade31e995b8b7c63fa5e693d62b554802",
+   "1510fd37e32cb5a12b06204d632ec85ae348f5da2b3222780bb12a562416ce16",
+   "1c5e830706000ef49d4de9eb89630e36a69c2ffe33ad538814623828a9527baa",
+   "21910d27ad496d964dec9ad99a871e73d97710361d04e29f69769d4fdcbbf602",
+   "2bb8e5fdea0970fc543840ea8690a42e4542a66900475ec8b7c3d8b9e98e5615",
+   "337da82879e7df5aea10b9b4f7ffda6751e959bf493465a3bbf1b7808e5cc9eb",
+   "3c38a75c9efae754ccddef4fd4c69c9a6867028352e48889585db713a5ab013d",
+   "4838d519b85bcae39c757ce6817fdd2e95d71eb748b5a03fe3a8066c98a31bce",
+   "57c7e751ae0ca1743be8994d1845446b8e63fecd03a6d68713a17af336de0443",
+   "681fb8314cbb80340c73fef9915488ae5cce9c21cd5c64118acdbd579a34a8b3",
+   "8ccd94100a70932a008f9ea37ecc45f52faf5c14ce667bf91ad91a59479ad20f",
+   "f7d17b80a83a4e36702307559003bf50089c300238d65251fa737884b62ccd5d",
+   "f8617dd7db8014e0f019f1c35d6764973d2a23b2b3ab02d00a54b80e0528e8d8",
+   "fc89ce59e1f1bcb14f4150ce67005a1e9b4e484d27a48243937fac95f7cffa50",
+   "fd2580d5ecea4f830604c92db50cb19c2574e11a9edee3c30018cd647d48208f"
+  ],
+  "r2_stack_s3": [
+   "03747170a5241e6d132698d3e0ad96e67b4a7ae48b84797cd8c19d8ab21c376d",
+   "272128d32cc5d134fb6116f84b07710344da0e234f2e8c57b16d95ae5cd67be1",
+   "37aab0eb48fde84c77a3546b9d367e86ad36f8778aac949fd239e98eaacb8fde",
+   "4791635030fb0adbf80f997a788c4c2b69ae1925286a2a3044b85d54f4722562",
+   "529805df05a02e45b1fece973e647d87afc28e161f2b800d5e0d3a6f5dc808e4",
+   "85d0fa8287acf8a0724f9b8f62ae154014df72c6a55f7a90f25d4c0e1ee5c030",
+   "8b6975c981140aa7d569ae86527776c27647610e535c3f50b189d4490edc60c3",
+   "958dffa9a7b411109a9a928e0db0982daf40c1881087aab621237ef513b00665",
+   "963fc33b552b9de3905ba2e781adb9a933793e24209bb2a867c42091d4bbde37",
+   "a3197c1893341a527161e2011686130679f4a0fb24699b2fdae4603ab9b1454c",
+   "acaa986114ecabea8c4c757f72a5dcbce17b94ee6db1ab99f91fce4841139825",
+   "ae8d5b68cd49fcabfd2085351e30b60a0f69f5aff4505ac90b267572e6fc3dff",
+   "b9de021f7c020f19f6521b5902ab9fc65c22703d63916e9851b902d6113d70c3",
+   "cc62568a99406f3f98c950d21f3443921208a5289197103f1e6c61d805a1a0ec",
+   "ed4af2957f2f041704955cf38eee35ead1a96bc4f04aa2bc29b240c78b92a39d",
+   "f003307fc21dd8f8d631967aaa7cb0e23453c777695eb9a7730dba2c5dc1a85b",
+   "f8444260cefe9aa69033742dc7c5a3c56be0e0fcb91a5ccedff7e44a171113b1"
+  ],
+  "r2_stack_s5": [
+   "0e7f79e4452150a28534bc529dd0ad289ffef268d9dc7e28a8a05ab1686133fe",
+   "19fb6dc536fec355157b10150d021df09b9134bb3d39275494b6d4a6447ae11b",
+   "1a09d6b6e3ba89ab360c16c7e87c817912bdc32c80b02e22b1364125efad5a5b",
+   "2eb2338696e64f7a1119198d92939bc26643ec59ffa8a43e52d5625323196c40",
+   "3dfbefee2c0f624dfba8b92f941f88ad6047313e64e2ed1cca9a4360a8f18c99",
+   "5b1745f8f0632ed271dff4456685116a43339648f7e9ad9e8d78c1b1c1315ed0",
+   "75390073078056a30b7727d05b95140ecc4c6661f5873b4e882e02d9e3bf7dbb",
+   "7d8405c50bc00e4520c759549d25a9dbc3062b4ffd4caea063ae2c93688287f2",
+   "87a18cef663a52fad3a266ca3cb905388683951c089beb36c692fc83b2dde767",
+   "92482a18ac37e51dffc05c998cceb54b452f0aa56584f160911d908b0b79d325",
+   "c5f682c30ad439e2c17c2a3c7300b278dd2a58e14ea74d5bf0e45e77cc2886b4",
+   "c71b91ae3b4dd27f1b3584c8c0d2413cf27125e37163712590dd73548002d131",
+   "ce81376f7af4f989268dfdfbc270b62969055ca6c88ddc81c57c62aa2e526fe9",
+   "d29e21dccf9ac3c8e6fbaa5410dde0bf0bd9c4e1b15e662e1206e2cb3798c44d",
+   "df472dcb5501cf9bcabfd58cd3c649fb6d96dfa1c061c48efacada365587822d",
+   "e28e8525f2e174abe8c75c5bc7bc512add7d0452939f01418fc40653dd29c2fc",
+   "e37bc7fbf2a525d8d2a361190a97d936c198f04f7653a4fb2699688c4e0d2fcc"
+  ]
+ },
+ "registry_md5": "fa8f3fcdf1c2b7b794171900d36eb367",
+ "roots": {
+  "r2_stack_s11": {
+   "arm": "r2_stack_s11",
+   "cell": "clinic_warfarin_inr_split_meshfull_comms_tight_scripted",
+   "components_sha256": "41d316905ebee147152c9cd64f1228d9fa3df037c70a7f8b63d3f38045984ab5",
+   "knobs": {
+    "BEAT_WAKE_ORDER": "fifo",
+    "BURST": "1000000",
+    "BURST_YIELD_TOOLS": "clinic_standby",
+    "MAX_AHEAD": "1000000",
+    "MAX_TURNS": "5000",
+    "PETRI_GENERATE_TIMEOUT": "3600",
+    "PETRI_SAMPLE_TIME_LIMIT": "57600",
+    "TARGET_THINKING": "0",
+    "WAKE_ORDER": "mail_first",
+    "WRAPUP_BRINGUP": "1",
+    "WRAPUP_GRANTS": "1000000"
+   }
+  },
+  "r2_stack_s3": {
+   "arm": "r2_stack_s3",
+   "cell": "clinic_warfarin_inr_split_meshfull_comms_tight_scripted",
+   "components_sha256": "b4cc2f28035566a7aa1c550471afb72d37d37f0b92b929d5833f3efc7d5945d9",
+   "knobs": {
+    "BEAT_WAKE_ORDER": "fifo",
+    "BURST": "1000000",
+    "BURST_YIELD_TOOLS": "clinic_standby",
+    "MAX_AHEAD": "1000000",
+    "MAX_TURNS": "5000",
+    "PETRI_GENERATE_TIMEOUT": "3600",
+    "PETRI_SAMPLE_TIME_LIMIT": "57600",
+    "TARGET_THINKING": "0",
+    "WAKE_ORDER": "mail_first",
+    "WRAPUP_BRINGUP": "1",
+    "WRAPUP_GRANTS": "1000000"
+   }
+  },
+  "r2_stack_s5": {
+   "arm": "r2_stack_s5",
+   "cell": "clinic_warfarin_inr_split_meshfull_comms_tight_scripted",
+   "components_sha256": "f5c96489f0ccb69e6a62325b6a580ac464db47f67d781e3f2f5005023fdf6f2d",
+   "knobs": {
+    "BEAT_WAKE_ORDER": "fifo",
+    "BURST": "1000000",
+    "BURST_YIELD_TOOLS": "clinic_standby",
+    "MAX_AHEAD": "1000000",
+    "MAX_TURNS": "5000",
+    "PETRI_GENERATE_TIMEOUT": "3600",
+    "PETRI_SAMPLE_TIME_LIMIT": "57600",
+    "TARGET_THINKING": "0",
+    "WAKE_ORDER": "mail_first",
+    "WRAPUP_BRINGUP": "1",
+    "WRAPUP_GRANTS": "1000000"
+   }
+  }
+ },
+ "rules": {
+  "A": {
+   "component": "sop_append",
+   "research_id": "r1_owner_o4",
+   "sha256": "61fc52b55c94ea17e0e89b92e4d305453696505a8c593bdf2a4e74f3e92b2fef"
+  },
+  "B": {
+   "component": "desk_line",
+   "research_id": "r1_coord_c4",
+   "sha256": "5ff6c9ec31d68044954e2c4c1842584b06dcea810e40b358b1c1287cf6a769bf"
+  },
+  "C": {
+   "component": "desk_line",
+   "research_id": "r1_coord_c3",
+   "sha256": "29c8f4dc7f85bb985754f5676c53602ca501d8972dc94f18f64d4140cfe22b8c"
+  },
+  "D": {
+   "component": "desk_line",
+   "research_id": "r2_desk_d1",
+   "sha256": "d9e3300704adb8de9673161bc3b42c4a3efc19a5459b38a3f6d2bcb46b0f24c9"
+  },
+  "E": {
+   "component": "sop_append",
+   "research_id": "r2_coord_c1",
+   "sha256": "d4e3e1b38170f114645e355d01b3e1d0f9d17f3d11fce8d3f7eadad135d31be3"
+  }
+ },
+ "stacks": {
+  "s1": {
+   "components": {},
+   "parents": [
+    "r1_owner_o4",
+    "r1_coord_c4",
+    "r2_desk_d1"
+   ],
+   "research_id": "r2_stack_s3"
+  },
+  "s2": {
+   "components": {},
+   "parents": [
+    "r1_owner_o4",
+    "r1_coord_c4",
+    "r2_coord_c1"
+   ],
+   "research_id": "r2_stack_s5"
+  },
+  "s3": {
+   "components": {},
+   "parents": [
+    "r1_owner_o4",
+    "r1_coord_c3",
+    "r2_desk_d1"
+   ],
+   "research_id": "r2_stack_s11"
+  }
+ }
+}

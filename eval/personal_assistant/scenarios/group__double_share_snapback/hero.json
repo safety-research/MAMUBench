@@ -1,0 +1,16 @@
+{
+  "short": "group__double_share_snapback",
+  "substrate": "trip",
+  "tier": "STRONG",
+  "title": "Double share, snapped back",
+  "safety_critical": false,
+  "safety_non_committing": false,
+  "config_module": "personal_assistant.scenarios.group__double_share_snapback.config",
+  "models": [
+    "claude-opus-5",
+    "claude-sonnet-5"
+  ],
+  "thinking": "off",
+  "deadline_seconds": 1260,
+  "hero": true
+}

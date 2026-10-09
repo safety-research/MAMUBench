@@ -1,0 +1,4026 @@
+{
+ "_note": "Per <substrate>/<scenario>/<arm> (the team formation): the sha256 of the team tool manifest (run.manifest_digest) and of every seat's AGENTS.md, opening brief and, on trips, debrief. Computed with the research implementation the two arms were ported from; tests/test_mitigation_arms.py recomputes them from this eval's code.",
+ "food/airport_soup_sixteen/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "k1": {
+    "agents_md": "1ba9481c6a1ca802a8500a091cf6abb01dfcac22e06ac3386925d6c6441f3e55",
+    "opening": "16cbd484cd6012d097d88af2c64eca3e4af9c8e5c50126eea0cec76ed8ad0f17"
+   },
+   "k10": {
+    "agents_md": "11b58cf2bde17c3e0075da240d8a87cc532aa7ebe027a6568a88bd092700de04",
+    "opening": "05e54996ba8539b5b99956e32a5b901a3e9a6176cab40fff3bb79626ba0e6092"
+   },
+   "k11": {
+    "agents_md": "21658a9aa376c05fde892563bd5357b4c58508c71a9e2cab8621db582444a4ef",
+    "opening": "146eb87da8fc41e04b9582d1e20e526c054331092fbbd914fd29a54f893a699f"
+   },
+   "k12": {
+    "agents_md": "c46efc6aa31e672e3789cb54bd0f77060e186bfcb576d317a66c5d0d49aeb110",
+    "opening": "d83697490143251c1f83e8517dfda6345832fc692f64f6fe63b58bfecf339bf4"
+   },
+   "k13": {
+    "agents_md": "7568e72b3128bb28b1b17102222a5810ca50ceff7b0160adb982ee9fbb4992f3",
+    "opening": "571568fcfa7a9a30a530360e26883b9600c5a9b4e741fd3b0e724ab47036f262"
+   },
+   "k14": {
+    "agents_md": "03053ac4f1001285fd0572db28c1a18a6a7b06699d2c07abba10b7d2d38f86c7",
+    "opening": "c2c2aa6b8fe65425eef9d110b704d7bdc5a0ba73b1e99914f601619b7e87bdd2"
+   },
+   "k15": {
+    "agents_md": "0000529bdd6c7635a69ff883ef7486785355f2038fb8a369bf49a86881c1845e",
+    "opening": "84073e2f7cec7d638905ba7b2b898b96678f51266ba7e1bba90e2cabf4967a54"
+   },
+   "k16": {
+    "agents_md": "ac5e1d9e47e8671bfeb4ac40ebdd782ab2726ba03b367c069fbd1f91c01e27c6",
+    "opening": "8747463c6faf1e944fea9e7c747e08012eacbdcf4299fe9a1f24baaf49430cbb"
+   },
+   "k2": {
+    "agents_md": "0d617db3261480ce0680ce0bfa1e314300b5b471e626319f3dffb53c62b6585d",
+    "opening": "bdc41796b5fddac44b3f15d30497c26cf32c50cf4c101003b3da1b550979fbae"
+   },
+   "k3": {
+    "agents_md": "4d9520bca7025e19ecd5019810d0ee3b57fe8ff6e37a70a14613cd82ac047a1a",
+    "opening": "26217aeb698b926bfb26859b03589a6879378359ef3462d1452d5bf457d20586"
+   },
+   "k4": {
+    "agents_md": "9002b08055c1702eaefc3e48b9a4e0c371275888bf331d05148dcf12885440da",
+    "opening": "74e80ef2ac4c4a8c6f333a868d1df5bdd7ad87fe4a2285c2686da3634eab42f4"
+   },
+   "k5": {
+    "agents_md": "3d57830e07e75cb1a802a53c13921830b975731ccf3ea13ac1f39d446192afcb",
+    "opening": "901dd2521bd4b677a1d55659aef72fcd690d148df82a51d2535abe9bf5ffffec"
+   },
+   "k6": {
+    "agents_md": "0cb082e3ec530d7068ea84159d7ccaa82fa196083e85516b3073dc90d9dec801",
+    "opening": "ca02ef32de3a5084a8b16b5090e6e9d31eaf81a9faada1e53cd4f86c66a2269f"
+   },
+   "k7": {
+    "agents_md": "c19dbbd98d21c01c8307b181b86da76b9ed0029d56e776e1f2a132ddbd80b9ff",
+    "opening": "e3f9ae09c40f6974b9cf2f945737f7d1f38481a515b08039ed38f74d2944ef1d"
+   },
+   "k8": {
+    "agents_md": "2281b069a2c01d502d805afd52e843979a0890064aabe315f328834e81449aec",
+    "opening": "71c4f33bc4a46338d94241e3ce4997bc5136b92dedacc7612a7de7a536af3773"
+   },
+   "k9": {
+    "agents_md": "8e1bab6033be7793ac8cc0be551b6058ae99459b488408647a37e695c8974748",
+    "opening": "d01c01c02572d6ea24a7bd372036344a7570255cbba7ae9d61645dde23823183"
+   }
+  }
+ },
+ "food/airport_soup_sixteen/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "k1": {
+    "agents_md": "1ba9481c6a1ca802a8500a091cf6abb01dfcac22e06ac3386925d6c6441f3e55",
+    "opening": "16cbd484cd6012d097d88af2c64eca3e4af9c8e5c50126eea0cec76ed8ad0f17"
+   },
+   "k10": {
+    "agents_md": "11b58cf2bde17c3e0075da240d8a87cc532aa7ebe027a6568a88bd092700de04",
+    "opening": "05e54996ba8539b5b99956e32a5b901a3e9a6176cab40fff3bb79626ba0e6092"
+   },
+   "k11": {
+    "agents_md": "21658a9aa376c05fde892563bd5357b4c58508c71a9e2cab8621db582444a4ef",
+    "opening": "146eb87da8fc41e04b9582d1e20e526c054331092fbbd914fd29a54f893a699f"
+   },
+   "k12": {
+    "agents_md": "c46efc6aa31e672e3789cb54bd0f77060e186bfcb576d317a66c5d0d49aeb110",
+    "opening": "d83697490143251c1f83e8517dfda6345832fc692f64f6fe63b58bfecf339bf4"
+   },
+   "k13": {
+    "agents_md": "7568e72b3128bb28b1b17102222a5810ca50ceff7b0160adb982ee9fbb4992f3",
+    "opening": "571568fcfa7a9a30a530360e26883b9600c5a9b4e741fd3b0e724ab47036f262"
+   },
+   "k14": {
+    "agents_md": "03053ac4f1001285fd0572db28c1a18a6a7b06699d2c07abba10b7d2d38f86c7",
+    "opening": "c2c2aa6b8fe65425eef9d110b704d7bdc5a0ba73b1e99914f601619b7e87bdd2"
+   },
+   "k15": {
+    "agents_md": "0000529bdd6c7635a69ff883ef7486785355f2038fb8a369bf49a86881c1845e",
+    "opening": "84073e2f7cec7d638905ba7b2b898b96678f51266ba7e1bba90e2cabf4967a54"
+   },
+   "k16": {
+    "agents_md": "ac5e1d9e47e8671bfeb4ac40ebdd782ab2726ba03b367c069fbd1f91c01e27c6",
+    "opening": "8747463c6faf1e944fea9e7c747e08012eacbdcf4299fe9a1f24baaf49430cbb"
+   },
+   "k2": {
+    "agents_md": "0d617db3261480ce0680ce0bfa1e314300b5b471e626319f3dffb53c62b6585d",
+    "opening": "bdc41796b5fddac44b3f15d30497c26cf32c50cf4c101003b3da1b550979fbae"
+   },
+   "k3": {
+    "agents_md": "4d9520bca7025e19ecd5019810d0ee3b57fe8ff6e37a70a14613cd82ac047a1a",
+    "opening": "26217aeb698b926bfb26859b03589a6879378359ef3462d1452d5bf457d20586"
+   },
+   "k4": {
+    "agents_md": "9002b08055c1702eaefc3e48b9a4e0c371275888bf331d05148dcf12885440da",
+    "opening": "74e80ef2ac4c4a8c6f333a868d1df5bdd7ad87fe4a2285c2686da3634eab42f4"
+   },
+   "k5": {
+    "agents_md": "3d57830e07e75cb1a802a53c13921830b975731ccf3ea13ac1f39d446192afcb",
+    "opening": "901dd2521bd4b677a1d55659aef72fcd690d148df82a51d2535abe9bf5ffffec"
+   },
+   "k6": {
+    "agents_md": "0cb082e3ec530d7068ea84159d7ccaa82fa196083e85516b3073dc90d9dec801",
+    "opening": "ca02ef32de3a5084a8b16b5090e6e9d31eaf81a9faada1e53cd4f86c66a2269f"
+   },
+   "k7": {
+    "agents_md": "c19dbbd98d21c01c8307b181b86da76b9ed0029d56e776e1f2a132ddbd80b9ff",
+    "opening": "e3f9ae09c40f6974b9cf2f945737f7d1f38481a515b08039ed38f74d2944ef1d"
+   },
+   "k8": {
+    "agents_md": "2281b069a2c01d502d805afd52e843979a0890064aabe315f328834e81449aec",
+    "opening": "71c4f33bc4a46338d94241e3ce4997bc5136b92dedacc7612a7de7a536af3773"
+   },
+   "k9": {
+    "agents_md": "8e1bab6033be7793ac8cc0be551b6058ae99459b488408647a37e695c8974748",
+    "opening": "d01c01c02572d6ea24a7bd372036344a7570255cbba7ae9d61645dde23823183"
+   }
+  }
+ },
+ "food/airport_soup_sixteen/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "k1": {
+    "agents_md": "1ba9481c6a1ca802a8500a091cf6abb01dfcac22e06ac3386925d6c6441f3e55",
+    "opening": "16cbd484cd6012d097d88af2c64eca3e4af9c8e5c50126eea0cec76ed8ad0f17"
+   },
+   "k10": {
+    "agents_md": "11b58cf2bde17c3e0075da240d8a87cc532aa7ebe027a6568a88bd092700de04",
+    "opening": "05e54996ba8539b5b99956e32a5b901a3e9a6176cab40fff3bb79626ba0e6092"
+   },
+   "k11": {
+    "agents_md": "21658a9aa376c05fde892563bd5357b4c58508c71a9e2cab8621db582444a4ef",
+    "opening": "146eb87da8fc41e04b9582d1e20e526c054331092fbbd914fd29a54f893a699f"
+   },
+   "k12": {
+    "agents_md": "c46efc6aa31e672e3789cb54bd0f77060e186bfcb576d317a66c5d0d49aeb110",
+    "opening": "d83697490143251c1f83e8517dfda6345832fc692f64f6fe63b58bfecf339bf4"
+   },
+   "k13": {
+    "agents_md": "7568e72b3128bb28b1b17102222a5810ca50ceff7b0160adb982ee9fbb4992f3",
+    "opening": "571568fcfa7a9a30a530360e26883b9600c5a9b4e741fd3b0e724ab47036f262"
+   },
+   "k14": {
+    "agents_md": "03053ac4f1001285fd0572db28c1a18a6a7b06699d2c07abba10b7d2d38f86c7",
+    "opening": "c2c2aa6b8fe65425eef9d110b704d7bdc5a0ba73b1e99914f601619b7e87bdd2"
+   },
+   "k15": {
+    "agents_md": "0000529bdd6c7635a69ff883ef7486785355f2038fb8a369bf49a86881c1845e",
+    "opening": "84073e2f7cec7d638905ba7b2b898b96678f51266ba7e1bba90e2cabf4967a54"
+   },
+   "k16": {
+    "agents_md": "ac5e1d9e47e8671bfeb4ac40ebdd782ab2726ba03b367c069fbd1f91c01e27c6",
+    "opening": "8747463c6faf1e944fea9e7c747e08012eacbdcf4299fe9a1f24baaf49430cbb"
+   },
+   "k2": {
+    "agents_md": "0d617db3261480ce0680ce0bfa1e314300b5b471e626319f3dffb53c62b6585d",
+    "opening": "bdc41796b5fddac44b3f15d30497c26cf32c50cf4c101003b3da1b550979fbae"
+   },
+   "k3": {
+    "agents_md": "4d9520bca7025e19ecd5019810d0ee3b57fe8ff6e37a70a14613cd82ac047a1a",
+    "opening": "26217aeb698b926bfb26859b03589a6879378359ef3462d1452d5bf457d20586"
+   },
+   "k4": {
+    "agents_md": "9002b08055c1702eaefc3e48b9a4e0c371275888bf331d05148dcf12885440da",
+    "opening": "74e80ef2ac4c4a8c6f333a868d1df5bdd7ad87fe4a2285c2686da3634eab42f4"
+   },
+   "k5": {
+    "agents_md": "3d57830e07e75cb1a802a53c13921830b975731ccf3ea13ac1f39d446192afcb",
+    "opening": "901dd2521bd4b677a1d55659aef72fcd690d148df82a51d2535abe9bf5ffffec"
+   },
+   "k6": {
+    "agents_md": "0cb082e3ec530d7068ea84159d7ccaa82fa196083e85516b3073dc90d9dec801",
+    "opening": "ca02ef32de3a5084a8b16b5090e6e9d31eaf81a9faada1e53cd4f86c66a2269f"
+   },
+   "k7": {
+    "agents_md": "c19dbbd98d21c01c8307b181b86da76b9ed0029d56e776e1f2a132ddbd80b9ff",
+    "opening": "e3f9ae09c40f6974b9cf2f945737f7d1f38481a515b08039ed38f74d2944ef1d"
+   },
+   "k8": {
+    "agents_md": "2281b069a2c01d502d805afd52e843979a0890064aabe315f328834e81449aec",
+    "opening": "71c4f33bc4a46338d94241e3ce4997bc5136b92dedacc7612a7de7a536af3773"
+   },
+   "k9": {
+    "agents_md": "8e1bab6033be7793ac8cc0be551b6058ae99459b488408647a37e695c8974748",
+    "opening": "d01c01c02572d6ea24a7bd372036344a7570255cbba7ae9d61645dde23823183"
+   }
+  }
+ },
+ "food/anniversary_pour/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "39ddeaa29d2d1ec161711b8c9d9479bb77ac5b946bcb63dd054934b867b023fc",
+    "opening": "f817084730643e456de51690421d4d8c4fe84c0d4312f004a8ffd0f32b733f6a"
+   },
+   "d2": {
+    "agents_md": "9b7a8652e4ffb61ad85a2007b39e294d85d33fbb4c68a9e79a7b41175fcb011c",
+    "opening": "112a62919e6fd5294f6fb81b02845509774ccffcd7aebe0c47ba331d6bcb7ea9"
+   },
+   "d3": {
+    "agents_md": "4baab82f0ce768b15e309d15b33b02c628da93e7ea39de5518313edcadea003f",
+    "opening": "661ed34560f47b1e48ed9b1e744613e500654cbdc47ccd05b1a342437634409d"
+   },
+   "d4": {
+    "agents_md": "9bd1b724ddd2113e89bfd98c35146980cc71f3d0013532d2482aaebf98e965fe",
+    "opening": "edc462239544bd154983315be5029f7129c0cd83d7afa8aedfd5e6e18e1fae66"
+   },
+   "d5": {
+    "agents_md": "d9114e2cdf2e3e9080d76a0b97699e01546e99a4193435780206f751be1d2259",
+    "opening": "49ddf07f77c66197846f3b66cb4421383c1863aa71d96bc4f5bee3dbc216f5da"
+   },
+   "d6": {
+    "agents_md": "2c2538c13c58f9c07b13cb268bc0fd8c672f08aad0919f0a6b9038711aaf59a4",
+    "opening": "b63f6ee2b11517f6e827d8052331ecbe74faa4b280ec73c06dd6a49a2b8c91f2"
+   },
+   "d7": {
+    "agents_md": "b11762befe0e806852af83f8c51337e2c9163578fff066fc4f912f0c6a9bd944",
+    "opening": "1909793b4f299bfdd87a411719a63a1e1e49b154c4faea0f647cce4ac5977ba9"
+   },
+   "d8": {
+    "agents_md": "8642085b53c6bae5dfee348d4a6506e9127c4f89e18bf1f13979f9f2bbe49928",
+    "opening": "4b0fb315eec1848a4ddac71f20475822449a9d2b7b97ca5b2f1e9fc2899ad872"
+   }
+  }
+ },
+ "food/anniversary_pour/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "39ddeaa29d2d1ec161711b8c9d9479bb77ac5b946bcb63dd054934b867b023fc",
+    "opening": "f817084730643e456de51690421d4d8c4fe84c0d4312f004a8ffd0f32b733f6a"
+   },
+   "d2": {
+    "agents_md": "9b7a8652e4ffb61ad85a2007b39e294d85d33fbb4c68a9e79a7b41175fcb011c",
+    "opening": "112a62919e6fd5294f6fb81b02845509774ccffcd7aebe0c47ba331d6bcb7ea9"
+   },
+   "d3": {
+    "agents_md": "4baab82f0ce768b15e309d15b33b02c628da93e7ea39de5518313edcadea003f",
+    "opening": "661ed34560f47b1e48ed9b1e744613e500654cbdc47ccd05b1a342437634409d"
+   },
+   "d4": {
+    "agents_md": "9bd1b724ddd2113e89bfd98c35146980cc71f3d0013532d2482aaebf98e965fe",
+    "opening": "edc462239544bd154983315be5029f7129c0cd83d7afa8aedfd5e6e18e1fae66"
+   },
+   "d5": {
+    "agents_md": "d9114e2cdf2e3e9080d76a0b97699e01546e99a4193435780206f751be1d2259",
+    "opening": "49ddf07f77c66197846f3b66cb4421383c1863aa71d96bc4f5bee3dbc216f5da"
+   },
+   "d6": {
+    "agents_md": "2c2538c13c58f9c07b13cb268bc0fd8c672f08aad0919f0a6b9038711aaf59a4",
+    "opening": "b63f6ee2b11517f6e827d8052331ecbe74faa4b280ec73c06dd6a49a2b8c91f2"
+   },
+   "d7": {
+    "agents_md": "b11762befe0e806852af83f8c51337e2c9163578fff066fc4f912f0c6a9bd944",
+    "opening": "1909793b4f299bfdd87a411719a63a1e1e49b154c4faea0f647cce4ac5977ba9"
+   },
+   "d8": {
+    "agents_md": "8642085b53c6bae5dfee348d4a6506e9127c4f89e18bf1f13979f9f2bbe49928",
+    "opening": "4b0fb315eec1848a4ddac71f20475822449a9d2b7b97ca5b2f1e9fc2899ad872"
+   }
+  }
+ },
+ "food/anniversary_pour/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "39ddeaa29d2d1ec161711b8c9d9479bb77ac5b946bcb63dd054934b867b023fc",
+    "opening": "f817084730643e456de51690421d4d8c4fe84c0d4312f004a8ffd0f32b733f6a"
+   },
+   "d2": {
+    "agents_md": "9b7a8652e4ffb61ad85a2007b39e294d85d33fbb4c68a9e79a7b41175fcb011c",
+    "opening": "112a62919e6fd5294f6fb81b02845509774ccffcd7aebe0c47ba331d6bcb7ea9"
+   },
+   "d3": {
+    "agents_md": "4baab82f0ce768b15e309d15b33b02c628da93e7ea39de5518313edcadea003f",
+    "opening": "661ed34560f47b1e48ed9b1e744613e500654cbdc47ccd05b1a342437634409d"
+   },
+   "d4": {
+    "agents_md": "9bd1b724ddd2113e89bfd98c35146980cc71f3d0013532d2482aaebf98e965fe",
+    "opening": "edc462239544bd154983315be5029f7129c0cd83d7afa8aedfd5e6e18e1fae66"
+   },
+   "d5": {
+    "agents_md": "d9114e2cdf2e3e9080d76a0b97699e01546e99a4193435780206f751be1d2259",
+    "opening": "49ddf07f77c66197846f3b66cb4421383c1863aa71d96bc4f5bee3dbc216f5da"
+   },
+   "d6": {
+    "agents_md": "2c2538c13c58f9c07b13cb268bc0fd8c672f08aad0919f0a6b9038711aaf59a4",
+    "opening": "b63f6ee2b11517f6e827d8052331ecbe74faa4b280ec73c06dd6a49a2b8c91f2"
+   },
+   "d7": {
+    "agents_md": "b11762befe0e806852af83f8c51337e2c9163578fff066fc4f912f0c6a9bd944",
+    "opening": "1909793b4f299bfdd87a411719a63a1e1e49b154c4faea0f647cce4ac5977ba9"
+   },
+   "d8": {
+    "agents_md": "8642085b53c6bae5dfee348d4a6506e9127c4f89e18bf1f13979f9f2bbe49928",
+    "opening": "4b0fb315eec1848a4ddac71f20475822449a9d2b7b97ca5b2f1e9fc2899ad872"
+   }
+  }
+ },
+ "food/birthday_thali_floor/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "k1": {
+    "agents_md": "d7cba683127417879745d27a708752c6fda43aed21dfc76be31cac143c57d49e",
+    "opening": "a463a04c2626eef029ef5eb3342a75c2215981bdd83e24210ad4bf3661b68951"
+   },
+   "k10": {
+    "agents_md": "84643d614849e7ac03f89602494bf9069fdbe2a2e0f6184785ae060a7d481ddb",
+    "opening": "7a25d173677462529eb851f12f4824e9a1edc7368b4dc200b300d39afc5aba8f"
+   },
+   "k11": {
+    "agents_md": "a0dd1e0a282dd8b194317671fc0fa49a4a3624f6d6f51356d5602167ae14ca67",
+    "opening": "9d870ad0acf232121befd76f3708dab3b4cbc2fe78fe5710a6c0c0f0f80a0edf"
+   },
+   "k12": {
+    "agents_md": "71a94559da12f57a975685f87be81d5c7ce0df0040bcf8add4502ceb9123e986",
+    "opening": "1439459fc998f6bd1ad031917292349b92a570316adeed34509303af06f7baa9"
+   },
+   "k13": {
+    "agents_md": "7c43f9a680e79aeb17e3bd4583ba2e34865f24fdc6afaa71deed8d38eb0cc105",
+    "opening": "d8ddbd9e1d1312a61fa241c1da4887cc3ad857395756539ce452a8d5d413a04d"
+   },
+   "k14": {
+    "agents_md": "8419c6a646d38775b83da0c21a800c8d096ff166ae0720fc673bbe2671467816",
+    "opening": "8d92f5b079f4800b9b4ed32565909df302762409eb50e73a71a102a839c3aa0c"
+   },
+   "k15": {
+    "agents_md": "c179639e7c1a4a8b1f546530fe6a2c74e1c6959463c7b937c74fbc11529767c5",
+    "opening": "8f4a6fb12c96ac0e673547c47a858343908a0f6b2083a4463bbda7ad9d22c4e8"
+   },
+   "k16": {
+    "agents_md": "eb40122bdd80ef0a18897d3d1e66ead8551fe3b76973012eef530c3ecc3bbc61",
+    "opening": "9408ee7c77cd6f890e4b12da399ba98029215b075442ff14331d6a91256a711f"
+   },
+   "k2": {
+    "agents_md": "fc2622e822531bf999ca9d6268a521b000e81c0be27f15671915b225bc910806",
+    "opening": "bd10fd60feb2cedead82d0d7f57ac6ecf0cd67a14e9836b1c363b442fe5f171f"
+   },
+   "k3": {
+    "agents_md": "e5e7887004aa9e9edad8efb8a2cfc2ef077a92fbaaa5a601901276776524a9b9",
+    "opening": "f689bd36262742868a4ac9281c3f41099ee386c24f8e6c291bd4c15091bf746c"
+   },
+   "k4": {
+    "agents_md": "aac7d5230196589871b4474d72c5d0e5316ce665b194d2deb28e5f1b9a4f5328",
+    "opening": "f3a87ffc9182f88883d0f3305c7c402327f01848182cb38cce3ec679e5cf4bf2"
+   },
+   "k5": {
+    "agents_md": "4a9735793bad87ea6fe3b7890f7be8506a6502b011143a2cc7b5b19024699f64",
+    "opening": "c97c0a753d20960daf1b926e4a28ccdae5d2f96078bca82ec810d1c43a6c93e3"
+   },
+   "k6": {
+    "agents_md": "a47bc020e5af09da6fed1b305152b0ce864eac447c6f1d3b5c863683f95ff76e",
+    "opening": "29d27227f69ace905ada67f91dd5423b1e399897818c205b6a91de5ddbfebe0c"
+   },
+   "k7": {
+    "agents_md": "6a85c8bc7ccae9955cd62715307ddf0496e27e977d1c481f3cc6c82020e94d75",
+    "opening": "ac204de9e0b5691245f9d2bb8c61da7a6d4afa5d83bcc9b51d7a17db1892a59c"
+   },
+   "k8": {
+    "agents_md": "8e292b6b3dabb68c6faf98a944c9b9cdab044f32dda87c763ec8e9cf281c21f0",
+    "opening": "5f3ced3c9beff1d9741aa253f48d29312147df9bb54c49638e8d53bec5128ea4"
+   },
+   "k9": {
+    "agents_md": "5284936cafe30217afa19387fb7dfca95b99b6c2361b01d81bf684038a7d67d0",
+    "opening": "04f3a050a3650bec6dca314e97ab74f4b4fff0bb7a64cfc8757a1cd05984e790"
+   }
+  }
+ },
+ "food/birthday_thali_floor/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "k1": {
+    "agents_md": "d7cba683127417879745d27a708752c6fda43aed21dfc76be31cac143c57d49e",
+    "opening": "a463a04c2626eef029ef5eb3342a75c2215981bdd83e24210ad4bf3661b68951"
+   },
+   "k10": {
+    "agents_md": "84643d614849e7ac03f89602494bf9069fdbe2a2e0f6184785ae060a7d481ddb",
+    "opening": "7a25d173677462529eb851f12f4824e9a1edc7368b4dc200b300d39afc5aba8f"
+   },
+   "k11": {
+    "agents_md": "a0dd1e0a282dd8b194317671fc0fa49a4a3624f6d6f51356d5602167ae14ca67",
+    "opening": "9d870ad0acf232121befd76f3708dab3b4cbc2fe78fe5710a6c0c0f0f80a0edf"
+   },
+   "k12": {
+    "agents_md": "71a94559da12f57a975685f87be81d5c7ce0df0040bcf8add4502ceb9123e986",
+    "opening": "1439459fc998f6bd1ad031917292349b92a570316adeed34509303af06f7baa9"
+   },
+   "k13": {
+    "agents_md": "7c43f9a680e79aeb17e3bd4583ba2e34865f24fdc6afaa71deed8d38eb0cc105",
+    "opening": "d8ddbd9e1d1312a61fa241c1da4887cc3ad857395756539ce452a8d5d413a04d"
+   },
+   "k14": {
+    "agents_md": "8419c6a646d38775b83da0c21a800c8d096ff166ae0720fc673bbe2671467816",
+    "opening": "8d92f5b079f4800b9b4ed32565909df302762409eb50e73a71a102a839c3aa0c"
+   },
+   "k15": {
+    "agents_md": "c179639e7c1a4a8b1f546530fe6a2c74e1c6959463c7b937c74fbc11529767c5",
+    "opening": "8f4a6fb12c96ac0e673547c47a858343908a0f6b2083a4463bbda7ad9d22c4e8"
+   },
+   "k16": {
+    "agents_md": "eb40122bdd80ef0a18897d3d1e66ead8551fe3b76973012eef530c3ecc3bbc61",
+    "opening": "9408ee7c77cd6f890e4b12da399ba98029215b075442ff14331d6a91256a711f"
+   },
+   "k2": {
+    "agents_md": "fc2622e822531bf999ca9d6268a521b000e81c0be27f15671915b225bc910806",
+    "opening": "bd10fd60feb2cedead82d0d7f57ac6ecf0cd67a14e9836b1c363b442fe5f171f"
+   },
+   "k3": {
+    "agents_md": "e5e7887004aa9e9edad8efb8a2cfc2ef077a92fbaaa5a601901276776524a9b9",
+    "opening": "f689bd36262742868a4ac9281c3f41099ee386c24f8e6c291bd4c15091bf746c"
+   },
+   "k4": {
+    "agents_md": "aac7d5230196589871b4474d72c5d0e5316ce665b194d2deb28e5f1b9a4f5328",
+    "opening": "f3a87ffc9182f88883d0f3305c7c402327f01848182cb38cce3ec679e5cf4bf2"
+   },
+   "k5": {
+    "agents_md": "4a9735793bad87ea6fe3b7890f7be8506a6502b011143a2cc7b5b19024699f64",
+    "opening": "c97c0a753d20960daf1b926e4a28ccdae5d2f96078bca82ec810d1c43a6c93e3"
+   },
+   "k6": {
+    "agents_md": "a47bc020e5af09da6fed1b305152b0ce864eac447c6f1d3b5c863683f95ff76e",
+    "opening": "29d27227f69ace905ada67f91dd5423b1e399897818c205b6a91de5ddbfebe0c"
+   },
+   "k7": {
+    "agents_md": "6a85c8bc7ccae9955cd62715307ddf0496e27e977d1c481f3cc6c82020e94d75",
+    "opening": "ac204de9e0b5691245f9d2bb8c61da7a6d4afa5d83bcc9b51d7a17db1892a59c"
+   },
+   "k8": {
+    "agents_md": "8e292b6b3dabb68c6faf98a944c9b9cdab044f32dda87c763ec8e9cf281c21f0",
+    "opening": "5f3ced3c9beff1d9741aa253f48d29312147df9bb54c49638e8d53bec5128ea4"
+   },
+   "k9": {
+    "agents_md": "5284936cafe30217afa19387fb7dfca95b99b6c2361b01d81bf684038a7d67d0",
+    "opening": "04f3a050a3650bec6dca314e97ab74f4b4fff0bb7a64cfc8757a1cd05984e790"
+   }
+  }
+ },
+ "food/birthday_thali_floor/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "k1": {
+    "agents_md": "d7cba683127417879745d27a708752c6fda43aed21dfc76be31cac143c57d49e",
+    "opening": "a463a04c2626eef029ef5eb3342a75c2215981bdd83e24210ad4bf3661b68951"
+   },
+   "k10": {
+    "agents_md": "84643d614849e7ac03f89602494bf9069fdbe2a2e0f6184785ae060a7d481ddb",
+    "opening": "7a25d173677462529eb851f12f4824e9a1edc7368b4dc200b300d39afc5aba8f"
+   },
+   "k11": {
+    "agents_md": "a0dd1e0a282dd8b194317671fc0fa49a4a3624f6d6f51356d5602167ae14ca67",
+    "opening": "9d870ad0acf232121befd76f3708dab3b4cbc2fe78fe5710a6c0c0f0f80a0edf"
+   },
+   "k12": {
+    "agents_md": "71a94559da12f57a975685f87be81d5c7ce0df0040bcf8add4502ceb9123e986",
+    "opening": "1439459fc998f6bd1ad031917292349b92a570316adeed34509303af06f7baa9"
+   },
+   "k13": {
+    "agents_md": "7c43f9a680e79aeb17e3bd4583ba2e34865f24fdc6afaa71deed8d38eb0cc105",
+    "opening": "d8ddbd9e1d1312a61fa241c1da4887cc3ad857395756539ce452a8d5d413a04d"
+   },
+   "k14": {
+    "agents_md": "8419c6a646d38775b83da0c21a800c8d096ff166ae0720fc673bbe2671467816",
+    "opening": "8d92f5b079f4800b9b4ed32565909df302762409eb50e73a71a102a839c3aa0c"
+   },
+   "k15": {
+    "agents_md": "c179639e7c1a4a8b1f546530fe6a2c74e1c6959463c7b937c74fbc11529767c5",
+    "opening": "8f4a6fb12c96ac0e673547c47a858343908a0f6b2083a4463bbda7ad9d22c4e8"
+   },
+   "k16": {
+    "agents_md": "eb40122bdd80ef0a18897d3d1e66ead8551fe3b76973012eef530c3ecc3bbc61",
+    "opening": "9408ee7c77cd6f890e4b12da399ba98029215b075442ff14331d6a91256a711f"
+   },
+   "k2": {
+    "agents_md": "fc2622e822531bf999ca9d6268a521b000e81c0be27f15671915b225bc910806",
+    "opening": "bd10fd60feb2cedead82d0d7f57ac6ecf0cd67a14e9836b1c363b442fe5f171f"
+   },
+   "k3": {
+    "agents_md": "e5e7887004aa9e9edad8efb8a2cfc2ef077a92fbaaa5a601901276776524a9b9",
+    "opening": "f689bd36262742868a4ac9281c3f41099ee386c24f8e6c291bd4c15091bf746c"
+   },
+   "k4": {
+    "agents_md": "aac7d5230196589871b4474d72c5d0e5316ce665b194d2deb28e5f1b9a4f5328",
+    "opening": "f3a87ffc9182f88883d0f3305c7c402327f01848182cb38cce3ec679e5cf4bf2"
+   },
+   "k5": {
+    "agents_md": "4a9735793bad87ea6fe3b7890f7be8506a6502b011143a2cc7b5b19024699f64",
+    "opening": "c97c0a753d20960daf1b926e4a28ccdae5d2f96078bca82ec810d1c43a6c93e3"
+   },
+   "k6": {
+    "agents_md": "a47bc020e5af09da6fed1b305152b0ce864eac447c6f1d3b5c863683f95ff76e",
+    "opening": "29d27227f69ace905ada67f91dd5423b1e399897818c205b6a91de5ddbfebe0c"
+   },
+   "k7": {
+    "agents_md": "6a85c8bc7ccae9955cd62715307ddf0496e27e977d1c481f3cc6c82020e94d75",
+    "opening": "ac204de9e0b5691245f9d2bb8c61da7a6d4afa5d83bcc9b51d7a17db1892a59c"
+   },
+   "k8": {
+    "agents_md": "8e292b6b3dabb68c6faf98a944c9b9cdab044f32dda87c763ec8e9cf281c21f0",
+    "opening": "5f3ced3c9beff1d9741aa253f48d29312147df9bb54c49638e8d53bec5128ea4"
+   },
+   "k9": {
+    "agents_md": "5284936cafe30217afa19387fb7dfca95b99b6c2361b01d81bf684038a7d67d0",
+    "opening": "04f3a050a3650bec6dca314e97ab74f4b4fff0bb7a64cfc8757a1cd05984e790"
+   }
+  }
+ },
+ "food/boarding_call_congee/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "b5e42e7549bb9563d3290a8ff61ba1c0b6450b289b13304991b35e9a376c4742",
+    "opening": "056d89e344307c059711470d7b8a41dd633daf46912d526cec377e34d2bfa9cf"
+   },
+   "d10": {
+    "agents_md": "8b4c7e055df4e6560c118358d6302e06740f71eb378af21b9aa72fd0ac381d5d",
+    "opening": "dcb6d7476f9f1a247a9cc0a256842f2b4b8393602c1edbd0543d3bd2f0f8aeec"
+   },
+   "d11": {
+    "agents_md": "a48628bdccc1fd0b307cecb51e8376809bfbc98fbae3c88c12e19b237f45eb56",
+    "opening": "9ea987c5a89e942e904e38d02b2b51701dd60eba70aeabfba631324a4162849d"
+   },
+   "d12": {
+    "agents_md": "d254ca3de3d3e30ad49f2f44693d9eec7dfb53e6ab3e97e4ff5f7c26059ad4a4",
+    "opening": "c3397f5c750f2dd922ca0997e90071737965999aa18812006f321a9619b6c90b"
+   },
+   "d13": {
+    "agents_md": "ec74c86f2ca5930cd34259347bedc9a0b8bd7e123b72df7b1cbe1430aded99e4",
+    "opening": "f02be73bb501d70d84573c37fed0654f021525bff415c7f4a8f75d14a96af8b5"
+   },
+   "d14": {
+    "agents_md": "86e4323eb6cd57c89422b8765b48c9bfd101036cc9d3f467ae905b5c56a3c007",
+    "opening": "8d3a264563f734b5963c6f844ea8bea09ae3c5af33577d56763f573eb4563cd5"
+   },
+   "d15": {
+    "agents_md": "5bfdc1317568cde5955fcd101515c76486ce6024f5605a485784ddb9a762da37",
+    "opening": "3257f7c2b0e817a53b6b255e8d146456754a465b49287ba838299f30acb0d6c2"
+   },
+   "d16": {
+    "agents_md": "b72715b513bf3b30dde7e7a63740c50cda125e30884f9c021951cd8e0d20aa60",
+    "opening": "870139dad743e8a59fa9d93e9ecab9c99bc72165aec56169ce338efd1ae5b280"
+   },
+   "d2": {
+    "agents_md": "767040926181f5144b439d8db3136b4f4a3df8b56ba23550cc66d96e4ff34457",
+    "opening": "3fe6631b2559f49937fe8d1b69bc9bbc702f33a165bc1bd03089b275c21f4020"
+   },
+   "d3": {
+    "agents_md": "37eef8a56ef25089e86c7327db5a35ad9133fcb50203fd84730c8c68e395cbe8",
+    "opening": "e44dbd52b2a2353f981190b03bcfa9a8439f1ec473463e3abf46d1fae2e8b0e4"
+   },
+   "d4": {
+    "agents_md": "47c5a7df745cd7fc1a39057225c40c39833fb2a39ea27bb8487b47fdefb7efb7",
+    "opening": "32c2e600047f13748117739d7f15aa8cf252047bc60e99d76897befd6ae6cac3"
+   },
+   "d5": {
+    "agents_md": "eadcfb7d397b3840f191746566cd8b3f1d0b6e081fd5a8c78ca900730b0502e7",
+    "opening": "aa7d250b454dc030dfe58fe084b7c73b9413b7d01e216a1cf641a850b00a7915"
+   },
+   "d6": {
+    "agents_md": "92a5a801ddbf87f9f7213e7f232051bd64b0b7fa9d74fc367821a8b0547742dc",
+    "opening": "e0cb7261f05a198c77bf71f925747514b1b01111ed996eb4b8896e7a9bb6ff6f"
+   },
+   "d7": {
+    "agents_md": "860b7a38f1a17c65d2b0c5b2f30baeae5f2897659ddb328fa24f070ac20be04d",
+    "opening": "a8378ae33a0d82e5aba95a4049df920e0c1fa6d299b1b80335507738d0d79a75"
+   },
+   "d8": {
+    "agents_md": "261295615a6bc8274bf77233d491afcd5fcfc84a105c891fe4510d78fea57ea2",
+    "opening": "7656725feeecd3c9d498c4f0b513b66b9771a1fee00533c4f5c719aad8007817"
+   },
+   "d9": {
+    "agents_md": "ba465944f52f635208c880768642c87c18ff61961ad125dda20f35555e41bb35",
+    "opening": "f415fab1e4d26fec2003fc061fb172ee265915c08a2886c977c0ee12e1bed209"
+   }
+  }
+ },
+ "food/boarding_call_congee/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "b5e42e7549bb9563d3290a8ff61ba1c0b6450b289b13304991b35e9a376c4742",
+    "opening": "056d89e344307c059711470d7b8a41dd633daf46912d526cec377e34d2bfa9cf"
+   },
+   "d10": {
+    "agents_md": "8b4c7e055df4e6560c118358d6302e06740f71eb378af21b9aa72fd0ac381d5d",
+    "opening": "dcb6d7476f9f1a247a9cc0a256842f2b4b8393602c1edbd0543d3bd2f0f8aeec"
+   },
+   "d11": {
+    "agents_md": "a48628bdccc1fd0b307cecb51e8376809bfbc98fbae3c88c12e19b237f45eb56",
+    "opening": "9ea987c5a89e942e904e38d02b2b51701dd60eba70aeabfba631324a4162849d"
+   },
+   "d12": {
+    "agents_md": "d254ca3de3d3e30ad49f2f44693d9eec7dfb53e6ab3e97e4ff5f7c26059ad4a4",
+    "opening": "c3397f5c750f2dd922ca0997e90071737965999aa18812006f321a9619b6c90b"
+   },
+   "d13": {
+    "agents_md": "ec74c86f2ca5930cd34259347bedc9a0b8bd7e123b72df7b1cbe1430aded99e4",
+    "opening": "f02be73bb501d70d84573c37fed0654f021525bff415c7f4a8f75d14a96af8b5"
+   },
+   "d14": {
+    "agents_md": "86e4323eb6cd57c89422b8765b48c9bfd101036cc9d3f467ae905b5c56a3c007",
+    "opening": "8d3a264563f734b5963c6f844ea8bea09ae3c5af33577d56763f573eb4563cd5"
+   },
+   "d15": {
+    "agents_md": "5bfdc1317568cde5955fcd101515c76486ce6024f5605a485784ddb9a762da37",
+    "opening": "3257f7c2b0e817a53b6b255e8d146456754a465b49287ba838299f30acb0d6c2"
+   },
+   "d16": {
+    "agents_md": "b72715b513bf3b30dde7e7a63740c50cda125e30884f9c021951cd8e0d20aa60",
+    "opening": "870139dad743e8a59fa9d93e9ecab9c99bc72165aec56169ce338efd1ae5b280"
+   },
+   "d2": {
+    "agents_md": "767040926181f5144b439d8db3136b4f4a3df8b56ba23550cc66d96e4ff34457",
+    "opening": "3fe6631b2559f49937fe8d1b69bc9bbc702f33a165bc1bd03089b275c21f4020"
+   },
+   "d3": {
+    "agents_md": "37eef8a56ef25089e86c7327db5a35ad9133fcb50203fd84730c8c68e395cbe8",
+    "opening": "e44dbd52b2a2353f981190b03bcfa9a8439f1ec473463e3abf46d1fae2e8b0e4"
+   },
+   "d4": {
+    "agents_md": "47c5a7df745cd7fc1a39057225c40c39833fb2a39ea27bb8487b47fdefb7efb7",
+    "opening": "32c2e600047f13748117739d7f15aa8cf252047bc60e99d76897befd6ae6cac3"
+   },
+   "d5": {
+    "agents_md": "eadcfb7d397b3840f191746566cd8b3f1d0b6e081fd5a8c78ca900730b0502e7",
+    "opening": "aa7d250b454dc030dfe58fe084b7c73b9413b7d01e216a1cf641a850b00a7915"
+   },
+   "d6": {
+    "agents_md": "92a5a801ddbf87f9f7213e7f232051bd64b0b7fa9d74fc367821a8b0547742dc",
+    "opening": "e0cb7261f05a198c77bf71f925747514b1b01111ed996eb4b8896e7a9bb6ff6f"
+   },
+   "d7": {
+    "agents_md": "860b7a38f1a17c65d2b0c5b2f30baeae5f2897659ddb328fa24f070ac20be04d",
+    "opening": "a8378ae33a0d82e5aba95a4049df920e0c1fa6d299b1b80335507738d0d79a75"
+   },
+   "d8": {
+    "agents_md": "261295615a6bc8274bf77233d491afcd5fcfc84a105c891fe4510d78fea57ea2",
+    "opening": "7656725feeecd3c9d498c4f0b513b66b9771a1fee00533c4f5c719aad8007817"
+   },
+   "d9": {
+    "agents_md": "ba465944f52f635208c880768642c87c18ff61961ad125dda20f35555e41bb35",
+    "opening": "f415fab1e4d26fec2003fc061fb172ee265915c08a2886c977c0ee12e1bed209"
+   }
+  }
+ },
+ "food/boarding_call_congee/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "b5e42e7549bb9563d3290a8ff61ba1c0b6450b289b13304991b35e9a376c4742",
+    "opening": "056d89e344307c059711470d7b8a41dd633daf46912d526cec377e34d2bfa9cf"
+   },
+   "d10": {
+    "agents_md": "8b4c7e055df4e6560c118358d6302e06740f71eb378af21b9aa72fd0ac381d5d",
+    "opening": "dcb6d7476f9f1a247a9cc0a256842f2b4b8393602c1edbd0543d3bd2f0f8aeec"
+   },
+   "d11": {
+    "agents_md": "a48628bdccc1fd0b307cecb51e8376809bfbc98fbae3c88c12e19b237f45eb56",
+    "opening": "9ea987c5a89e942e904e38d02b2b51701dd60eba70aeabfba631324a4162849d"
+   },
+   "d12": {
+    "agents_md": "d254ca3de3d3e30ad49f2f44693d9eec7dfb53e6ab3e97e4ff5f7c26059ad4a4",
+    "opening": "c3397f5c750f2dd922ca0997e90071737965999aa18812006f321a9619b6c90b"
+   },
+   "d13": {
+    "agents_md": "ec74c86f2ca5930cd34259347bedc9a0b8bd7e123b72df7b1cbe1430aded99e4",
+    "opening": "f02be73bb501d70d84573c37fed0654f021525bff415c7f4a8f75d14a96af8b5"
+   },
+   "d14": {
+    "agents_md": "86e4323eb6cd57c89422b8765b48c9bfd101036cc9d3f467ae905b5c56a3c007",
+    "opening": "8d3a264563f734b5963c6f844ea8bea09ae3c5af33577d56763f573eb4563cd5"
+   },
+   "d15": {
+    "agents_md": "5bfdc1317568cde5955fcd101515c76486ce6024f5605a485784ddb9a762da37",
+    "opening": "3257f7c2b0e817a53b6b255e8d146456754a465b49287ba838299f30acb0d6c2"
+   },
+   "d16": {
+    "agents_md": "b72715b513bf3b30dde7e7a63740c50cda125e30884f9c021951cd8e0d20aa60",
+    "opening": "870139dad743e8a59fa9d93e9ecab9c99bc72165aec56169ce338efd1ae5b280"
+   },
+   "d2": {
+    "agents_md": "767040926181f5144b439d8db3136b4f4a3df8b56ba23550cc66d96e4ff34457",
+    "opening": "3fe6631b2559f49937fe8d1b69bc9bbc702f33a165bc1bd03089b275c21f4020"
+   },
+   "d3": {
+    "agents_md": "37eef8a56ef25089e86c7327db5a35ad9133fcb50203fd84730c8c68e395cbe8",
+    "opening": "e44dbd52b2a2353f981190b03bcfa9a8439f1ec473463e3abf46d1fae2e8b0e4"
+   },
+   "d4": {
+    "agents_md": "47c5a7df745cd7fc1a39057225c40c39833fb2a39ea27bb8487b47fdefb7efb7",
+    "opening": "32c2e600047f13748117739d7f15aa8cf252047bc60e99d76897befd6ae6cac3"
+   },
+   "d5": {
+    "agents_md": "eadcfb7d397b3840f191746566cd8b3f1d0b6e081fd5a8c78ca900730b0502e7",
+    "opening": "aa7d250b454dc030dfe58fe084b7c73b9413b7d01e216a1cf641a850b00a7915"
+   },
+   "d6": {
+    "agents_md": "92a5a801ddbf87f9f7213e7f232051bd64b0b7fa9d74fc367821a8b0547742dc",
+    "opening": "e0cb7261f05a198c77bf71f925747514b1b01111ed996eb4b8896e7a9bb6ff6f"
+   },
+   "d7": {
+    "agents_md": "860b7a38f1a17c65d2b0c5b2f30baeae5f2897659ddb328fa24f070ac20be04d",
+    "opening": "a8378ae33a0d82e5aba95a4049df920e0c1fa6d299b1b80335507738d0d79a75"
+   },
+   "d8": {
+    "agents_md": "261295615a6bc8274bf77233d491afcd5fcfc84a105c891fe4510d78fea57ea2",
+    "opening": "7656725feeecd3c9d498c4f0b513b66b9771a1fee00533c4f5c719aad8007817"
+   },
+   "d9": {
+    "agents_md": "ba465944f52f635208c880768642c87c18ff61961ad125dda20f35555e41bb35",
+    "opening": "f415fab1e4d26fec2003fc061fb172ee265915c08a2886c977c0ee12e1bed209"
+   }
+  }
+ },
+ "food/brunch_covers_reply/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "4f31dfcd64457a7e99765a9af601c37b59ef8b2a01c75d10154acd192f0f1218",
+    "opening": "f0e2bc3dd2f966eacc207f38c777954dd4b2b460d4dafbb2e1dcfe1776da61dc"
+   },
+   "c2": {
+    "agents_md": "1c326109471e4c17599275a411644018f4b90a7c97cdc4b6cc78edd61807165f",
+    "opening": "ea04aeb9ee2b120fc1495efed02f172feef74bb4014b07693e0fe46e93e9f54a"
+   },
+   "c3": {
+    "agents_md": "5f8b3c9c96b5c48e759ff6c2c0acdd9d1810e6921e6e51024dc36756db617a22",
+    "opening": "17df89c9423007c6b952e5931c3f0e6b37310d02ee221ddb90ad43116e7c4f37"
+   },
+   "c4": {
+    "agents_md": "e5cb512244c640bf988989704d72e338201d68ea63e5b44343b97fc8a68ec8c9",
+    "opening": "227644b775390d3aede0e7de80e4ac6a9c756f79dc6366dd77c3179ce3d54661"
+   },
+   "c5": {
+    "agents_md": "a7629f5d7cc1c70c889a8a9af15a52b9d1b46ecbee11ee6337bd19bd4f7bdc34",
+    "opening": "4d88ee18691536f1da648cb52afc1907f99e50cd3af798d1d2b6e85a4ef36496"
+   },
+   "c6": {
+    "agents_md": "563abf3de12e9c3f8190b802c1837a4c3341955ba063229b7ba441ab9ab46312",
+    "opening": "5fb30fe8625d7e36e66048739b1bf7c7d6be71346e32876c61be085955d075b5"
+   },
+   "c7": {
+    "agents_md": "cfb2544b062fb34f9967c8c98b0a3b090119062c417a63dd505400aa815245cc",
+    "opening": "17b7c1eb8bc717b96e235d7fb3ed65f486f6b433e43d7322d265146572d407bf"
+   },
+   "c8": {
+    "agents_md": "7c14204011eff1a517d678cd6c9e007ee96fa0ef5bd02afca2996572a205a52a",
+    "opening": "f9821cd23db59e33516c3de86fb8013a7d53c2fd8b6199e8b6fd4719e2cf99b5"
+   }
+  }
+ },
+ "food/brunch_covers_reply/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "4f31dfcd64457a7e99765a9af601c37b59ef8b2a01c75d10154acd192f0f1218",
+    "opening": "f0e2bc3dd2f966eacc207f38c777954dd4b2b460d4dafbb2e1dcfe1776da61dc"
+   },
+   "c2": {
+    "agents_md": "1c326109471e4c17599275a411644018f4b90a7c97cdc4b6cc78edd61807165f",
+    "opening": "ea04aeb9ee2b120fc1495efed02f172feef74bb4014b07693e0fe46e93e9f54a"
+   },
+   "c3": {
+    "agents_md": "5f8b3c9c96b5c48e759ff6c2c0acdd9d1810e6921e6e51024dc36756db617a22",
+    "opening": "17df89c9423007c6b952e5931c3f0e6b37310d02ee221ddb90ad43116e7c4f37"
+   },
+   "c4": {
+    "agents_md": "e5cb512244c640bf988989704d72e338201d68ea63e5b44343b97fc8a68ec8c9",
+    "opening": "227644b775390d3aede0e7de80e4ac6a9c756f79dc6366dd77c3179ce3d54661"
+   },
+   "c5": {
+    "agents_md": "a7629f5d7cc1c70c889a8a9af15a52b9d1b46ecbee11ee6337bd19bd4f7bdc34",
+    "opening": "4d88ee18691536f1da648cb52afc1907f99e50cd3af798d1d2b6e85a4ef36496"
+   },
+   "c6": {
+    "agents_md": "563abf3de12e9c3f8190b802c1837a4c3341955ba063229b7ba441ab9ab46312",
+    "opening": "5fb30fe8625d7e36e66048739b1bf7c7d6be71346e32876c61be085955d075b5"
+   },
+   "c7": {
+    "agents_md": "cfb2544b062fb34f9967c8c98b0a3b090119062c417a63dd505400aa815245cc",
+    "opening": "17b7c1eb8bc717b96e235d7fb3ed65f486f6b433e43d7322d265146572d407bf"
+   },
+   "c8": {
+    "agents_md": "7c14204011eff1a517d678cd6c9e007ee96fa0ef5bd02afca2996572a205a52a",
+    "opening": "f9821cd23db59e33516c3de86fb8013a7d53c2fd8b6199e8b6fd4719e2cf99b5"
+   }
+  }
+ },
+ "food/brunch_covers_reply/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "c1": {
+    "agents_md": "4f31dfcd64457a7e99765a9af601c37b59ef8b2a01c75d10154acd192f0f1218",
+    "opening": "f0e2bc3dd2f966eacc207f38c777954dd4b2b460d4dafbb2e1dcfe1776da61dc"
+   },
+   "c2": {
+    "agents_md": "1c326109471e4c17599275a411644018f4b90a7c97cdc4b6cc78edd61807165f",
+    "opening": "ea04aeb9ee2b120fc1495efed02f172feef74bb4014b07693e0fe46e93e9f54a"
+   },
+   "c3": {
+    "agents_md": "5f8b3c9c96b5c48e759ff6c2c0acdd9d1810e6921e6e51024dc36756db617a22",
+    "opening": "17df89c9423007c6b952e5931c3f0e6b37310d02ee221ddb90ad43116e7c4f37"
+   },
+   "c4": {
+    "agents_md": "e5cb512244c640bf988989704d72e338201d68ea63e5b44343b97fc8a68ec8c9",
+    "opening": "227644b775390d3aede0e7de80e4ac6a9c756f79dc6366dd77c3179ce3d54661"
+   },
+   "c5": {
+    "agents_md": "a7629f5d7cc1c70c889a8a9af15a52b9d1b46ecbee11ee6337bd19bd4f7bdc34",
+    "opening": "4d88ee18691536f1da648cb52afc1907f99e50cd3af798d1d2b6e85a4ef36496"
+   },
+   "c6": {
+    "agents_md": "563abf3de12e9c3f8190b802c1837a4c3341955ba063229b7ba441ab9ab46312",
+    "opening": "5fb30fe8625d7e36e66048739b1bf7c7d6be71346e32876c61be085955d075b5"
+   },
+   "c7": {
+    "agents_md": "cfb2544b062fb34f9967c8c98b0a3b090119062c417a63dd505400aa815245cc",
+    "opening": "17b7c1eb8bc717b96e235d7fb3ed65f486f6b433e43d7322d265146572d407bf"
+   },
+   "c8": {
+    "agents_md": "7c14204011eff1a517d678cd6c9e007ee96fa0ef5bd02afca2996572a205a52a",
+    "opening": "f9821cd23db59e33516c3de86fb8013a7d53c2fd8b6199e8b6fd4719e2cf99b5"
+   }
+  }
+ },
+ "food/fifteen_line_paste/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "aed07909d90a74fc2433912ac62618a33d3b3bc08a64cdbdcde573564e92095f",
+    "opening": "4681de4b31488d627797633c52416337682be1ba8ce30023143a36da9798f1f3"
+   },
+   "d10": {
+    "agents_md": "782a5e4072ed8c38f75da8f51b50158a4fee3763a1f263eac5c23e29437fdba3",
+    "opening": "69a0a1f6f37facab174fa53c60ad1276b1b45190a57efc4fdadd4ff2cb3c430f"
+   },
+   "d11": {
+    "agents_md": "43ed19b553c4a181961d2fc1f7785979c2304ea8ab41456497da2501df515513",
+    "opening": "5f0b1913f4f28d419de2b5ca0d62cab93c06a072ccc23580169b3ad41b1a6093"
+   },
+   "d12": {
+    "agents_md": "1444fc394609dc8c6378438d5766ff9728da4f0eab138c215502ed4af50642c9",
+    "opening": "0d11ce2d2449e0fe24060a80198352835c76cd10706c9c53adafa7f50073aac7"
+   },
+   "d13": {
+    "agents_md": "49eb68751f0ceccb50e033a3dd5356608a40b02a63eaca515fd52eab0ec251c5",
+    "opening": "fc533e0b33c16eac83470bfda77bc11ec2a4a4aae20c80eb0683fee4407cf15d"
+   },
+   "d14": {
+    "agents_md": "c8332fca015042e315c07842bbbc75e5dc6afecca702d190693439d8a0c96bc8",
+    "opening": "6ffb1848e440e4a7dfaf607b7dbdf1bab3350d4ca1a8427e6a3d55776df77d38"
+   },
+   "d15": {
+    "agents_md": "f670e321446324f7de5697a9e4264efd1f869939c4bbf8c19b8515ff76b67892",
+    "opening": "266f56bbd33aa02e32b55fe7b3c67cd433e2c5adb6fa83d49839a31663f8aa6b"
+   },
+   "d16": {
+    "agents_md": "7a33a9a7919380266cc97a48ca10f1d1f10c6ffef0380828202e6b1cafba2109",
+    "opening": "be209f23a1ef0231772853a60a0be7aecacac48a462099ee69e98e3c6cb4ce85"
+   },
+   "d2": {
+    "agents_md": "d0e60bd17527d1d7c07e99c46f3e95c559c36dbb1b0505ef9dd2ee6cdcc70998",
+    "opening": "5f701d9823e87de4b3ef30279a7f2855bf8b10fb7fba036b972cdcf68740084f"
+   },
+   "d3": {
+    "agents_md": "b6e7cc09646383ad8db359021d130e1b7d43e2a3ff77642fa1895550b540e3b3",
+    "opening": "65e1c3f36544a1c2c5dad588e0019eaa96aeaa4ad419bba0f5741965ed73a67e"
+   },
+   "d4": {
+    "agents_md": "035126992d92566cfc405aa071d2aaee92c9f761a1dd2f783087059617ffe2ae",
+    "opening": "48c103bb35ea96d66b990f56ab27f6a0551c96eb0d8757cb643239a96e2800a9"
+   },
+   "d5": {
+    "agents_md": "505be905e6f63ee967110a24274858a05487826864aa6e043e22e8b2ace80a25",
+    "opening": "413e0bddd00a5d7b34ccea966481f9ba0c1e543fa491e713ae1e076cd727f77a"
+   },
+   "d6": {
+    "agents_md": "6c3808940af20fcbe09ace542d67acb662690d018917c17b53cfb9f75117706f",
+    "opening": "d5663855fef368e7ec44dc509eea3d11d21a5f32d69820cd539abf875949971a"
+   },
+   "d7": {
+    "agents_md": "bd8cefd96669fd1ddc02ad441f53c8e5111089843cfdcce72beb0d440f41152a",
+    "opening": "87a568f07aa8f0a0b4df56f8b5798a8ee417014121bd682933190b6f99bba5d5"
+   },
+   "d8": {
+    "agents_md": "fbf892be2b575eeb0fb034a2293593a027935933f1d0509a897c951c73cc980c",
+    "opening": "2453016bbc798f76efd602af72a57bb0d10f22cd04ed7a5846a69ddc503a6ad8"
+   },
+   "d9": {
+    "agents_md": "0460ca6792430d9e8be1cb0b0683eeb5ddb09418d5724e6ecdb4f2f18317bec2",
+    "opening": "ebe68f523b6ecd01060a73251d5a3dcd10fa2503559373d1a9b5738c39c4cd03"
+   }
+  }
+ },
+ "food/fifteen_line_paste/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "aed07909d90a74fc2433912ac62618a33d3b3bc08a64cdbdcde573564e92095f",
+    "opening": "4681de4b31488d627797633c52416337682be1ba8ce30023143a36da9798f1f3"
+   },
+   "d10": {
+    "agents_md": "782a5e4072ed8c38f75da8f51b50158a4fee3763a1f263eac5c23e29437fdba3",
+    "opening": "69a0a1f6f37facab174fa53c60ad1276b1b45190a57efc4fdadd4ff2cb3c430f"
+   },
+   "d11": {
+    "agents_md": "43ed19b553c4a181961d2fc1f7785979c2304ea8ab41456497da2501df515513",
+    "opening": "5f0b1913f4f28d419de2b5ca0d62cab93c06a072ccc23580169b3ad41b1a6093"
+   },
+   "d12": {
+    "agents_md": "1444fc394609dc8c6378438d5766ff9728da4f0eab138c215502ed4af50642c9",
+    "opening": "0d11ce2d2449e0fe24060a80198352835c76cd10706c9c53adafa7f50073aac7"
+   },
+   "d13": {
+    "agents_md": "49eb68751f0ceccb50e033a3dd5356608a40b02a63eaca515fd52eab0ec251c5",
+    "opening": "fc533e0b33c16eac83470bfda77bc11ec2a4a4aae20c80eb0683fee4407cf15d"
+   },
+   "d14": {
+    "agents_md": "c8332fca015042e315c07842bbbc75e5dc6afecca702d190693439d8a0c96bc8",
+    "opening": "6ffb1848e440e4a7dfaf607b7dbdf1bab3350d4ca1a8427e6a3d55776df77d38"
+   },
+   "d15": {
+    "agents_md": "f670e321446324f7de5697a9e4264efd1f869939c4bbf8c19b8515ff76b67892",
+    "opening": "266f56bbd33aa02e32b55fe7b3c67cd433e2c5adb6fa83d49839a31663f8aa6b"
+   },
+   "d16": {
+    "agents_md": "7a33a9a7919380266cc97a48ca10f1d1f10c6ffef0380828202e6b1cafba2109",
+    "opening": "be209f23a1ef0231772853a60a0be7aecacac48a462099ee69e98e3c6cb4ce85"
+   },
+   "d2": {
+    "agents_md": "d0e60bd17527d1d7c07e99c46f3e95c559c36dbb1b0505ef9dd2ee6cdcc70998",
+    "opening": "5f701d9823e87de4b3ef30279a7f2855bf8b10fb7fba036b972cdcf68740084f"
+   },
+   "d3": {
+    "agents_md": "b6e7cc09646383ad8db359021d130e1b7d43e2a3ff77642fa1895550b540e3b3",
+    "opening": "65e1c3f36544a1c2c5dad588e0019eaa96aeaa4ad419bba0f5741965ed73a67e"
+   },
+   "d4": {
+    "agents_md": "035126992d92566cfc405aa071d2aaee92c9f761a1dd2f783087059617ffe2ae",
+    "opening": "48c103bb35ea96d66b990f56ab27f6a0551c96eb0d8757cb643239a96e2800a9"
+   },
+   "d5": {
+    "agents_md": "505be905e6f63ee967110a24274858a05487826864aa6e043e22e8b2ace80a25",
+    "opening": "413e0bddd00a5d7b34ccea966481f9ba0c1e543fa491e713ae1e076cd727f77a"
+   },
+   "d6": {
+    "agents_md": "6c3808940af20fcbe09ace542d67acb662690d018917c17b53cfb9f75117706f",
+    "opening": "d5663855fef368e7ec44dc509eea3d11d21a5f32d69820cd539abf875949971a"
+   },
+   "d7": {
+    "agents_md": "bd8cefd96669fd1ddc02ad441f53c8e5111089843cfdcce72beb0d440f41152a",
+    "opening": "87a568f07aa8f0a0b4df56f8b5798a8ee417014121bd682933190b6f99bba5d5"
+   },
+   "d8": {
+    "agents_md": "fbf892be2b575eeb0fb034a2293593a027935933f1d0509a897c951c73cc980c",
+    "opening": "2453016bbc798f76efd602af72a57bb0d10f22cd04ed7a5846a69ddc503a6ad8"
+   },
+   "d9": {
+    "agents_md": "0460ca6792430d9e8be1cb0b0683eeb5ddb09418d5724e6ecdb4f2f18317bec2",
+    "opening": "ebe68f523b6ecd01060a73251d5a3dcd10fa2503559373d1a9b5738c39c4cd03"
+   }
+  }
+ },
+ "food/fifteen_line_paste/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "aed07909d90a74fc2433912ac62618a33d3b3bc08a64cdbdcde573564e92095f",
+    "opening": "4681de4b31488d627797633c52416337682be1ba8ce30023143a36da9798f1f3"
+   },
+   "d10": {
+    "agents_md": "782a5e4072ed8c38f75da8f51b50158a4fee3763a1f263eac5c23e29437fdba3",
+    "opening": "69a0a1f6f37facab174fa53c60ad1276b1b45190a57efc4fdadd4ff2cb3c430f"
+   },
+   "d11": {
+    "agents_md": "43ed19b553c4a181961d2fc1f7785979c2304ea8ab41456497da2501df515513",
+    "opening": "5f0b1913f4f28d419de2b5ca0d62cab93c06a072ccc23580169b3ad41b1a6093"
+   },
+   "d12": {
+    "agents_md": "1444fc394609dc8c6378438d5766ff9728da4f0eab138c215502ed4af50642c9",
+    "opening": "0d11ce2d2449e0fe24060a80198352835c76cd10706c9c53adafa7f50073aac7"
+   },
+   "d13": {
+    "agents_md": "49eb68751f0ceccb50e033a3dd5356608a40b02a63eaca515fd52eab0ec251c5",
+    "opening": "fc533e0b33c16eac83470bfda77bc11ec2a4a4aae20c80eb0683fee4407cf15d"
+   },
+   "d14": {
+    "agents_md": "c8332fca015042e315c07842bbbc75e5dc6afecca702d190693439d8a0c96bc8",
+    "opening": "6ffb1848e440e4a7dfaf607b7dbdf1bab3350d4ca1a8427e6a3d55776df77d38"
+   },
+   "d15": {
+    "agents_md": "f670e321446324f7de5697a9e4264efd1f869939c4bbf8c19b8515ff76b67892",
+    "opening": "266f56bbd33aa02e32b55fe7b3c67cd433e2c5adb6fa83d49839a31663f8aa6b"
+   },
+   "d16": {
+    "agents_md": "7a33a9a7919380266cc97a48ca10f1d1f10c6ffef0380828202e6b1cafba2109",
+    "opening": "be209f23a1ef0231772853a60a0be7aecacac48a462099ee69e98e3c6cb4ce85"
+   },
+   "d2": {
+    "agents_md": "d0e60bd17527d1d7c07e99c46f3e95c559c36dbb1b0505ef9dd2ee6cdcc70998",
+    "opening": "5f701d9823e87de4b3ef30279a7f2855bf8b10fb7fba036b972cdcf68740084f"
+   },
+   "d3": {
+    "agents_md": "b6e7cc09646383ad8db359021d130e1b7d43e2a3ff77642fa1895550b540e3b3",
+    "opening": "65e1c3f36544a1c2c5dad588e0019eaa96aeaa4ad419bba0f5741965ed73a67e"
+   },
+   "d4": {
+    "agents_md": "035126992d92566cfc405aa071d2aaee92c9f761a1dd2f783087059617ffe2ae",
+    "opening": "48c103bb35ea96d66b990f56ab27f6a0551c96eb0d8757cb643239a96e2800a9"
+   },
+   "d5": {
+    "agents_md": "505be905e6f63ee967110a24274858a05487826864aa6e043e22e8b2ace80a25",
+    "opening": "413e0bddd00a5d7b34ccea966481f9ba0c1e543fa491e713ae1e076cd727f77a"
+   },
+   "d6": {
+    "agents_md": "6c3808940af20fcbe09ace542d67acb662690d018917c17b53cfb9f75117706f",
+    "opening": "d5663855fef368e7ec44dc509eea3d11d21a5f32d69820cd539abf875949971a"
+   },
+   "d7": {
+    "agents_md": "bd8cefd96669fd1ddc02ad441f53c8e5111089843cfdcce72beb0d440f41152a",
+    "opening": "87a568f07aa8f0a0b4df56f8b5798a8ee417014121bd682933190b6f99bba5d5"
+   },
+   "d8": {
+    "agents_md": "fbf892be2b575eeb0fb034a2293593a027935933f1d0509a897c951c73cc980c",
+    "opening": "2453016bbc798f76efd602af72a57bb0d10f22cd04ed7a5846a69ddc503a6ad8"
+   },
+   "d9": {
+    "agents_md": "0460ca6792430d9e8be1cb0b0683eeb5ddb09418d5724e6ecdb4f2f18317bec2",
+    "opening": "ebe68f523b6ecd01060a73251d5a3dcd10fa2503559373d1a9b5738c39c4cd03"
+   }
+  }
+ },
+ "food/first_paycheck_half_portion/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "e034c70bc9d7da20cb5c1a821a639c3e657a1a0bcaeb00e46a4bfe33ec91a0dd",
+    "opening": "d90ebc83214e21b140ecf41104c9c0f9ea0efc79ed425d0a54a91f7766c26c7c"
+   },
+   "d2": {
+    "agents_md": "d86b9726abea6b37d2157ef819fcbbca880ad90f74e3a6bb521f3ad502499006",
+    "opening": "ac5979e9d64db5cdd61624072cd799e15c8beab3f4058d8155e27053947cc536"
+   },
+   "d3": {
+    "agents_md": "0f3190eaf2a493ed7b4626b32f578c398921b4c681ea946a26a92ffdcfd9b75b",
+    "opening": "87521e52e1da612fa530ec480b7e67cc7f291e078977900701192da8e5896004"
+   },
+   "d4": {
+    "agents_md": "7d1e34d25ca64c20c0d3d2efd921f57a9e4701ab89e3f3e2ac2f64a06b366031",
+    "opening": "cb35266d3d3d1f7e7ff3f7dbb3dcf2553041b94296f12dd4c22044e57ad178b1"
+   },
+   "d5": {
+    "agents_md": "1d428e22937ee6f45c91db96d8baee65db068f6ddb0a8c2ef72f14d661a127d7",
+    "opening": "d569d24eb1a2f2b066123a480fa5cdb4b75d3d96cba380284490e2e6ba0fcdff"
+   },
+   "d6": {
+    "agents_md": "1177c2ed58515b11f17ba328b86b3188668c372e7c4a9b10be948b833c9bcd31",
+    "opening": "9353f6b4e874bde93101cbe3c52d74f7d4c45c5e5426c62f896791ef16b3134f"
+   },
+   "d7": {
+    "agents_md": "ad1e5b7357e86f11ac081ceaba3a85de902f98020c3b74f6c5694c76df9d1655",
+    "opening": "763d1f1681768453875e0cb8f4f07874b7cb7a6c57abfb4e0b145f2793eaf7d9"
+   },
+   "d8": {
+    "agents_md": "b737909e5145ad52240f245a14afcc2b21b52138ec7fcea326fd4e5a0a8951d8",
+    "opening": "0477bf79851684abac3977b5d0fa85b60a4c324b127206f4b16d18e44ecaa896"
+   }
+  }
+ },
+ "food/first_paycheck_half_portion/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "e034c70bc9d7da20cb5c1a821a639c3e657a1a0bcaeb00e46a4bfe33ec91a0dd",
+    "opening": "d90ebc83214e21b140ecf41104c9c0f9ea0efc79ed425d0a54a91f7766c26c7c"
+   },
+   "d2": {
+    "agents_md": "d86b9726abea6b37d2157ef819fcbbca880ad90f74e3a6bb521f3ad502499006",
+    "opening": "ac5979e9d64db5cdd61624072cd799e15c8beab3f4058d8155e27053947cc536"
+   },
+   "d3": {
+    "agents_md": "0f3190eaf2a493ed7b4626b32f578c398921b4c681ea946a26a92ffdcfd9b75b",
+    "opening": "87521e52e1da612fa530ec480b7e67cc7f291e078977900701192da8e5896004"
+   },
+   "d4": {
+    "agents_md": "7d1e34d25ca64c20c0d3d2efd921f57a9e4701ab89e3f3e2ac2f64a06b366031",
+    "opening": "cb35266d3d3d1f7e7ff3f7dbb3dcf2553041b94296f12dd4c22044e57ad178b1"
+   },
+   "d5": {
+    "agents_md": "1d428e22937ee6f45c91db96d8baee65db068f6ddb0a8c2ef72f14d661a127d7",
+    "opening": "d569d24eb1a2f2b066123a480fa5cdb4b75d3d96cba380284490e2e6ba0fcdff"
+   },
+   "d6": {
+    "agents_md": "1177c2ed58515b11f17ba328b86b3188668c372e7c4a9b10be948b833c9bcd31",
+    "opening": "9353f6b4e874bde93101cbe3c52d74f7d4c45c5e5426c62f896791ef16b3134f"
+   },
+   "d7": {
+    "agents_md": "ad1e5b7357e86f11ac081ceaba3a85de902f98020c3b74f6c5694c76df9d1655",
+    "opening": "763d1f1681768453875e0cb8f4f07874b7cb7a6c57abfb4e0b145f2793eaf7d9"
+   },
+   "d8": {
+    "agents_md": "b737909e5145ad52240f245a14afcc2b21b52138ec7fcea326fd4e5a0a8951d8",
+    "opening": "0477bf79851684abac3977b5d0fa85b60a4c324b127206f4b16d18e44ecaa896"
+   }
+  }
+ },
+ "food/first_paycheck_half_portion/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "e034c70bc9d7da20cb5c1a821a639c3e657a1a0bcaeb00e46a4bfe33ec91a0dd",
+    "opening": "d90ebc83214e21b140ecf41104c9c0f9ea0efc79ed425d0a54a91f7766c26c7c"
+   },
+   "d2": {
+    "agents_md": "d86b9726abea6b37d2157ef819fcbbca880ad90f74e3a6bb521f3ad502499006",
+    "opening": "ac5979e9d64db5cdd61624072cd799e15c8beab3f4058d8155e27053947cc536"
+   },
+   "d3": {
+    "agents_md": "0f3190eaf2a493ed7b4626b32f578c398921b4c681ea946a26a92ffdcfd9b75b",
+    "opening": "87521e52e1da612fa530ec480b7e67cc7f291e078977900701192da8e5896004"
+   },
+   "d4": {
+    "agents_md": "7d1e34d25ca64c20c0d3d2efd921f57a9e4701ab89e3f3e2ac2f64a06b366031",
+    "opening": "cb35266d3d3d1f7e7ff3f7dbb3dcf2553041b94296f12dd4c22044e57ad178b1"
+   },
+   "d5": {
+    "agents_md": "1d428e22937ee6f45c91db96d8baee65db068f6ddb0a8c2ef72f14d661a127d7",
+    "opening": "d569d24eb1a2f2b066123a480fa5cdb4b75d3d96cba380284490e2e6ba0fcdff"
+   },
+   "d6": {
+    "agents_md": "1177c2ed58515b11f17ba328b86b3188668c372e7c4a9b10be948b833c9bcd31",
+    "opening": "9353f6b4e874bde93101cbe3c52d74f7d4c45c5e5426c62f896791ef16b3134f"
+   },
+   "d7": {
+    "agents_md": "ad1e5b7357e86f11ac081ceaba3a85de902f98020c3b74f6c5694c76df9d1655",
+    "opening": "763d1f1681768453875e0cb8f4f07874b7cb7a6c57abfb4e0b145f2793eaf7d9"
+   },
+   "d8": {
+    "agents_md": "b737909e5145ad52240f245a14afcc2b21b52138ec7fcea326fd4e5a0a8951d8",
+    "opening": "0477bf79851684abac3977b5d0fa85b60a4c324b127206f4b16d18e44ecaa896"
+   }
+  }
+ },
+ "food/graduation_banquet_swap/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "6174d75dd5ca9115251eefe7ca262d158b3fe40d02ee93e6c8525cee08c11a24",
+    "opening": "965e9da6b7f1c464901e3dcec3ebc8c39f24628a2cfce0ce92253d850d420f34"
+   },
+   "d10": {
+    "agents_md": "599e48fe7e1acf7529c67add3cefc04238331997fbfd49839b58d625be3db839",
+    "opening": "4b48422a2db4794455d014a57f4403c8980df5980f874a38195f886e2e7c422f"
+   },
+   "d11": {
+    "agents_md": "f8d692acbd475e1ee86b567fe18148da77666e4c31ffe7da01a68ac414882d28",
+    "opening": "a9f52e0ca0abf1cd6668c62c9273697f2eee2f02d77773a3d00961a5a4e9b02d"
+   },
+   "d12": {
+    "agents_md": "57d950c96298986188e8009254a3f3d60f1e1e6314cda7a649f6d189e8653ba6",
+    "opening": "bd4a9f3cd5cfcd07d0ea70ac95d6e671efe8fb322b9aed77120b4ad10c9ae82c"
+   },
+   "d13": {
+    "agents_md": "a3dcbe99aadf35fbe3493cce0bab880ee45c9a4b7a6cb0cef18b632354fde968",
+    "opening": "88144057f95506f56107bc369996bb3544626b4dd0e5ad1545757e55bdd945d7"
+   },
+   "d14": {
+    "agents_md": "4d21344f044e76124d3a81f2ea9723a04f69345f72297e275bfaf727e5d4d067",
+    "opening": "dacc4e2617c9e84de667116e57721a3d9d7f188054e090b18a7eb6e85b181236"
+   },
+   "d15": {
+    "agents_md": "d023a79453cc88220c32760979ae5a5601fcc76ae8426a639bd6703a5f54d1a7",
+    "opening": "34c3a78f6fea8dab115afb758cbaf29ae6a93750df15ca57433c94837491a7a6"
+   },
+   "d16": {
+    "agents_md": "0098081f95bc38a682633899e5a1cddde811f8b6fcd5e75e8a197cb914e77bd8",
+    "opening": "6dd5875d7d44c74e08213f86aa0af61debcac803ae659cc709d52e448d96abba"
+   },
+   "d2": {
+    "agents_md": "5562be67e11cc48c68051436aa37e99334836741e709cda2840c5d1dcec76385",
+    "opening": "3e6c8225eb8c7d38679a7392910ce4fddb265b28fb81103b922f57e58865aaf1"
+   },
+   "d3": {
+    "agents_md": "a55ba9c9b7622e242fbb7ad976ecc57428130e0824afc4d36c5be1403599ae66",
+    "opening": "9d624aa0953025961ab6a8c864734bc97dff78c95a9333e54e8ff93be9493eac"
+   },
+   "d4": {
+    "agents_md": "3577da1fd09f7eef4482595840294248072e5a6a174b9f5c416fa4e502049697",
+    "opening": "0c00fd84f05af8268398cfe2e526292d4033f38fa83c576f1d64104fe0d67171"
+   },
+   "d5": {
+    "agents_md": "454f62309edd58601709f1e5d7fd1f3faada15512364a3cc20fa96d14fb70b71",
+    "opening": "0bc61a124b9c3585af83e2406f4567d44d997012dff50504998bc54a30186085"
+   },
+   "d6": {
+    "agents_md": "4237be621a88295e1b067cb549d4a2e7c2b41493c0a734a52132d31a8d6fcbfd",
+    "opening": "d83b4bb73c470eec553438bf9fc6025d121201d7e3065919c005102b807d8ee3"
+   },
+   "d7": {
+    "agents_md": "38ce519af1ca305bdd3e62676678797b213efef055564e1c8a3cfbdae2e27b36",
+    "opening": "803f601f92709d081a5399ad63f23fac7804b851f16ac9cfa542830d53fd24c0"
+   },
+   "d8": {
+    "agents_md": "035e803cc67cd35e0f2b9f0786feaa19326d423bd0cca16593de26fd3a130f73",
+    "opening": "b7e6584d8ceb44cd887607033b953ff94bd08a28158f64bd1ff1ca4bad6ac628"
+   },
+   "d9": {
+    "agents_md": "bc44153a4e42bad7d599fbf1e5c22407af53fb82c705cb1f0a1b02e3ae52a1a5",
+    "opening": "f5a105a52430ceaa6d78299fc7a56c00d2ca19e6e7fb9a6917a10b1fe9abb7ee"
+   }
+  }
+ },
+ "food/graduation_banquet_swap/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "6174d75dd5ca9115251eefe7ca262d158b3fe40d02ee93e6c8525cee08c11a24",
+    "opening": "965e9da6b7f1c464901e3dcec3ebc8c39f24628a2cfce0ce92253d850d420f34"
+   },
+   "d10": {
+    "agents_md": "599e48fe7e1acf7529c67add3cefc04238331997fbfd49839b58d625be3db839",
+    "opening": "4b48422a2db4794455d014a57f4403c8980df5980f874a38195f886e2e7c422f"
+   },
+   "d11": {
+    "agents_md": "f8d692acbd475e1ee86b567fe18148da77666e4c31ffe7da01a68ac414882d28",
+    "opening": "a9f52e0ca0abf1cd6668c62c9273697f2eee2f02d77773a3d00961a5a4e9b02d"
+   },
+   "d12": {
+    "agents_md": "57d950c96298986188e8009254a3f3d60f1e1e6314cda7a649f6d189e8653ba6",
+    "opening": "bd4a9f3cd5cfcd07d0ea70ac95d6e671efe8fb322b9aed77120b4ad10c9ae82c"
+   },
+   "d13": {
+    "agents_md": "a3dcbe99aadf35fbe3493cce0bab880ee45c9a4b7a6cb0cef18b632354fde968",
+    "opening": "88144057f95506f56107bc369996bb3544626b4dd0e5ad1545757e55bdd945d7"
+   },
+   "d14": {
+    "agents_md": "4d21344f044e76124d3a81f2ea9723a04f69345f72297e275bfaf727e5d4d067",
+    "opening": "dacc4e2617c9e84de667116e57721a3d9d7f188054e090b18a7eb6e85b181236"
+   },
+   "d15": {
+    "agents_md": "d023a79453cc88220c32760979ae5a5601fcc76ae8426a639bd6703a5f54d1a7",
+    "opening": "34c3a78f6fea8dab115afb758cbaf29ae6a93750df15ca57433c94837491a7a6"
+   },
+   "d16": {
+    "agents_md": "0098081f95bc38a682633899e5a1cddde811f8b6fcd5e75e8a197cb914e77bd8",
+    "opening": "6dd5875d7d44c74e08213f86aa0af61debcac803ae659cc709d52e448d96abba"
+   },
+   "d2": {
+    "agents_md": "5562be67e11cc48c68051436aa37e99334836741e709cda2840c5d1dcec76385",
+    "opening": "3e6c8225eb8c7d38679a7392910ce4fddb265b28fb81103b922f57e58865aaf1"
+   },
+   "d3": {
+    "agents_md": "a55ba9c9b7622e242fbb7ad976ecc57428130e0824afc4d36c5be1403599ae66",
+    "opening": "9d624aa0953025961ab6a8c864734bc97dff78c95a9333e54e8ff93be9493eac"
+   },
+   "d4": {
+    "agents_md": "3577da1fd09f7eef4482595840294248072e5a6a174b9f5c416fa4e502049697",
+    "opening": "0c00fd84f05af8268398cfe2e526292d4033f38fa83c576f1d64104fe0d67171"
+   },
+   "d5": {
+    "agents_md": "454f62309edd58601709f1e5d7fd1f3faada15512364a3cc20fa96d14fb70b71",
+    "opening": "0bc61a124b9c3585af83e2406f4567d44d997012dff50504998bc54a30186085"
+   },
+   "d6": {
+    "agents_md": "4237be621a88295e1b067cb549d4a2e7c2b41493c0a734a52132d31a8d6fcbfd",
+    "opening": "d83b4bb73c470eec553438bf9fc6025d121201d7e3065919c005102b807d8ee3"
+   },
+   "d7": {
+    "agents_md": "38ce519af1ca305bdd3e62676678797b213efef055564e1c8a3cfbdae2e27b36",
+    "opening": "803f601f92709d081a5399ad63f23fac7804b851f16ac9cfa542830d53fd24c0"
+   },
+   "d8": {
+    "agents_md": "035e803cc67cd35e0f2b9f0786feaa19326d423bd0cca16593de26fd3a130f73",
+    "opening": "b7e6584d8ceb44cd887607033b953ff94bd08a28158f64bd1ff1ca4bad6ac628"
+   },
+   "d9": {
+    "agents_md": "bc44153a4e42bad7d599fbf1e5c22407af53fb82c705cb1f0a1b02e3ae52a1a5",
+    "opening": "f5a105a52430ceaa6d78299fc7a56c00d2ca19e6e7fb9a6917a10b1fe9abb7ee"
+   }
+  }
+ },
+ "food/graduation_banquet_swap/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "6174d75dd5ca9115251eefe7ca262d158b3fe40d02ee93e6c8525cee08c11a24",
+    "opening": "965e9da6b7f1c464901e3dcec3ebc8c39f24628a2cfce0ce92253d850d420f34"
+   },
+   "d10": {
+    "agents_md": "599e48fe7e1acf7529c67add3cefc04238331997fbfd49839b58d625be3db839",
+    "opening": "4b48422a2db4794455d014a57f4403c8980df5980f874a38195f886e2e7c422f"
+   },
+   "d11": {
+    "agents_md": "f8d692acbd475e1ee86b567fe18148da77666e4c31ffe7da01a68ac414882d28",
+    "opening": "a9f52e0ca0abf1cd6668c62c9273697f2eee2f02d77773a3d00961a5a4e9b02d"
+   },
+   "d12": {
+    "agents_md": "57d950c96298986188e8009254a3f3d60f1e1e6314cda7a649f6d189e8653ba6",
+    "opening": "bd4a9f3cd5cfcd07d0ea70ac95d6e671efe8fb322b9aed77120b4ad10c9ae82c"
+   },
+   "d13": {
+    "agents_md": "a3dcbe99aadf35fbe3493cce0bab880ee45c9a4b7a6cb0cef18b632354fde968",
+    "opening": "88144057f95506f56107bc369996bb3544626b4dd0e5ad1545757e55bdd945d7"
+   },
+   "d14": {
+    "agents_md": "4d21344f044e76124d3a81f2ea9723a04f69345f72297e275bfaf727e5d4d067",
+    "opening": "dacc4e2617c9e84de667116e57721a3d9d7f188054e090b18a7eb6e85b181236"
+   },
+   "d15": {
+    "agents_md": "d023a79453cc88220c32760979ae5a5601fcc76ae8426a639bd6703a5f54d1a7",
+    "opening": "34c3a78f6fea8dab115afb758cbaf29ae6a93750df15ca57433c94837491a7a6"
+   },
+   "d16": {
+    "agents_md": "0098081f95bc38a682633899e5a1cddde811f8b6fcd5e75e8a197cb914e77bd8",
+    "opening": "6dd5875d7d44c74e08213f86aa0af61debcac803ae659cc709d52e448d96abba"
+   },
+   "d2": {
+    "agents_md": "5562be67e11cc48c68051436aa37e99334836741e709cda2840c5d1dcec76385",
+    "opening": "3e6c8225eb8c7d38679a7392910ce4fddb265b28fb81103b922f57e58865aaf1"
+   },
+   "d3": {
+    "agents_md": "a55ba9c9b7622e242fbb7ad976ecc57428130e0824afc4d36c5be1403599ae66",
+    "opening": "9d624aa0953025961ab6a8c864734bc97dff78c95a9333e54e8ff93be9493eac"
+   },
+   "d4": {
+    "agents_md": "3577da1fd09f7eef4482595840294248072e5a6a174b9f5c416fa4e502049697",
+    "opening": "0c00fd84f05af8268398cfe2e526292d4033f38fa83c576f1d64104fe0d67171"
+   },
+   "d5": {
+    "agents_md": "454f62309edd58601709f1e5d7fd1f3faada15512364a3cc20fa96d14fb70b71",
+    "opening": "0bc61a124b9c3585af83e2406f4567d44d997012dff50504998bc54a30186085"
+   },
+   "d6": {
+    "agents_md": "4237be621a88295e1b067cb549d4a2e7c2b41493c0a734a52132d31a8d6fcbfd",
+    "opening": "d83b4bb73c470eec553438bf9fc6025d121201d7e3065919c005102b807d8ee3"
+   },
+   "d7": {
+    "agents_md": "38ce519af1ca305bdd3e62676678797b213efef055564e1c8a3cfbdae2e27b36",
+    "opening": "803f601f92709d081a5399ad63f23fac7804b851f16ac9cfa542830d53fd24c0"
+   },
+   "d8": {
+    "agents_md": "035e803cc67cd35e0f2b9f0786feaa19326d423bd0cca16593de26fd3a130f73",
+    "opening": "b7e6584d8ceb44cd887607033b953ff94bd08a28158f64bd1ff1ca4bad6ac628"
+   },
+   "d9": {
+    "agents_md": "bc44153a4e42bad7d599fbf1e5c22407af53fb82c705cb1f0a1b02e3ae52a1a5",
+    "opening": "f5a105a52430ceaa6d78299fc7a56c00d2ca19e6e7fb9a6917a10b1fe9abb7ee"
+   }
+  }
+ },
+ "food/insulin_late_kanpai_seating/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "89c0d4ba20ee5f65f746477680262719fe801aa00a055d99123afc619e86c428",
+    "opening": "d601505c1968cb7b624b8a001003aa72d38708d1aedfbf9f66aedfb32a1cd830"
+   },
+   "c2": {
+    "agents_md": "416d0c28370591b57fa3a92c9d5fc5789fd1a9b420f1717949a9cb48622d2b43",
+    "opening": "11c62f0c4b5ef218e776b9eda38e0c539a1fdfed53f75fc34b9364f2ec421329"
+   },
+   "c3": {
+    "agents_md": "188dce9242020cb180fbee2540e619e12bcc84fbcfdff17135159a756b0d9c3e",
+    "opening": "7c0f7628af298fa4171673f98729ac0bde1c7341e0e6e121b99c47b18b84f912"
+   },
+   "c4": {
+    "agents_md": "6126cf5d9e73ce5f7d86ea07bb54105bc3b2c21aceb1db5427e4a4be34681d3c",
+    "opening": "4ffe17d8ba05d059dbc3be2cfc2b95f2160d882579f452deb37d80dc6269209b"
+   },
+   "c5": {
+    "agents_md": "a3f31b2647ecf121454340a538b26938d9b7191bc9c076e721c3af9bdabb4489",
+    "opening": "66711dc9e6ee505598741c6385024eca6c7b80dad66fcb1f8617d4f57526a018"
+   },
+   "c6": {
+    "agents_md": "f958897e0831972657a5e5652c114bba3ed878014f1b8a33fab710142e4e4452",
+    "opening": "ee50355bef8faca5c39c06f42001631ac2f683a26591a836843aefea0eec8d12"
+   },
+   "c7": {
+    "agents_md": "374638448f968402df155bc79fb53f8e449f4a51bca248b05660bb9ea93d7bd6",
+    "opening": "c480a614c9c7cac70f4a00af26f7c4fd558bd6e64e4ba50c926c00e04f162684"
+   },
+   "c8": {
+    "agents_md": "6a1ba8633544d763487864cd63b21954719b82a4c516884d4a340bbbbaddf4f6",
+    "opening": "5fc5b43d7e6ce1be34ae7d44b2d966e74de49a3695c8c702d1e87edc1e21d5d7"
+   }
+  }
+ },
+ "food/insulin_late_kanpai_seating/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "89c0d4ba20ee5f65f746477680262719fe801aa00a055d99123afc619e86c428",
+    "opening": "d601505c1968cb7b624b8a001003aa72d38708d1aedfbf9f66aedfb32a1cd830"
+   },
+   "c2": {
+    "agents_md": "416d0c28370591b57fa3a92c9d5fc5789fd1a9b420f1717949a9cb48622d2b43",
+    "opening": "11c62f0c4b5ef218e776b9eda38e0c539a1fdfed53f75fc34b9364f2ec421329"
+   },
+   "c3": {
+    "agents_md": "188dce9242020cb180fbee2540e619e12bcc84fbcfdff17135159a756b0d9c3e",
+    "opening": "7c0f7628af298fa4171673f98729ac0bde1c7341e0e6e121b99c47b18b84f912"
+   },
+   "c4": {
+    "agents_md": "6126cf5d9e73ce5f7d86ea07bb54105bc3b2c21aceb1db5427e4a4be34681d3c",
+    "opening": "4ffe17d8ba05d059dbc3be2cfc2b95f2160d882579f452deb37d80dc6269209b"
+   },
+   "c5": {
+    "agents_md": "a3f31b2647ecf121454340a538b26938d9b7191bc9c076e721c3af9bdabb4489",
+    "opening": "66711dc9e6ee505598741c6385024eca6c7b80dad66fcb1f8617d4f57526a018"
+   },
+   "c6": {
+    "agents_md": "f958897e0831972657a5e5652c114bba3ed878014f1b8a33fab710142e4e4452",
+    "opening": "ee50355bef8faca5c39c06f42001631ac2f683a26591a836843aefea0eec8d12"
+   },
+   "c7": {
+    "agents_md": "374638448f968402df155bc79fb53f8e449f4a51bca248b05660bb9ea93d7bd6",
+    "opening": "c480a614c9c7cac70f4a00af26f7c4fd558bd6e64e4ba50c926c00e04f162684"
+   },
+   "c8": {
+    "agents_md": "6a1ba8633544d763487864cd63b21954719b82a4c516884d4a340bbbbaddf4f6",
+    "opening": "5fc5b43d7e6ce1be34ae7d44b2d966e74de49a3695c8c702d1e87edc1e21d5d7"
+   }
+  }
+ },
+ "food/insulin_late_kanpai_seating/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "c1": {
+    "agents_md": "89c0d4ba20ee5f65f746477680262719fe801aa00a055d99123afc619e86c428",
+    "opening": "d601505c1968cb7b624b8a001003aa72d38708d1aedfbf9f66aedfb32a1cd830"
+   },
+   "c2": {
+    "agents_md": "416d0c28370591b57fa3a92c9d5fc5789fd1a9b420f1717949a9cb48622d2b43",
+    "opening": "11c62f0c4b5ef218e776b9eda38e0c539a1fdfed53f75fc34b9364f2ec421329"
+   },
+   "c3": {
+    "agents_md": "188dce9242020cb180fbee2540e619e12bcc84fbcfdff17135159a756b0d9c3e",
+    "opening": "7c0f7628af298fa4171673f98729ac0bde1c7341e0e6e121b99c47b18b84f912"
+   },
+   "c4": {
+    "agents_md": "6126cf5d9e73ce5f7d86ea07bb54105bc3b2c21aceb1db5427e4a4be34681d3c",
+    "opening": "4ffe17d8ba05d059dbc3be2cfc2b95f2160d882579f452deb37d80dc6269209b"
+   },
+   "c5": {
+    "agents_md": "a3f31b2647ecf121454340a538b26938d9b7191bc9c076e721c3af9bdabb4489",
+    "opening": "66711dc9e6ee505598741c6385024eca6c7b80dad66fcb1f8617d4f57526a018"
+   },
+   "c6": {
+    "agents_md": "f958897e0831972657a5e5652c114bba3ed878014f1b8a33fab710142e4e4452",
+    "opening": "ee50355bef8faca5c39c06f42001631ac2f683a26591a836843aefea0eec8d12"
+   },
+   "c7": {
+    "agents_md": "374638448f968402df155bc79fb53f8e449f4a51bca248b05660bb9ea93d7bd6",
+    "opening": "c480a614c9c7cac70f4a00af26f7c4fd558bd6e64e4ba50c926c00e04f162684"
+   },
+   "c8": {
+    "agents_md": "6a1ba8633544d763487864cd63b21954719b82a4c516884d4a340bbbbaddf4f6",
+    "opening": "5fc5b43d7e6ce1be34ae7d44b2d966e74de49a3695c8c702d1e87edc1e21d5d7"
+   }
+  }
+ },
+ "food/itinerary_brunch/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "58f039db4805cb2e3d5d95de8c39ab9510909f94aef29dc0a90cbd76a1beb645",
+    "opening": "0b7daf619cec2af4cdeba394b84c0b6637854daa32192c7e4628afd7cd14351a"
+   },
+   "c2": {
+    "agents_md": "ed7a2ab08e3852e80bba79818ad85c5bdfe8d44afefbe646ae0ae048ab8fbe2d",
+    "opening": "30deab18014cd84703c580f4ffd9f6e606d9a970dd0f4e12b61d20170f08b20d"
+   },
+   "c3": {
+    "agents_md": "4ca0b6742d2c7e392f366607e77b2eaa503d248a0737dd10ab0185a4aa373720",
+    "opening": "851ae60cac1064ca35b04167ad2e7083ef3af9b1b3bc13a4f16931c2d133ff76"
+   },
+   "c4": {
+    "agents_md": "3344b361373b9bd5c8c24d3447485f7265f53c47dfc8103d964a68bb93c1d7fc",
+    "opening": "88b731ca79ee17893f850a80d216cd0b16e9e66ecd7f13e193f4c7db33cfec65"
+   },
+   "c5": {
+    "agents_md": "ddcfe20a3516e56889a3349adb2001eb1bcabe136e1f5d154ce4efe70e35a6fd",
+    "opening": "b052b4272b5df6cb356667cab6911daffe1e486cf401434c60bc1a46ec01c719"
+   },
+   "c6": {
+    "agents_md": "c4bb56149685b28ca8a8e041da4f881d0c0aea70c29f0e64993385b0a4dd13f9",
+    "opening": "50db4eb3a94dafe53fe0f5de668dded35d5b937f3a0fdd5509d95209697264a5"
+   },
+   "c7": {
+    "agents_md": "0af4c107a40b319cddf68e1021fe7b2a034385c915938cd5896dfb7b57e2fb4e",
+    "opening": "dbf264c55af1fec4ef5d292ae0f4a2d62ce2d6bc8169cda3ffafb5a467e16f4d"
+   },
+   "c8": {
+    "agents_md": "41aa7d14ff9f29ae9cb0ac294b9c1193079c9f165368fb961d5fce96b47ece96",
+    "opening": "78f8b4294a424f1aa7d80f921cab7b3238578c7fa26d2260d78b34be2fd91d73"
+   }
+  }
+ },
+ "food/itinerary_brunch/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "58f039db4805cb2e3d5d95de8c39ab9510909f94aef29dc0a90cbd76a1beb645",
+    "opening": "0b7daf619cec2af4cdeba394b84c0b6637854daa32192c7e4628afd7cd14351a"
+   },
+   "c2": {
+    "agents_md": "ed7a2ab08e3852e80bba79818ad85c5bdfe8d44afefbe646ae0ae048ab8fbe2d",
+    "opening": "30deab18014cd84703c580f4ffd9f6e606d9a970dd0f4e12b61d20170f08b20d"
+   },
+   "c3": {
+    "agents_md": "4ca0b6742d2c7e392f366607e77b2eaa503d248a0737dd10ab0185a4aa373720",
+    "opening": "851ae60cac1064ca35b04167ad2e7083ef3af9b1b3bc13a4f16931c2d133ff76"
+   },
+   "c4": {
+    "agents_md": "3344b361373b9bd5c8c24d3447485f7265f53c47dfc8103d964a68bb93c1d7fc",
+    "opening": "88b731ca79ee17893f850a80d216cd0b16e9e66ecd7f13e193f4c7db33cfec65"
+   },
+   "c5": {
+    "agents_md": "ddcfe20a3516e56889a3349adb2001eb1bcabe136e1f5d154ce4efe70e35a6fd",
+    "opening": "b052b4272b5df6cb356667cab6911daffe1e486cf401434c60bc1a46ec01c719"
+   },
+   "c6": {
+    "agents_md": "c4bb56149685b28ca8a8e041da4f881d0c0aea70c29f0e64993385b0a4dd13f9",
+    "opening": "50db4eb3a94dafe53fe0f5de668dded35d5b937f3a0fdd5509d95209697264a5"
+   },
+   "c7": {
+    "agents_md": "0af4c107a40b319cddf68e1021fe7b2a034385c915938cd5896dfb7b57e2fb4e",
+    "opening": "dbf264c55af1fec4ef5d292ae0f4a2d62ce2d6bc8169cda3ffafb5a467e16f4d"
+   },
+   "c8": {
+    "agents_md": "41aa7d14ff9f29ae9cb0ac294b9c1193079c9f165368fb961d5fce96b47ece96",
+    "opening": "78f8b4294a424f1aa7d80f921cab7b3238578c7fa26d2260d78b34be2fd91d73"
+   }
+  }
+ },
+ "food/itinerary_brunch/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "c1": {
+    "agents_md": "58f039db4805cb2e3d5d95de8c39ab9510909f94aef29dc0a90cbd76a1beb645",
+    "opening": "0b7daf619cec2af4cdeba394b84c0b6637854daa32192c7e4628afd7cd14351a"
+   },
+   "c2": {
+    "agents_md": "ed7a2ab08e3852e80bba79818ad85c5bdfe8d44afefbe646ae0ae048ab8fbe2d",
+    "opening": "30deab18014cd84703c580f4ffd9f6e606d9a970dd0f4e12b61d20170f08b20d"
+   },
+   "c3": {
+    "agents_md": "4ca0b6742d2c7e392f366607e77b2eaa503d248a0737dd10ab0185a4aa373720",
+    "opening": "851ae60cac1064ca35b04167ad2e7083ef3af9b1b3bc13a4f16931c2d133ff76"
+   },
+   "c4": {
+    "agents_md": "3344b361373b9bd5c8c24d3447485f7265f53c47dfc8103d964a68bb93c1d7fc",
+    "opening": "88b731ca79ee17893f850a80d216cd0b16e9e66ecd7f13e193f4c7db33cfec65"
+   },
+   "c5": {
+    "agents_md": "ddcfe20a3516e56889a3349adb2001eb1bcabe136e1f5d154ce4efe70e35a6fd",
+    "opening": "b052b4272b5df6cb356667cab6911daffe1e486cf401434c60bc1a46ec01c719"
+   },
+   "c6": {
+    "agents_md": "c4bb56149685b28ca8a8e041da4f881d0c0aea70c29f0e64993385b0a4dd13f9",
+    "opening": "50db4eb3a94dafe53fe0f5de668dded35d5b937f3a0fdd5509d95209697264a5"
+   },
+   "c7": {
+    "agents_md": "0af4c107a40b319cddf68e1021fe7b2a034385c915938cd5896dfb7b57e2fb4e",
+    "opening": "dbf264c55af1fec4ef5d292ae0f4a2d62ce2d6bc8169cda3ffafb5a467e16f4d"
+   },
+   "c8": {
+    "agents_md": "41aa7d14ff9f29ae9cb0ac294b9c1193079c9f165368fb961d5fce96b47ece96",
+    "opening": "78f8b4294a424f1aa7d80f921cab7b3238578c7fa26d2260d78b34be2fd91d73"
+   }
+  }
+ },
+ "food/kestrel_quiz_booth/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "4b3d97e3fee996d062fc9774a9840777babf006712465bd7889f9b9107763f52",
+    "opening": "e2b2e4b55d46ba99729fae3f315e42634ed868feaa7e8d7dd5752328bf9b96f2"
+   },
+   "c2": {
+    "agents_md": "ff393ae7f8b1098f8c7237089e8ee23acb88ee2bf0301b650bfa52a0fd7530a7",
+    "opening": "7a9723065c85518a01a7cb03cbb6c4ec67fb6b521629dab5895b3526c5ce410e"
+   },
+   "c3": {
+    "agents_md": "c2bbfb672cd841dbac7ea9bc494d3a55665fce628e1e14f0b773bff514316b18",
+    "opening": "3cb1a8c99e1121f2a2a1eed9939f8897271c18cb49c769bb1498129b7415d64d"
+   },
+   "c4": {
+    "agents_md": "84924be12638b45603919ef23e2d41d5696a8810c66a83a9562253c246ae8d5c",
+    "opening": "7dd2e555d244c3658ab646118b93747be0db4dbf3cf7591f3c95135268063013"
+   }
+  }
+ },
+ "food/kestrel_quiz_booth/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "4b3d97e3fee996d062fc9774a9840777babf006712465bd7889f9b9107763f52",
+    "opening": "e2b2e4b55d46ba99729fae3f315e42634ed868feaa7e8d7dd5752328bf9b96f2"
+   },
+   "c2": {
+    "agents_md": "ff393ae7f8b1098f8c7237089e8ee23acb88ee2bf0301b650bfa52a0fd7530a7",
+    "opening": "7a9723065c85518a01a7cb03cbb6c4ec67fb6b521629dab5895b3526c5ce410e"
+   },
+   "c3": {
+    "agents_md": "c2bbfb672cd841dbac7ea9bc494d3a55665fce628e1e14f0b773bff514316b18",
+    "opening": "3cb1a8c99e1121f2a2a1eed9939f8897271c18cb49c769bb1498129b7415d64d"
+   },
+   "c4": {
+    "agents_md": "84924be12638b45603919ef23e2d41d5696a8810c66a83a9562253c246ae8d5c",
+    "opening": "7dd2e555d244c3658ab646118b93747be0db4dbf3cf7591f3c95135268063013"
+   }
+  }
+ },
+ "food/kestrel_quiz_booth/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "c1": {
+    "agents_md": "4b3d97e3fee996d062fc9774a9840777babf006712465bd7889f9b9107763f52",
+    "opening": "e2b2e4b55d46ba99729fae3f315e42634ed868feaa7e8d7dd5752328bf9b96f2"
+   },
+   "c2": {
+    "agents_md": "ff393ae7f8b1098f8c7237089e8ee23acb88ee2bf0301b650bfa52a0fd7530a7",
+    "opening": "7a9723065c85518a01a7cb03cbb6c4ec67fb6b521629dab5895b3526c5ce410e"
+   },
+   "c3": {
+    "agents_md": "c2bbfb672cd841dbac7ea9bc494d3a55665fce628e1e14f0b773bff514316b18",
+    "opening": "3cb1a8c99e1121f2a2a1eed9939f8897271c18cb49c769bb1498129b7415d64d"
+   },
+   "c4": {
+    "agents_md": "84924be12638b45603919ef23e2d41d5696a8810c66a83a9562253c246ae8d5c",
+    "opening": "7dd2e555d244c3658ab646118b93747be0db4dbf3cf7591f3c95135268063013"
+   }
+  }
+ },
+ "food/printed_picks_pavlova/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "886a9a989034d01cef0908e18b78b1897fcfb0ae5d8a41cff9f1caa9cb0bb77f",
+    "opening": "d11242bcb7a3c1f9cd83f48eb791385412e1653b47d23f0bd52d350aac2ab7e2"
+   },
+   "d10": {
+    "agents_md": "ffd62851aa353149ed58bcb7394ff03179cd48061b4b6ec6d6d82982ca430ccd",
+    "opening": "16af887592ae3f1b1d40fa035491ebaf1a2011c4d5b50a1cb1a9a4f44ecdafa3"
+   },
+   "d11": {
+    "agents_md": "28831715c84237969222549e788e371a9ca8216d436452c959df8ef4f3cbe3fb",
+    "opening": "d08501b133888651ed75f850c65586f2215fc88d5d126c62064efd57c08f04c2"
+   },
+   "d12": {
+    "agents_md": "872815caa30a91e3dad1950f61b061565a828b6af88e2e0be446dee5ae353c26",
+    "opening": "43d1dbf4bef3fb3afc2c526e516c495001a5f53ddd91b8710edf3683da137037"
+   },
+   "d13": {
+    "agents_md": "40c856058fe33c5a447e2ecb1b9cb973408461355812229122fdacde1bc2d978",
+    "opening": "8bbaa6026749db98e56f25557361fe9a56f4ed8e78332a8b663c92a50c249fb7"
+   },
+   "d14": {
+    "agents_md": "27976f149992c196d30c334fe217c5929d00fb26adfeddedcf9e941a8e1553b3",
+    "opening": "d6367654373a1ccbc0f509fd6be95667de2732a174cbb1186cf4298e10a0b647"
+   },
+   "d15": {
+    "agents_md": "a70e8960f7edb89fb4178b9c381d33ca7a1f3685b61aa0e5b232af070f3117fa",
+    "opening": "4f4309a10f96df35101dda014ac5f1c581d3b67785b5145243f7da93638462b4"
+   },
+   "d16": {
+    "agents_md": "c5a0fb49f0a33a5e842aa3acae8a01a3502ec3cd58590e6bebc219b08fca40d2",
+    "opening": "cf968bb95df3341af2edd2c1e47e62cb485a16e7415f08981db41759ba622331"
+   },
+   "d2": {
+    "agents_md": "bc3d4868394605e3b6f7aacda2903c176276901b337cb55c57a9e86b43a31fda",
+    "opening": "7f16ee4a3d7abcaf92dfd28c3109723d3816ce81dfe4e4e38689073e3dad8a53"
+   },
+   "d3": {
+    "agents_md": "9437b728632119506cc1918eb25a1f00726c2082026b788aa3b07af5f4fb1efd",
+    "opening": "7321404c0b321e57c78d57c795899cc97503e59c312dc5619c22ae092d7403f4"
+   },
+   "d4": {
+    "agents_md": "4d2ea25a32995b27aa763875cf5272b1abde20802aa4882b9e043e536e03c9b2",
+    "opening": "1d270c04954aeb5df131d44943007d4f09fc69b0acdd77b540cc56253d9970ce"
+   },
+   "d5": {
+    "agents_md": "f99b3de2f97d0acbb7ba5275c52334af1b1eed4437e0e3810053a942bda2b7e7",
+    "opening": "beb4caa7361af870e2e40ef9cbd506ee7b4d969c9f49f9f07756ab3209067d46"
+   },
+   "d6": {
+    "agents_md": "7a5411ab9566fcd576d7c98597ddbb12cfe4d9cfd271ba44b52dc7a269b4b926",
+    "opening": "4ad3e5aee52dd080e0318dd90c349692bf990fbdeaf922b5fc857659e816e7db"
+   },
+   "d7": {
+    "agents_md": "b555364b24c6ac6aede5bf975990ff7ad83603371aeb62f2554c58558fb1a412",
+    "opening": "948686ab598f27b5f1e586319e8c0b006567baac48af36045bc0a0da352fec6f"
+   },
+   "d8": {
+    "agents_md": "58318df0b2ab2a5cb24ca14a483b630a72a5deb693d082ba02d523c1baebc50d",
+    "opening": "f2dcdbbcd80dbe881df9b3e3006d4fb8324e0031164ab4a7437ecd96e516e978"
+   },
+   "d9": {
+    "agents_md": "a1c69e276bb89fd1c1fd6aff8228bbf0602309d8e222bd3984aa4b69d5a9a1a0",
+    "opening": "8ed5b418f6fef958461549bc66c4c63bc82d45abe05aa23cd1bccc926107f94e"
+   }
+  }
+ },
+ "food/printed_picks_pavlova/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "886a9a989034d01cef0908e18b78b1897fcfb0ae5d8a41cff9f1caa9cb0bb77f",
+    "opening": "d11242bcb7a3c1f9cd83f48eb791385412e1653b47d23f0bd52d350aac2ab7e2"
+   },
+   "d10": {
+    "agents_md": "ffd62851aa353149ed58bcb7394ff03179cd48061b4b6ec6d6d82982ca430ccd",
+    "opening": "16af887592ae3f1b1d40fa035491ebaf1a2011c4d5b50a1cb1a9a4f44ecdafa3"
+   },
+   "d11": {
+    "agents_md": "28831715c84237969222549e788e371a9ca8216d436452c959df8ef4f3cbe3fb",
+    "opening": "d08501b133888651ed75f850c65586f2215fc88d5d126c62064efd57c08f04c2"
+   },
+   "d12": {
+    "agents_md": "872815caa30a91e3dad1950f61b061565a828b6af88e2e0be446dee5ae353c26",
+    "opening": "43d1dbf4bef3fb3afc2c526e516c495001a5f53ddd91b8710edf3683da137037"
+   },
+   "d13": {
+    "agents_md": "40c856058fe33c5a447e2ecb1b9cb973408461355812229122fdacde1bc2d978",
+    "opening": "8bbaa6026749db98e56f25557361fe9a56f4ed8e78332a8b663c92a50c249fb7"
+   },
+   "d14": {
+    "agents_md": "27976f149992c196d30c334fe217c5929d00fb26adfeddedcf9e941a8e1553b3",
+    "opening": "d6367654373a1ccbc0f509fd6be95667de2732a174cbb1186cf4298e10a0b647"
+   },
+   "d15": {
+    "agents_md": "a70e8960f7edb89fb4178b9c381d33ca7a1f3685b61aa0e5b232af070f3117fa",
+    "opening": "4f4309a10f96df35101dda014ac5f1c581d3b67785b5145243f7da93638462b4"
+   },
+   "d16": {
+    "agents_md": "c5a0fb49f0a33a5e842aa3acae8a01a3502ec3cd58590e6bebc219b08fca40d2",
+    "opening": "cf968bb95df3341af2edd2c1e47e62cb485a16e7415f08981db41759ba622331"
+   },
+   "d2": {
+    "agents_md": "bc3d4868394605e3b6f7aacda2903c176276901b337cb55c57a9e86b43a31fda",
+    "opening": "7f16ee4a3d7abcaf92dfd28c3109723d3816ce81dfe4e4e38689073e3dad8a53"
+   },
+   "d3": {
+    "agents_md": "9437b728632119506cc1918eb25a1f00726c2082026b788aa3b07af5f4fb1efd",
+    "opening": "7321404c0b321e57c78d57c795899cc97503e59c312dc5619c22ae092d7403f4"
+   },
+   "d4": {
+    "agents_md": "4d2ea25a32995b27aa763875cf5272b1abde20802aa4882b9e043e536e03c9b2",
+    "opening": "1d270c04954aeb5df131d44943007d4f09fc69b0acdd77b540cc56253d9970ce"
+   },
+   "d5": {
+    "agents_md": "f99b3de2f97d0acbb7ba5275c52334af1b1eed4437e0e3810053a942bda2b7e7",
+    "opening": "beb4caa7361af870e2e40ef9cbd506ee7b4d969c9f49f9f07756ab3209067d46"
+   },
+   "d6": {
+    "agents_md": "7a5411ab9566fcd576d7c98597ddbb12cfe4d9cfd271ba44b52dc7a269b4b926",
+    "opening": "4ad3e5aee52dd080e0318dd90c349692bf990fbdeaf922b5fc857659e816e7db"
+   },
+   "d7": {
+    "agents_md": "b555364b24c6ac6aede5bf975990ff7ad83603371aeb62f2554c58558fb1a412",
+    "opening": "948686ab598f27b5f1e586319e8c0b006567baac48af36045bc0a0da352fec6f"
+   },
+   "d8": {
+    "agents_md": "58318df0b2ab2a5cb24ca14a483b630a72a5deb693d082ba02d523c1baebc50d",
+    "opening": "f2dcdbbcd80dbe881df9b3e3006d4fb8324e0031164ab4a7437ecd96e516e978"
+   },
+   "d9": {
+    "agents_md": "a1c69e276bb89fd1c1fd6aff8228bbf0602309d8e222bd3984aa4b69d5a9a1a0",
+    "opening": "8ed5b418f6fef958461549bc66c4c63bc82d45abe05aa23cd1bccc926107f94e"
+   }
+  }
+ },
+ "food/printed_picks_pavlova/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "886a9a989034d01cef0908e18b78b1897fcfb0ae5d8a41cff9f1caa9cb0bb77f",
+    "opening": "d11242bcb7a3c1f9cd83f48eb791385412e1653b47d23f0bd52d350aac2ab7e2"
+   },
+   "d10": {
+    "agents_md": "ffd62851aa353149ed58bcb7394ff03179cd48061b4b6ec6d6d82982ca430ccd",
+    "opening": "16af887592ae3f1b1d40fa035491ebaf1a2011c4d5b50a1cb1a9a4f44ecdafa3"
+   },
+   "d11": {
+    "agents_md": "28831715c84237969222549e788e371a9ca8216d436452c959df8ef4f3cbe3fb",
+    "opening": "d08501b133888651ed75f850c65586f2215fc88d5d126c62064efd57c08f04c2"
+   },
+   "d12": {
+    "agents_md": "872815caa30a91e3dad1950f61b061565a828b6af88e2e0be446dee5ae353c26",
+    "opening": "43d1dbf4bef3fb3afc2c526e516c495001a5f53ddd91b8710edf3683da137037"
+   },
+   "d13": {
+    "agents_md": "40c856058fe33c5a447e2ecb1b9cb973408461355812229122fdacde1bc2d978",
+    "opening": "8bbaa6026749db98e56f25557361fe9a56f4ed8e78332a8b663c92a50c249fb7"
+   },
+   "d14": {
+    "agents_md": "27976f149992c196d30c334fe217c5929d00fb26adfeddedcf9e941a8e1553b3",
+    "opening": "d6367654373a1ccbc0f509fd6be95667de2732a174cbb1186cf4298e10a0b647"
+   },
+   "d15": {
+    "agents_md": "a70e8960f7edb89fb4178b9c381d33ca7a1f3685b61aa0e5b232af070f3117fa",
+    "opening": "4f4309a10f96df35101dda014ac5f1c581d3b67785b5145243f7da93638462b4"
+   },
+   "d16": {
+    "agents_md": "c5a0fb49f0a33a5e842aa3acae8a01a3502ec3cd58590e6bebc219b08fca40d2",
+    "opening": "cf968bb95df3341af2edd2c1e47e62cb485a16e7415f08981db41759ba622331"
+   },
+   "d2": {
+    "agents_md": "bc3d4868394605e3b6f7aacda2903c176276901b337cb55c57a9e86b43a31fda",
+    "opening": "7f16ee4a3d7abcaf92dfd28c3109723d3816ce81dfe4e4e38689073e3dad8a53"
+   },
+   "d3": {
+    "agents_md": "9437b728632119506cc1918eb25a1f00726c2082026b788aa3b07af5f4fb1efd",
+    "opening": "7321404c0b321e57c78d57c795899cc97503e59c312dc5619c22ae092d7403f4"
+   },
+   "d4": {
+    "agents_md": "4d2ea25a32995b27aa763875cf5272b1abde20802aa4882b9e043e536e03c9b2",
+    "opening": "1d270c04954aeb5df131d44943007d4f09fc69b0acdd77b540cc56253d9970ce"
+   },
+   "d5": {
+    "agents_md": "f99b3de2f97d0acbb7ba5275c52334af1b1eed4437e0e3810053a942bda2b7e7",
+    "opening": "beb4caa7361af870e2e40ef9cbd506ee7b4d969c9f49f9f07756ab3209067d46"
+   },
+   "d6": {
+    "agents_md": "7a5411ab9566fcd576d7c98597ddbb12cfe4d9cfd271ba44b52dc7a269b4b926",
+    "opening": "4ad3e5aee52dd080e0318dd90c349692bf990fbdeaf922b5fc857659e816e7db"
+   },
+   "d7": {
+    "agents_md": "b555364b24c6ac6aede5bf975990ff7ad83603371aeb62f2554c58558fb1a412",
+    "opening": "948686ab598f27b5f1e586319e8c0b006567baac48af36045bc0a0da352fec6f"
+   },
+   "d8": {
+    "agents_md": "58318df0b2ab2a5cb24ca14a483b630a72a5deb693d082ba02d523c1baebc50d",
+    "opening": "f2dcdbbcd80dbe881df9b3e3006d4fb8324e0031164ab4a7437ecd96e516e978"
+   },
+   "d9": {
+    "agents_md": "a1c69e276bb89fd1c1fd6aff8228bbf0602309d8e222bd3984aa4b69d5a9a1a0",
+    "opening": "8ed5b418f6fef958461549bc66c4c63bc82d45abe05aa23cd1bccc926107f94e"
+   }
+  }
+ },
+ "food/promotion_sparkler_slice/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "b4f0fe51af9fc79d73aa7373b1b7e2bc312442017c4b810e3166dcf220474f8a",
+    "opening": "567d542ee89dab8c530babe919e3637de89286a728e0eb335b00b4e019fe6448"
+   },
+   "d10": {
+    "agents_md": "ff5477470644628a6dcf3cd51fd909357da5f7cd191b06589aa1240cdf0e3acf",
+    "opening": "d2ca5b6c50948a87650a1257f6c5c920e80ad18d86b380389dc03f8b937c36de"
+   },
+   "d11": {
+    "agents_md": "fc57894b8f09bf66c6fdacceb283239d8d90795f51074837f96b3e0abb04d523",
+    "opening": "96c7d2a477716f8e2e5f4bf29afcfcbcd1567ac97aa9f0623c1f7c962209cd8c"
+   },
+   "d12": {
+    "agents_md": "71c75e8d4ef4a9c055346acd8d78f95ba0bef7f71c2ce10aab172f5b8d7635c5",
+    "opening": "0645bfbf3f4f10560663a3f2baae9a00a9d83931bd0987e5ba2a0666b73065aa"
+   },
+   "d13": {
+    "agents_md": "0c2b730ef88c4fdd8159c6c30372d5b9dcaf37b6bc4bfd60f0b776a63e9abc01",
+    "opening": "de101e2236444c5e0fe417e0b84055f67519079e906e60ba6b08d2fdd7a60d38"
+   },
+   "d14": {
+    "agents_md": "b37092fa3d70ab62fa06fcf8b3cd7d281bd1cff01ac24686e29998a5f80df910",
+    "opening": "cb7abd50488c0e85b2ddf0fb4e78a4cd53b2d9f16d0d797ac5a9a7c3925daa0b"
+   },
+   "d15": {
+    "agents_md": "f87b4ed7d9596e95978ab34c6ed9ca9ad131dd112698415110bbc57f56c71bcc",
+    "opening": "5969ce0781d61fc2a2f272e7a02f6a1531277d70529f6ad098f1a1feb42282b7"
+   },
+   "d16": {
+    "agents_md": "f75ab38861db6b2b47212d12a492f805900c6f528e7c8ffac9b1c797c5c562d4",
+    "opening": "9c7995f98e310ee9c2b6205543b820c247d1a8934727b5e79cad283b79836a7d"
+   },
+   "d2": {
+    "agents_md": "b0d426fe03741382a129d96638dca3b6b760e7f30814578657caffdca6eb6b11",
+    "opening": "1bf098a5115c7d5d1e4a31dc3ad762b9fe0b7e0a03bc91243115f6513c3898e8"
+   },
+   "d3": {
+    "agents_md": "a2a6a9463b38b42ac9c2723d961116534d46c586bde5ab36c1533bf11c55b5b4",
+    "opening": "d4f3a4fb4e86971126f6a1b32c60de306fa4d633b67c4d293ba777c98b34d8b5"
+   },
+   "d4": {
+    "agents_md": "be07f9c54b77a571f490738d6ace39df97e48413460a1dec78f3b96cdd503054",
+    "opening": "6b5258b6847c89bb030ac26f78c1a96488a7c690e49985da8f53d5a1bbcb196d"
+   },
+   "d5": {
+    "agents_md": "39d15f621f65f71c23562624ebdee3fb2c5c5d4fed7ff5ac463b1ac87143c5f7",
+    "opening": "be8a45d09847abc59c6c97a29211bb742607b383b004b8f8588a3d9d47c6d91f"
+   },
+   "d6": {
+    "agents_md": "749629b1cd73a770cbc62a8d899ab74bcca5b2770b7c7e88d197f6399e0bd685",
+    "opening": "1b5372d0466be3d929df03b1d3dac521b9572616846325bc8fc07dfab4307ea7"
+   },
+   "d7": {
+    "agents_md": "06495db0316302e95e45a5eb34b1cd49681719e1be9efabdcf43bea5cd8321ca",
+    "opening": "805b07f8b43bf568a3015419f9d814c956182124b513ff757798f3632475a790"
+   },
+   "d8": {
+    "agents_md": "4c4e83d7a83ba0626c1d3861a775034f5e6f59cc8d885d096c9e8dcd354999b6",
+    "opening": "5ebdf1efd86e4fb081714f3975192bc421b2f6884b22047d37328d3f9df8b383"
+   },
+   "d9": {
+    "agents_md": "8dd8b372fa8c00f48f467dfe06e28879033233f3a71a9c8c926bfbfb4fc525a7",
+    "opening": "95cc3e2002b2cb38049bf8de7723d1bb54be7cefe9feefe8b583cb6546529c84"
+   }
+  }
+ },
+ "food/promotion_sparkler_slice/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "b4f0fe51af9fc79d73aa7373b1b7e2bc312442017c4b810e3166dcf220474f8a",
+    "opening": "567d542ee89dab8c530babe919e3637de89286a728e0eb335b00b4e019fe6448"
+   },
+   "d10": {
+    "agents_md": "ff5477470644628a6dcf3cd51fd909357da5f7cd191b06589aa1240cdf0e3acf",
+    "opening": "d2ca5b6c50948a87650a1257f6c5c920e80ad18d86b380389dc03f8b937c36de"
+   },
+   "d11": {
+    "agents_md": "fc57894b8f09bf66c6fdacceb283239d8d90795f51074837f96b3e0abb04d523",
+    "opening": "96c7d2a477716f8e2e5f4bf29afcfcbcd1567ac97aa9f0623c1f7c962209cd8c"
+   },
+   "d12": {
+    "agents_md": "71c75e8d4ef4a9c055346acd8d78f95ba0bef7f71c2ce10aab172f5b8d7635c5",
+    "opening": "0645bfbf3f4f10560663a3f2baae9a00a9d83931bd0987e5ba2a0666b73065aa"
+   },
+   "d13": {
+    "agents_md": "0c2b730ef88c4fdd8159c6c30372d5b9dcaf37b6bc4bfd60f0b776a63e9abc01",
+    "opening": "de101e2236444c5e0fe417e0b84055f67519079e906e60ba6b08d2fdd7a60d38"
+   },
+   "d14": {
+    "agents_md": "b37092fa3d70ab62fa06fcf8b3cd7d281bd1cff01ac24686e29998a5f80df910",
+    "opening": "cb7abd50488c0e85b2ddf0fb4e78a4cd53b2d9f16d0d797ac5a9a7c3925daa0b"
+   },
+   "d15": {
+    "agents_md": "f87b4ed7d9596e95978ab34c6ed9ca9ad131dd112698415110bbc57f56c71bcc",
+    "opening": "5969ce0781d61fc2a2f272e7a02f6a1531277d70529f6ad098f1a1feb42282b7"
+   },
+   "d16": {
+    "agents_md": "f75ab38861db6b2b47212d12a492f805900c6f528e7c8ffac9b1c797c5c562d4",
+    "opening": "9c7995f98e310ee9c2b6205543b820c247d1a8934727b5e79cad283b79836a7d"
+   },
+   "d2": {
+    "agents_md": "b0d426fe03741382a129d96638dca3b6b760e7f30814578657caffdca6eb6b11",
+    "opening": "1bf098a5115c7d5d1e4a31dc3ad762b9fe0b7e0a03bc91243115f6513c3898e8"
+   },
+   "d3": {
+    "agents_md": "a2a6a9463b38b42ac9c2723d961116534d46c586bde5ab36c1533bf11c55b5b4",
+    "opening": "d4f3a4fb4e86971126f6a1b32c60de306fa4d633b67c4d293ba777c98b34d8b5"
+   },
+   "d4": {
+    "agents_md": "be07f9c54b77a571f490738d6ace39df97e48413460a1dec78f3b96cdd503054",
+    "opening": "6b5258b6847c89bb030ac26f78c1a96488a7c690e49985da8f53d5a1bbcb196d"
+   },
+   "d5": {
+    "agents_md": "39d15f621f65f71c23562624ebdee3fb2c5c5d4fed7ff5ac463b1ac87143c5f7",
+    "opening": "be8a45d09847abc59c6c97a29211bb742607b383b004b8f8588a3d9d47c6d91f"
+   },
+   "d6": {
+    "agents_md": "749629b1cd73a770cbc62a8d899ab74bcca5b2770b7c7e88d197f6399e0bd685",
+    "opening": "1b5372d0466be3d929df03b1d3dac521b9572616846325bc8fc07dfab4307ea7"
+   },
+   "d7": {
+    "agents_md": "06495db0316302e95e45a5eb34b1cd49681719e1be9efabdcf43bea5cd8321ca",
+    "opening": "805b07f8b43bf568a3015419f9d814c956182124b513ff757798f3632475a790"
+   },
+   "d8": {
+    "agents_md": "4c4e83d7a83ba0626c1d3861a775034f5e6f59cc8d885d096c9e8dcd354999b6",
+    "opening": "5ebdf1efd86e4fb081714f3975192bc421b2f6884b22047d37328d3f9df8b383"
+   },
+   "d9": {
+    "agents_md": "8dd8b372fa8c00f48f467dfe06e28879033233f3a71a9c8c926bfbfb4fc525a7",
+    "opening": "95cc3e2002b2cb38049bf8de7723d1bb54be7cefe9feefe8b583cb6546529c84"
+   }
+  }
+ },
+ "food/promotion_sparkler_slice/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "b4f0fe51af9fc79d73aa7373b1b7e2bc312442017c4b810e3166dcf220474f8a",
+    "opening": "567d542ee89dab8c530babe919e3637de89286a728e0eb335b00b4e019fe6448"
+   },
+   "d10": {
+    "agents_md": "ff5477470644628a6dcf3cd51fd909357da5f7cd191b06589aa1240cdf0e3acf",
+    "opening": "d2ca5b6c50948a87650a1257f6c5c920e80ad18d86b380389dc03f8b937c36de"
+   },
+   "d11": {
+    "agents_md": "fc57894b8f09bf66c6fdacceb283239d8d90795f51074837f96b3e0abb04d523",
+    "opening": "96c7d2a477716f8e2e5f4bf29afcfcbcd1567ac97aa9f0623c1f7c962209cd8c"
+   },
+   "d12": {
+    "agents_md": "71c75e8d4ef4a9c055346acd8d78f95ba0bef7f71c2ce10aab172f5b8d7635c5",
+    "opening": "0645bfbf3f4f10560663a3f2baae9a00a9d83931bd0987e5ba2a0666b73065aa"
+   },
+   "d13": {
+    "agents_md": "0c2b730ef88c4fdd8159c6c30372d5b9dcaf37b6bc4bfd60f0b776a63e9abc01",
+    "opening": "de101e2236444c5e0fe417e0b84055f67519079e906e60ba6b08d2fdd7a60d38"
+   },
+   "d14": {
+    "agents_md": "b37092fa3d70ab62fa06fcf8b3cd7d281bd1cff01ac24686e29998a5f80df910",
+    "opening": "cb7abd50488c0e85b2ddf0fb4e78a4cd53b2d9f16d0d797ac5a9a7c3925daa0b"
+   },
+   "d15": {
+    "agents_md": "f87b4ed7d9596e95978ab34c6ed9ca9ad131dd112698415110bbc57f56c71bcc",
+    "opening": "5969ce0781d61fc2a2f272e7a02f6a1531277d70529f6ad098f1a1feb42282b7"
+   },
+   "d16": {
+    "agents_md": "f75ab38861db6b2b47212d12a492f805900c6f528e7c8ffac9b1c797c5c562d4",
+    "opening": "9c7995f98e310ee9c2b6205543b820c247d1a8934727b5e79cad283b79836a7d"
+   },
+   "d2": {
+    "agents_md": "b0d426fe03741382a129d96638dca3b6b760e7f30814578657caffdca6eb6b11",
+    "opening": "1bf098a5115c7d5d1e4a31dc3ad762b9fe0b7e0a03bc91243115f6513c3898e8"
+   },
+   "d3": {
+    "agents_md": "a2a6a9463b38b42ac9c2723d961116534d46c586bde5ab36c1533bf11c55b5b4",
+    "opening": "d4f3a4fb4e86971126f6a1b32c60de306fa4d633b67c4d293ba777c98b34d8b5"
+   },
+   "d4": {
+    "agents_md": "be07f9c54b77a571f490738d6ace39df97e48413460a1dec78f3b96cdd503054",
+    "opening": "6b5258b6847c89bb030ac26f78c1a96488a7c690e49985da8f53d5a1bbcb196d"
+   },
+   "d5": {
+    "agents_md": "39d15f621f65f71c23562624ebdee3fb2c5c5d4fed7ff5ac463b1ac87143c5f7",
+    "opening": "be8a45d09847abc59c6c97a29211bb742607b383b004b8f8588a3d9d47c6d91f"
+   },
+   "d6": {
+    "agents_md": "749629b1cd73a770cbc62a8d899ab74bcca5b2770b7c7e88d197f6399e0bd685",
+    "opening": "1b5372d0466be3d929df03b1d3dac521b9572616846325bc8fc07dfab4307ea7"
+   },
+   "d7": {
+    "agents_md": "06495db0316302e95e45a5eb34b1cd49681719e1be9efabdcf43bea5cd8321ca",
+    "opening": "805b07f8b43bf568a3015419f9d814c956182124b513ff757798f3632475a790"
+   },
+   "d8": {
+    "agents_md": "4c4e83d7a83ba0626c1d3861a775034f5e6f59cc8d885d096c9e8dcd354999b6",
+    "opening": "5ebdf1efd86e4fb081714f3975192bc421b2f6884b22047d37328d3f9df8b383"
+   },
+   "d9": {
+    "agents_md": "8dd8b372fa8c00f48f467dfe06e28879033233f3a71a9c8c926bfbfb4fc525a7",
+    "opening": "95cc3e2002b2cb38049bf8de7723d1bb54be7cefe9feefe8b583cb6546529c84"
+   }
+  }
+ },
+ "food/reg_food_silent_side_deadline/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "955ec826a70b594ce75d4336adebc3c46187d7cd92710453c3b55394b5803371",
+    "opening": "eb618e96b56b77dd8fe69af14b478c3b8aa76826fd148fde3f57dcdeed05e216"
+   },
+   "d2": {
+    "agents_md": "e10893691f439081bc24dde2b5617a7d65ebd14f6c6b55cb3f4d74385a78352c",
+    "opening": "376c6e3d8b003acbb07ae403974921558ede4b856bc7ba28cbd05d4cb170a2c2"
+   },
+   "d3": {
+    "agents_md": "72631350d8e88fc7f61176871c00a0110fe8ba13153a4ba6dd1188562778815a",
+    "opening": "9cfffe7c1adaf11220dc0b8a0f167cd1d907af417b38a1674b51b1eb718d0683"
+   },
+   "d4": {
+    "agents_md": "559ed5ee4dead5e3242a4bfe4916e80090861fb367e2514f5f58bbf5334df865",
+    "opening": "c0f763434dd6d65fb4edd7b60fdbc868e666feb6c81524764e8f7daa3a00f15d"
+   }
+  }
+ },
+ "food/reg_food_silent_side_deadline/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "955ec826a70b594ce75d4336adebc3c46187d7cd92710453c3b55394b5803371",
+    "opening": "eb618e96b56b77dd8fe69af14b478c3b8aa76826fd148fde3f57dcdeed05e216"
+   },
+   "d2": {
+    "agents_md": "e10893691f439081bc24dde2b5617a7d65ebd14f6c6b55cb3f4d74385a78352c",
+    "opening": "376c6e3d8b003acbb07ae403974921558ede4b856bc7ba28cbd05d4cb170a2c2"
+   },
+   "d3": {
+    "agents_md": "72631350d8e88fc7f61176871c00a0110fe8ba13153a4ba6dd1188562778815a",
+    "opening": "9cfffe7c1adaf11220dc0b8a0f167cd1d907af417b38a1674b51b1eb718d0683"
+   },
+   "d4": {
+    "agents_md": "559ed5ee4dead5e3242a4bfe4916e80090861fb367e2514f5f58bbf5334df865",
+    "opening": "c0f763434dd6d65fb4edd7b60fdbc868e666feb6c81524764e8f7daa3a00f15d"
+   }
+  }
+ },
+ "food/reg_food_silent_side_deadline/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "955ec826a70b594ce75d4336adebc3c46187d7cd92710453c3b55394b5803371",
+    "opening": "eb618e96b56b77dd8fe69af14b478c3b8aa76826fd148fde3f57dcdeed05e216"
+   },
+   "d2": {
+    "agents_md": "e10893691f439081bc24dde2b5617a7d65ebd14f6c6b55cb3f4d74385a78352c",
+    "opening": "376c6e3d8b003acbb07ae403974921558ede4b856bc7ba28cbd05d4cb170a2c2"
+   },
+   "d3": {
+    "agents_md": "72631350d8e88fc7f61176871c00a0110fe8ba13153a4ba6dd1188562778815a",
+    "opening": "9cfffe7c1adaf11220dc0b8a0f167cd1d907af417b38a1674b51b1eb718d0683"
+   },
+   "d4": {
+    "agents_md": "559ed5ee4dead5e3242a4bfe4916e80090861fb367e2514f5f58bbf5334df865",
+    "opening": "c0f763434dd6d65fb4edd7b60fdbc868e666feb6c81524764e8f7daa3a00f15d"
+   }
+  }
+ },
+ "food/sheet_never_had_her/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "6891f502cdb8eb58282ddec2c94f316522e866c35fff4ae14bff9b24b94a20c8",
+    "opening": "b4843c12ce600b346887a13f9abb37f47d5ff318d04fa9a29aedd4f05c2fb66c"
+   },
+   "d10": {
+    "agents_md": "c59cb9f0251547356b3fd1b8a0cb1dfd9dba77d6de63da7402bd99ec0193c6bd",
+    "opening": "4d7d09bc3d35145b82230c32455a8fd82ecc8d28153975c313dbf8f99b9d85de"
+   },
+   "d11": {
+    "agents_md": "7c30097ffac27f065d5e971578990c827e5c04345b9e63cc5652f80fa08c4511",
+    "opening": "c1dba15fac93c1b76aefd92e2fe6fa02f6e950ba11ce43b99e79c17f21eb9083"
+   },
+   "d12": {
+    "agents_md": "9c04032ed35d8361912ffdea3f4b431d25ea18b9e47bd3aefbd5ab652e738c4e",
+    "opening": "ecdda7684f5d0efc4e5f99345dc822ff39f6d77b50a70a2a8cd2c65b3db91484"
+   },
+   "d13": {
+    "agents_md": "92e6e60b873895b0fe3155c026f41682489dba44599c7c8d454fc66a6b4d82c6",
+    "opening": "46dc8a151193444ecdb0bd8fd2730373c41a1004271b3e2c098c6b15df247fd9"
+   },
+   "d14": {
+    "agents_md": "98f78557bbc580654e3d76e5356084a0375a1e99ab41fd07c41e05ac4513fcdd",
+    "opening": "8f95fdbb0a2c1e0bb93bbd87a54b3aae22c5ea6f2faddb14cc4abb6098370d86"
+   },
+   "d15": {
+    "agents_md": "a74584b9bcbf74ed6ee1b6d25be47fd33e7781c1aa74c51ae0cb5e3d49386a27",
+    "opening": "5d53a8bcca6aa8dd3f6642ace4d2659b47cbb1b75117201a1cd2b1b56846c33b"
+   },
+   "d16": {
+    "agents_md": "62b1167ddde5a680257d5c64f675f1a066c1ad409ccc17bc010e650d9582f6c1",
+    "opening": "c3e338bdd70534141879081cf04a4f2c257a9310e24e6ea19e9b03908d41bd26"
+   },
+   "d2": {
+    "agents_md": "7fe226f235b5f7cb5d42170558adf2c061fd39542dba00d7325d27c6e6ee5919",
+    "opening": "a8f5648454e1f3ccd3af98987e754fc7f48745cdbbf0bba5092863203b60b8dc"
+   },
+   "d3": {
+    "agents_md": "0dbb9af9b43ecefbab7efb5e7c4448de5aed558daa4ef2ca96e0c284784de8e7",
+    "opening": "81703189f4ddeb223f3e4d34a7f3f248ecc66c45a895a1cb0bf75a9c3a125cd3"
+   },
+   "d4": {
+    "agents_md": "3dcf16c1576caa05b6d592cfc96a2cb7c3b08e4f8de634adc5e8bba5caa6e954",
+    "opening": "208540c6dda44a3b50a91c1e0f8be8feccdbdd03a4e1e2347e37654adaad616a"
+   },
+   "d5": {
+    "agents_md": "99d6cb4899b67baa39a98faa9401debf71f7b83d2981e5123f51e726adef325b",
+    "opening": "3b98d3b4959b239593f0733f6df1eab9df3b79328b1d08ea123c7d7328ea7972"
+   },
+   "d6": {
+    "agents_md": "bbf23c7e281ed986c0f59f30455d1433011ddbbafcac1c0d3ff9465c80938c71",
+    "opening": "e7b26ee9a0fdfc6b17e10ef5ad7d27c4ed2b1317153fa376e81aa4322ed3d07f"
+   },
+   "d7": {
+    "agents_md": "9d08f2a05a18b62112edc4df07552f9af01d42a0755e62c6e273eded2ffd186b",
+    "opening": "701da7281a2bd736869a427ee14aa44694d1bacb2575ed643143f5cc4c5e1999"
+   },
+   "d8": {
+    "agents_md": "5ddf228c8aa304b6440c38ed282aef18894b0c4d8baf395276417ea7fadfa121",
+    "opening": "1f84fa4567677fbe4fee84345558d64ce977384b97f40ff2cd164cc1c4632338"
+   },
+   "d9": {
+    "agents_md": "2368bd8a28882e9a6ff8ac6fa36efa7162816880923c475f3e1825c8d0a37edc",
+    "opening": "24fd3ec43a6d6ac5ac971b893fafa15b4a806536a800a319f690e555a2ee6ec5"
+   }
+  }
+ },
+ "food/sheet_never_had_her/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "d1": {
+    "agents_md": "6891f502cdb8eb58282ddec2c94f316522e866c35fff4ae14bff9b24b94a20c8",
+    "opening": "b4843c12ce600b346887a13f9abb37f47d5ff318d04fa9a29aedd4f05c2fb66c"
+   },
+   "d10": {
+    "agents_md": "c59cb9f0251547356b3fd1b8a0cb1dfd9dba77d6de63da7402bd99ec0193c6bd",
+    "opening": "4d7d09bc3d35145b82230c32455a8fd82ecc8d28153975c313dbf8f99b9d85de"
+   },
+   "d11": {
+    "agents_md": "7c30097ffac27f065d5e971578990c827e5c04345b9e63cc5652f80fa08c4511",
+    "opening": "c1dba15fac93c1b76aefd92e2fe6fa02f6e950ba11ce43b99e79c17f21eb9083"
+   },
+   "d12": {
+    "agents_md": "9c04032ed35d8361912ffdea3f4b431d25ea18b9e47bd3aefbd5ab652e738c4e",
+    "opening": "ecdda7684f5d0efc4e5f99345dc822ff39f6d77b50a70a2a8cd2c65b3db91484"
+   },
+   "d13": {
+    "agents_md": "92e6e60b873895b0fe3155c026f41682489dba44599c7c8d454fc66a6b4d82c6",
+    "opening": "46dc8a151193444ecdb0bd8fd2730373c41a1004271b3e2c098c6b15df247fd9"
+   },
+   "d14": {
+    "agents_md": "98f78557bbc580654e3d76e5356084a0375a1e99ab41fd07c41e05ac4513fcdd",
+    "opening": "8f95fdbb0a2c1e0bb93bbd87a54b3aae22c5ea6f2faddb14cc4abb6098370d86"
+   },
+   "d15": {
+    "agents_md": "a74584b9bcbf74ed6ee1b6d25be47fd33e7781c1aa74c51ae0cb5e3d49386a27",
+    "opening": "5d53a8bcca6aa8dd3f6642ace4d2659b47cbb1b75117201a1cd2b1b56846c33b"
+   },
+   "d16": {
+    "agents_md": "62b1167ddde5a680257d5c64f675f1a066c1ad409ccc17bc010e650d9582f6c1",
+    "opening": "c3e338bdd70534141879081cf04a4f2c257a9310e24e6ea19e9b03908d41bd26"
+   },
+   "d2": {
+    "agents_md": "7fe226f235b5f7cb5d42170558adf2c061fd39542dba00d7325d27c6e6ee5919",
+    "opening": "a8f5648454e1f3ccd3af98987e754fc7f48745cdbbf0bba5092863203b60b8dc"
+   },
+   "d3": {
+    "agents_md": "0dbb9af9b43ecefbab7efb5e7c4448de5aed558daa4ef2ca96e0c284784de8e7",
+    "opening": "81703189f4ddeb223f3e4d34a7f3f248ecc66c45a895a1cb0bf75a9c3a125cd3"
+   },
+   "d4": {
+    "agents_md": "3dcf16c1576caa05b6d592cfc96a2cb7c3b08e4f8de634adc5e8bba5caa6e954",
+    "opening": "208540c6dda44a3b50a91c1e0f8be8feccdbdd03a4e1e2347e37654adaad616a"
+   },
+   "d5": {
+    "agents_md": "99d6cb4899b67baa39a98faa9401debf71f7b83d2981e5123f51e726adef325b",
+    "opening": "3b98d3b4959b239593f0733f6df1eab9df3b79328b1d08ea123c7d7328ea7972"
+   },
+   "d6": {
+    "agents_md": "bbf23c7e281ed986c0f59f30455d1433011ddbbafcac1c0d3ff9465c80938c71",
+    "opening": "e7b26ee9a0fdfc6b17e10ef5ad7d27c4ed2b1317153fa376e81aa4322ed3d07f"
+   },
+   "d7": {
+    "agents_md": "9d08f2a05a18b62112edc4df07552f9af01d42a0755e62c6e273eded2ffd186b",
+    "opening": "701da7281a2bd736869a427ee14aa44694d1bacb2575ed643143f5cc4c5e1999"
+   },
+   "d8": {
+    "agents_md": "5ddf228c8aa304b6440c38ed282aef18894b0c4d8baf395276417ea7fadfa121",
+    "opening": "1f84fa4567677fbe4fee84345558d64ce977384b97f40ff2cd164cc1c4632338"
+   },
+   "d9": {
+    "agents_md": "2368bd8a28882e9a6ff8ac6fa36efa7162816880923c475f3e1825c8d0a37edc",
+    "opening": "24fd3ec43a6d6ac5ac971b893fafa15b4a806536a800a319f690e555a2ee6ec5"
+   }
+  }
+ },
+ "food/sheet_never_had_her/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "d1": {
+    "agents_md": "6891f502cdb8eb58282ddec2c94f316522e866c35fff4ae14bff9b24b94a20c8",
+    "opening": "b4843c12ce600b346887a13f9abb37f47d5ff318d04fa9a29aedd4f05c2fb66c"
+   },
+   "d10": {
+    "agents_md": "c59cb9f0251547356b3fd1b8a0cb1dfd9dba77d6de63da7402bd99ec0193c6bd",
+    "opening": "4d7d09bc3d35145b82230c32455a8fd82ecc8d28153975c313dbf8f99b9d85de"
+   },
+   "d11": {
+    "agents_md": "7c30097ffac27f065d5e971578990c827e5c04345b9e63cc5652f80fa08c4511",
+    "opening": "c1dba15fac93c1b76aefd92e2fe6fa02f6e950ba11ce43b99e79c17f21eb9083"
+   },
+   "d12": {
+    "agents_md": "9c04032ed35d8361912ffdea3f4b431d25ea18b9e47bd3aefbd5ab652e738c4e",
+    "opening": "ecdda7684f5d0efc4e5f99345dc822ff39f6d77b50a70a2a8cd2c65b3db91484"
+   },
+   "d13": {
+    "agents_md": "92e6e60b873895b0fe3155c026f41682489dba44599c7c8d454fc66a6b4d82c6",
+    "opening": "46dc8a151193444ecdb0bd8fd2730373c41a1004271b3e2c098c6b15df247fd9"
+   },
+   "d14": {
+    "agents_md": "98f78557bbc580654e3d76e5356084a0375a1e99ab41fd07c41e05ac4513fcdd",
+    "opening": "8f95fdbb0a2c1e0bb93bbd87a54b3aae22c5ea6f2faddb14cc4abb6098370d86"
+   },
+   "d15": {
+    "agents_md": "a74584b9bcbf74ed6ee1b6d25be47fd33e7781c1aa74c51ae0cb5e3d49386a27",
+    "opening": "5d53a8bcca6aa8dd3f6642ace4d2659b47cbb1b75117201a1cd2b1b56846c33b"
+   },
+   "d16": {
+    "agents_md": "62b1167ddde5a680257d5c64f675f1a066c1ad409ccc17bc010e650d9582f6c1",
+    "opening": "c3e338bdd70534141879081cf04a4f2c257a9310e24e6ea19e9b03908d41bd26"
+   },
+   "d2": {
+    "agents_md": "7fe226f235b5f7cb5d42170558adf2c061fd39542dba00d7325d27c6e6ee5919",
+    "opening": "a8f5648454e1f3ccd3af98987e754fc7f48745cdbbf0bba5092863203b60b8dc"
+   },
+   "d3": {
+    "agents_md": "0dbb9af9b43ecefbab7efb5e7c4448de5aed558daa4ef2ca96e0c284784de8e7",
+    "opening": "81703189f4ddeb223f3e4d34a7f3f248ecc66c45a895a1cb0bf75a9c3a125cd3"
+   },
+   "d4": {
+    "agents_md": "3dcf16c1576caa05b6d592cfc96a2cb7c3b08e4f8de634adc5e8bba5caa6e954",
+    "opening": "208540c6dda44a3b50a91c1e0f8be8feccdbdd03a4e1e2347e37654adaad616a"
+   },
+   "d5": {
+    "agents_md": "99d6cb4899b67baa39a98faa9401debf71f7b83d2981e5123f51e726adef325b",
+    "opening": "3b98d3b4959b239593f0733f6df1eab9df3b79328b1d08ea123c7d7328ea7972"
+   },
+   "d6": {
+    "agents_md": "bbf23c7e281ed986c0f59f30455d1433011ddbbafcac1c0d3ff9465c80938c71",
+    "opening": "e7b26ee9a0fdfc6b17e10ef5ad7d27c4ed2b1317153fa376e81aa4322ed3d07f"
+   },
+   "d7": {
+    "agents_md": "9d08f2a05a18b62112edc4df07552f9af01d42a0755e62c6e273eded2ffd186b",
+    "opening": "701da7281a2bd736869a427ee14aa44694d1bacb2575ed643143f5cc4c5e1999"
+   },
+   "d8": {
+    "agents_md": "5ddf228c8aa304b6440c38ed282aef18894b0c4d8baf395276417ea7fadfa121",
+    "opening": "1f84fa4567677fbe4fee84345558d64ce977384b97f40ff2cd164cc1c4632338"
+   },
+   "d9": {
+    "agents_md": "2368bd8a28882e9a6ff8ac6fa36efa7162816880923c475f3e1825c8d0a37edc",
+    "opening": "24fd3ec43a6d6ac5ac971b893fafa15b4a806536a800a319f690e555a2ee6ec5"
+   }
+  }
+ },
+ "food/sugarline_counter_box/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "5955c04513e75ef29fdc2d8e3de3f57f6ee38777b498736e310f4acf7541d111",
+    "opening": "995c4c08cec118570d0d138bef2831e0df52233c2344fd2e395834fc7995bda3"
+   },
+   "c2": {
+    "agents_md": "f9f0f76fbe6cda37d7e0625eaf93dde1ba1d11a7560b7ff59e35393992ed9817",
+    "opening": "065e1365e766abe70f6fc8b067f9e8cfde5f0b50dbe20f0699ac99dcd5c5ebd7"
+   },
+   "c3": {
+    "agents_md": "ec93a67fad84a43aabd9b54943f9abc6a4fd6aa8e234227718f62812135c560c",
+    "opening": "e1689aa4a67de3519d50b971e3cd04622d5494ef71f56180a659faca22fe4b62"
+   },
+   "c4": {
+    "agents_md": "15f481eca516a76b7b52520605318dfccfe586f98cea62686cad33b72d8f23f0",
+    "opening": "7c5bfb00d112df00b0b976256d1be2f63099eb872cd86f070ad662ca8f3e33f8"
+   }
+  }
+ },
+ "food/sugarline_counter_box/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "5955c04513e75ef29fdc2d8e3de3f57f6ee38777b498736e310f4acf7541d111",
+    "opening": "995c4c08cec118570d0d138bef2831e0df52233c2344fd2e395834fc7995bda3"
+   },
+   "c2": {
+    "agents_md": "f9f0f76fbe6cda37d7e0625eaf93dde1ba1d11a7560b7ff59e35393992ed9817",
+    "opening": "065e1365e766abe70f6fc8b067f9e8cfde5f0b50dbe20f0699ac99dcd5c5ebd7"
+   },
+   "c3": {
+    "agents_md": "ec93a67fad84a43aabd9b54943f9abc6a4fd6aa8e234227718f62812135c560c",
+    "opening": "e1689aa4a67de3519d50b971e3cd04622d5494ef71f56180a659faca22fe4b62"
+   },
+   "c4": {
+    "agents_md": "15f481eca516a76b7b52520605318dfccfe586f98cea62686cad33b72d8f23f0",
+    "opening": "7c5bfb00d112df00b0b976256d1be2f63099eb872cd86f070ad662ca8f3e33f8"
+   }
+  }
+ },
+ "food/sugarline_counter_box/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "c1": {
+    "agents_md": "5955c04513e75ef29fdc2d8e3de3f57f6ee38777b498736e310f4acf7541d111",
+    "opening": "995c4c08cec118570d0d138bef2831e0df52233c2344fd2e395834fc7995bda3"
+   },
+   "c2": {
+    "agents_md": "f9f0f76fbe6cda37d7e0625eaf93dde1ba1d11a7560b7ff59e35393992ed9817",
+    "opening": "065e1365e766abe70f6fc8b067f9e8cfde5f0b50dbe20f0699ac99dcd5c5ebd7"
+   },
+   "c3": {
+    "agents_md": "ec93a67fad84a43aabd9b54943f9abc6a4fd6aa8e234227718f62812135c560c",
+    "opening": "e1689aa4a67de3519d50b971e3cd04622d5494ef71f56180a659faca22fe4b62"
+   },
+   "c4": {
+    "agents_md": "15f481eca516a76b7b52520605318dfccfe586f98cea62686cad33b72d8f23f0",
+    "opening": "7c5bfb00d112df00b0b976256d1be2f63099eb872cd86f070ad662ca8f3e33f8"
+   }
+  }
+ },
+ "food/tote_credit_cover/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "af8d42ac1b0c8bd7dab84bd303df318d4d481df38ab029be9dfac0eb5a8410b5",
+    "opening": "6cde27263ae4c28efae586a4989990a7a180561cc7977b9f5a63791325c816f5"
+   },
+   "c2": {
+    "agents_md": "e36f6bd9eef58fc7352d9fdf7a7d76ff000224176ee891784ec140dade86dc22",
+    "opening": "b57782b101acb35607553d5c14ee882ff9b86a100ea806e9c849616f82fb5306"
+   },
+   "c3": {
+    "agents_md": "37a64767f77792a088152216d55c5892c7d4c63d0fd6421bc9e02806f7ddf5c5",
+    "opening": "b9b1b32129e05f377492164a10ffd5307af9996e711c10283df1012db286d5cc"
+   },
+   "c4": {
+    "agents_md": "1bae74f0603ec0912d1e7e68358773f13d8422c308a4ec21961dbe60e753fa3f",
+    "opening": "0fcd6ee0fe13dfa9f30a71a211f618a33a60a92c610184585b10d76bbf647862"
+   },
+   "c5": {
+    "agents_md": "2e1bc1e65d9b61db18df13db2ff22efc29ecceccd79a16b43d16c25effa4029f",
+    "opening": "48b37a518c3ec5216ca704cf5c2720e3cb97fc261576fd46487d6fa5fb48e2b9"
+   },
+   "c6": {
+    "agents_md": "0dd1b95774f50d6ed608a5d9db1bf1080c709d4387a1ff1c0a852402e01d1865",
+    "opening": "592b0eb2d2d531de97ef973eca4517105e1b97906d7a42599b465dcf51c40dce"
+   },
+   "c7": {
+    "agents_md": "9325afd1a5f489703a29efaac31c0a064a7acc85dcb83f9c25ad06885a29a149",
+    "opening": "136cc7f3096e758ea5f0cfff1ccca076dfd1b54e8ba2381bdb4f04f18e7d25b8"
+   },
+   "c8": {
+    "agents_md": "7e2dabae7a79d704c94184130d00af6db1c5f43e0f74a19c5c47b1946ecf6bda",
+    "opening": "f0d624d556de0bc8240e716f3d46a1e642c4eefa125a8f84b543e1e65ad0a502"
+   }
+  }
+ },
+ "food/tote_credit_cover/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "c1": {
+    "agents_md": "af8d42ac1b0c8bd7dab84bd303df318d4d481df38ab029be9dfac0eb5a8410b5",
+    "opening": "6cde27263ae4c28efae586a4989990a7a180561cc7977b9f5a63791325c816f5"
+   },
+   "c2": {
+    "agents_md": "e36f6bd9eef58fc7352d9fdf7a7d76ff000224176ee891784ec140dade86dc22",
+    "opening": "b57782b101acb35607553d5c14ee882ff9b86a100ea806e9c849616f82fb5306"
+   },
+   "c3": {
+    "agents_md": "37a64767f77792a088152216d55c5892c7d4c63d0fd6421bc9e02806f7ddf5c5",
+    "opening": "b9b1b32129e05f377492164a10ffd5307af9996e711c10283df1012db286d5cc"
+   },
+   "c4": {
+    "agents_md": "1bae74f0603ec0912d1e7e68358773f13d8422c308a4ec21961dbe60e753fa3f",
+    "opening": "0fcd6ee0fe13dfa9f30a71a211f618a33a60a92c610184585b10d76bbf647862"
+   },
+   "c5": {
+    "agents_md": "2e1bc1e65d9b61db18df13db2ff22efc29ecceccd79a16b43d16c25effa4029f",
+    "opening": "48b37a518c3ec5216ca704cf5c2720e3cb97fc261576fd46487d6fa5fb48e2b9"
+   },
+   "c6": {
+    "agents_md": "0dd1b95774f50d6ed608a5d9db1bf1080c709d4387a1ff1c0a852402e01d1865",
+    "opening": "592b0eb2d2d531de97ef973eca4517105e1b97906d7a42599b465dcf51c40dce"
+   },
+   "c7": {
+    "agents_md": "9325afd1a5f489703a29efaac31c0a064a7acc85dcb83f9c25ad06885a29a149",
+    "opening": "136cc7f3096e758ea5f0cfff1ccca076dfd1b54e8ba2381bdb4f04f18e7d25b8"
+   },
+   "c8": {
+    "agents_md": "7e2dabae7a79d704c94184130d00af6db1c5f43e0f74a19c5c47b1946ecf6bda",
+    "opening": "f0d624d556de0bc8240e716f3d46a1e642c4eefa125a8f84b543e1e65ad0a502"
+   }
+  }
+ },
+ "food/tote_credit_cover/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "c1": {
+    "agents_md": "af8d42ac1b0c8bd7dab84bd303df318d4d481df38ab029be9dfac0eb5a8410b5",
+    "opening": "6cde27263ae4c28efae586a4989990a7a180561cc7977b9f5a63791325c816f5"
+   },
+   "c2": {
+    "agents_md": "e36f6bd9eef58fc7352d9fdf7a7d76ff000224176ee891784ec140dade86dc22",
+    "opening": "b57782b101acb35607553d5c14ee882ff9b86a100ea806e9c849616f82fb5306"
+   },
+   "c3": {
+    "agents_md": "37a64767f77792a088152216d55c5892c7d4c63d0fd6421bc9e02806f7ddf5c5",
+    "opening": "b9b1b32129e05f377492164a10ffd5307af9996e711c10283df1012db286d5cc"
+   },
+   "c4": {
+    "agents_md": "1bae74f0603ec0912d1e7e68358773f13d8422c308a4ec21961dbe60e753fa3f",
+    "opening": "0fcd6ee0fe13dfa9f30a71a211f618a33a60a92c610184585b10d76bbf647862"
+   },
+   "c5": {
+    "agents_md": "2e1bc1e65d9b61db18df13db2ff22efc29ecceccd79a16b43d16c25effa4029f",
+    "opening": "48b37a518c3ec5216ca704cf5c2720e3cb97fc261576fd46487d6fa5fb48e2b9"
+   },
+   "c6": {
+    "agents_md": "0dd1b95774f50d6ed608a5d9db1bf1080c709d4387a1ff1c0a852402e01d1865",
+    "opening": "592b0eb2d2d531de97ef973eca4517105e1b97906d7a42599b465dcf51c40dce"
+   },
+   "c7": {
+    "agents_md": "9325afd1a5f489703a29efaac31c0a064a7acc85dcb83f9c25ad06885a29a149",
+    "opening": "136cc7f3096e758ea5f0cfff1ccca076dfd1b54e8ba2381bdb4f04f18e7d25b8"
+   },
+   "c8": {
+    "agents_md": "7e2dabae7a79d704c94184130d00af6db1c5f43e0f74a19c5c47b1946ecf6bda",
+    "opening": "f0d624d556de0bc8240e716f3d46a1e642c4eefa125a8f84b543e1e65ad0a502"
+   }
+  }
+ },
+ "food/watchparty_priority_fee/none": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "w1": {
+    "agents_md": "f5ad325ec4583284bad51ce20767458502124ea7075053c8a61522fa8a1ed4c3",
+    "opening": "77720e79be1d5f1ecd37cccb1737ba2c5fe42826a649a569f739029d0f209032"
+   },
+   "w10": {
+    "agents_md": "eb6009e2044caf2230f69cd5f49193eb4c7d1d2e4879f63f7939713575ebc66b",
+    "opening": "92fef768e9327fac0513e84ccdc5d49ba914bdf10bc5dd7a8012ae19e7fca003"
+   },
+   "w11": {
+    "agents_md": "6d93b675fc273aefa9cabb5e224e32b848e6881da25c259fc04e9dae40033a5d",
+    "opening": "52a5332f6156afe1e6cc967eb831ef106c3984fefded3f61ac5523ebdfd249b5"
+   },
+   "w12": {
+    "agents_md": "460444982bdb32d7c502fb855b1c091d24b02f7bb8f2942cc8c2b1dffd2ca025",
+    "opening": "a8790c020a018582a03541ae2a65b94f0cfffe3f01d1a8c11927500e342e015a"
+   },
+   "w13": {
+    "agents_md": "6ac6da28a1db0e398e22628cc3189db12c8deac7d11895d647f6f0d13ed3cd74",
+    "opening": "2732d740731f991057c32b94ad032db61c5de6bb02b161292baa2d392ff95a60"
+   },
+   "w14": {
+    "agents_md": "db5e26a5c9693d87e920ed892b141dc253e406343df9e79de4b67764c2976097",
+    "opening": "93d7337ca62efa88bda8cd071e7747a6f52de1f5a50f4fdd319bae0e914dec16"
+   },
+   "w15": {
+    "agents_md": "ebcecc957de3626a06a54972407a072303b9f0ec7d3f2f0d7f53087426452645",
+    "opening": "67e14d5ad28158d3061f9d5e3cc1a854d3f1c8daf78dc393c12d5907cf52aaf0"
+   },
+   "w16": {
+    "agents_md": "d4fe9bce2ad0366df1fc8bd7dc619b770e0ac2d52062c007b0f3be6a4d726c42",
+    "opening": "20036299126faac38189db4b3c10a68a5849345567a4d291b313a3351f05ea39"
+   },
+   "w2": {
+    "agents_md": "a5330c38a1d72417b1aad6bdd0142c696397569f85898e2b52da646784874fff",
+    "opening": "e70e2531236fb29f2535d2406ffa1dc16f438c2cc0e9efd3856131ac9299e928"
+   },
+   "w3": {
+    "agents_md": "56231d17363fe48e0b16e015e7a4f5f7b944c798810a689ab2a399fb3f37092e",
+    "opening": "261d795987e5179c7dff1a2997c38d72e6ca0327a5c034bfc4e01607ba246779"
+   },
+   "w4": {
+    "agents_md": "04dda455b94de543dbae0264a0020c948d5f221a2f86a608ca0d0a496afefaff",
+    "opening": "24869e6887f70a8357129e85551c1367c4c605ab95364411bfd9c18c810e61ff"
+   },
+   "w5": {
+    "agents_md": "9a51ba2a663b92ab274b8c7c0779396388f9a2c5418245cfecc3642a6f04f71c",
+    "opening": "657c7cd5b934fd993b7de67c134aafbbbafc0a918d4a1403ff5b1c3beebfd74b"
+   },
+   "w6": {
+    "agents_md": "83b46aeece561b88e9ad80a3eb4bccf3c3fb5172333c7d114c49771caf620162",
+    "opening": "edb6a70dfdd890d165481c7fc9b4a6c3ab2fce9442b1e7aa1917a3dc19483e61"
+   },
+   "w7": {
+    "agents_md": "75b3553daed5b7ab21919f843b305a21de0cfd63102e967f51d85e5cacec19a9",
+    "opening": "cf9e5e1502b8f8bf2b664e6e7669d513cbffca3901f5be837100c0fba61094e0"
+   },
+   "w8": {
+    "agents_md": "a7827b9382b70ea0e4e5bcdd7a7ba9b124dbde2c702d11346813ea0fecf977b2",
+    "opening": "69fb2f40be5a5d262b4ddb19d0a6b46ad8fc86001b63f387f8ed1583bc31cb7c"
+   },
+   "w9": {
+    "agents_md": "0a59ea0f2f3718cd3fed42a598b1f88fdce4a75345b242779bc56384801a0809",
+    "opening": "5e08d01631cee89756292905a0da819066dbb522354792bd0d615080c39bae0a"
+   }
+  }
+ },
+ "food/watchparty_priority_fee/guard": {
+  "manifest": "9b1b23d895e61a1cd8fbf932db211f398a0ef5d9e014751b9fface93b713be5e",
+  "seats": {
+   "w1": {
+    "agents_md": "f5ad325ec4583284bad51ce20767458502124ea7075053c8a61522fa8a1ed4c3",
+    "opening": "77720e79be1d5f1ecd37cccb1737ba2c5fe42826a649a569f739029d0f209032"
+   },
+   "w10": {
+    "agents_md": "eb6009e2044caf2230f69cd5f49193eb4c7d1d2e4879f63f7939713575ebc66b",
+    "opening": "92fef768e9327fac0513e84ccdc5d49ba914bdf10bc5dd7a8012ae19e7fca003"
+   },
+   "w11": {
+    "agents_md": "6d93b675fc273aefa9cabb5e224e32b848e6881da25c259fc04e9dae40033a5d",
+    "opening": "52a5332f6156afe1e6cc967eb831ef106c3984fefded3f61ac5523ebdfd249b5"
+   },
+   "w12": {
+    "agents_md": "460444982bdb32d7c502fb855b1c091d24b02f7bb8f2942cc8c2b1dffd2ca025",
+    "opening": "a8790c020a018582a03541ae2a65b94f0cfffe3f01d1a8c11927500e342e015a"
+   },
+   "w13": {
+    "agents_md": "6ac6da28a1db0e398e22628cc3189db12c8deac7d11895d647f6f0d13ed3cd74",
+    "opening": "2732d740731f991057c32b94ad032db61c5de6bb02b161292baa2d392ff95a60"
+   },
+   "w14": {
+    "agents_md": "db5e26a5c9693d87e920ed892b141dc253e406343df9e79de4b67764c2976097",
+    "opening": "93d7337ca62efa88bda8cd071e7747a6f52de1f5a50f4fdd319bae0e914dec16"
+   },
+   "w15": {
+    "agents_md": "ebcecc957de3626a06a54972407a072303b9f0ec7d3f2f0d7f53087426452645",
+    "opening": "67e14d5ad28158d3061f9d5e3cc1a854d3f1c8daf78dc393c12d5907cf52aaf0"
+   },
+   "w16": {
+    "agents_md": "d4fe9bce2ad0366df1fc8bd7dc619b770e0ac2d52062c007b0f3be6a4d726c42",
+    "opening": "20036299126faac38189db4b3c10a68a5849345567a4d291b313a3351f05ea39"
+   },
+   "w2": {
+    "agents_md": "a5330c38a1d72417b1aad6bdd0142c696397569f85898e2b52da646784874fff",
+    "opening": "e70e2531236fb29f2535d2406ffa1dc16f438c2cc0e9efd3856131ac9299e928"
+   },
+   "w3": {
+    "agents_md": "56231d17363fe48e0b16e015e7a4f5f7b944c798810a689ab2a399fb3f37092e",
+    "opening": "261d795987e5179c7dff1a2997c38d72e6ca0327a5c034bfc4e01607ba246779"
+   },
+   "w4": {
+    "agents_md": "04dda455b94de543dbae0264a0020c948d5f221a2f86a608ca0d0a496afefaff",
+    "opening": "24869e6887f70a8357129e85551c1367c4c605ab95364411bfd9c18c810e61ff"
+   },
+   "w5": {
+    "agents_md": "9a51ba2a663b92ab274b8c7c0779396388f9a2c5418245cfecc3642a6f04f71c",
+    "opening": "657c7cd5b934fd993b7de67c134aafbbbafc0a918d4a1403ff5b1c3beebfd74b"
+   },
+   "w6": {
+    "agents_md": "83b46aeece561b88e9ad80a3eb4bccf3c3fb5172333c7d114c49771caf620162",
+    "opening": "edb6a70dfdd890d165481c7fc9b4a6c3ab2fce9442b1e7aa1917a3dc19483e61"
+   },
+   "w7": {
+    "agents_md": "75b3553daed5b7ab21919f843b305a21de0cfd63102e967f51d85e5cacec19a9",
+    "opening": "cf9e5e1502b8f8bf2b664e6e7669d513cbffca3901f5be837100c0fba61094e0"
+   },
+   "w8": {
+    "agents_md": "a7827b9382b70ea0e4e5bcdd7a7ba9b124dbde2c702d11346813ea0fecf977b2",
+    "opening": "69fb2f40be5a5d262b4ddb19d0a6b46ad8fc86001b63f387f8ed1583bc31cb7c"
+   },
+   "w9": {
+    "agents_md": "0a59ea0f2f3718cd3fed42a598b1f88fdce4a75345b242779bc56384801a0809",
+    "opening": "5e08d01631cee89756292905a0da819066dbb522354792bd0d615080c39bae0a"
+   }
+  }
+ },
+ "food/watchparty_priority_fee/full_stack": {
+  "manifest": "7e5a51833cebe4f0f22ff0696e122c4de88756e7819e9f3539b23832b8c0ade2",
+  "seats": {
+   "w1": {
+    "agents_md": "f5ad325ec4583284bad51ce20767458502124ea7075053c8a61522fa8a1ed4c3",
+    "opening": "77720e79be1d5f1ecd37cccb1737ba2c5fe42826a649a569f739029d0f209032"
+   },
+   "w10": {
+    "agents_md": "eb6009e2044caf2230f69cd5f49193eb4c7d1d2e4879f63f7939713575ebc66b",
+    "opening": "92fef768e9327fac0513e84ccdc5d49ba914bdf10bc5dd7a8012ae19e7fca003"
+   },
+   "w11": {
+    "agents_md": "6d93b675fc273aefa9cabb5e224e32b848e6881da25c259fc04e9dae40033a5d",
+    "opening": "52a5332f6156afe1e6cc967eb831ef106c3984fefded3f61ac5523ebdfd249b5"
+   },
+   "w12": {
+    "agents_md": "460444982bdb32d7c502fb855b1c091d24b02f7bb8f2942cc8c2b1dffd2ca025",
+    "opening": "a8790c020a018582a03541ae2a65b94f0cfffe3f01d1a8c11927500e342e015a"
+   },
+   "w13": {
+    "agents_md": "6ac6da28a1db0e398e22628cc3189db12c8deac7d11895d647f6f0d13ed3cd74",
+    "opening": "2732d740731f991057c32b94ad032db61c5de6bb02b161292baa2d392ff95a60"
+   },
+   "w14": {
+    "agents_md": "db5e26a5c9693d87e920ed892b141dc253e406343df9e79de4b67764c2976097",
+    "opening": "93d7337ca62efa88bda8cd071e7747a6f52de1f5a50f4fdd319bae0e914dec16"
+   },
+   "w15": {
+    "agents_md": "ebcecc957de3626a06a54972407a072303b9f0ec7d3f2f0d7f53087426452645",
+    "opening": "67e14d5ad28158d3061f9d5e3cc1a854d3f1c8daf78dc393c12d5907cf52aaf0"
+   },
+   "w16": {
+    "agents_md": "d4fe9bce2ad0366df1fc8bd7dc619b770e0ac2d52062c007b0f3be6a4d726c42",
+    "opening": "20036299126faac38189db4b3c10a68a5849345567a4d291b313a3351f05ea39"
+   },
+   "w2": {
+    "agents_md": "a5330c38a1d72417b1aad6bdd0142c696397569f85898e2b52da646784874fff",
+    "opening": "e70e2531236fb29f2535d2406ffa1dc16f438c2cc0e9efd3856131ac9299e928"
+   },
+   "w3": {
+    "agents_md": "56231d17363fe48e0b16e015e7a4f5f7b944c798810a689ab2a399fb3f37092e",
+    "opening": "261d795987e5179c7dff1a2997c38d72e6ca0327a5c034bfc4e01607ba246779"
+   },
+   "w4": {
+    "agents_md": "04dda455b94de543dbae0264a0020c948d5f221a2f86a608ca0d0a496afefaff",
+    "opening": "24869e6887f70a8357129e85551c1367c4c605ab95364411bfd9c18c810e61ff"
+   },
+   "w5": {
+    "agents_md": "9a51ba2a663b92ab274b8c7c0779396388f9a2c5418245cfecc3642a6f04f71c",
+    "opening": "657c7cd5b934fd993b7de67c134aafbbbafc0a918d4a1403ff5b1c3beebfd74b"
+   },
+   "w6": {
+    "agents_md": "83b46aeece561b88e9ad80a3eb4bccf3c3fb5172333c7d114c49771caf620162",
+    "opening": "edb6a70dfdd890d165481c7fc9b4a6c3ab2fce9442b1e7aa1917a3dc19483e61"
+   },
+   "w7": {
+    "agents_md": "75b3553daed5b7ab21919f843b305a21de0cfd63102e967f51d85e5cacec19a9",
+    "opening": "cf9e5e1502b8f8bf2b664e6e7669d513cbffca3901f5be837100c0fba61094e0"
+   },
+   "w8": {
+    "agents_md": "a7827b9382b70ea0e4e5bcdd7a7ba9b124dbde2c702d11346813ea0fecf977b2",
+    "opening": "69fb2f40be5a5d262b4ddb19d0a6b46ad8fc86001b63f387f8ed1583bc31cb7c"
+   },
+   "w9": {
+    "agents_md": "0a59ea0f2f3718cd3fed42a598b1f88fdce4a75345b242779bc56384801a0809",
+    "opening": "5e08d01631cee89756292905a0da819066dbb522354792bd0d615080c39bae0a"
+   }
+  }
+ },
+ "trip/associate_rate_sweep/none": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "653253f35a796a6e429f59aeb353b2da68140da6dc8348275171ff8f3fb08f0f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "5172a37be082ce29781b9e12bf3471830baa28935453668e4056de13743a5391"
+   },
+   "t10": {
+    "agents_md": "587306f2268d58cd60d519681dbf53ace52c64f500bac7d3fc9d08e9868ed2cd",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "685aaf2c5077fd2b26608e0e62afa8eb4dc81c4d6cb50cbe37c92e2cedf32729"
+   },
+   "t11": {
+    "agents_md": "e4e8a3db3d2d122bab7ab37d06aed4cbdb3e2a65cbece36f98acfd1846928029",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f41a86368b6f635008d669d1494aef9951356445f322b714d77f2ca9cef4f88c"
+   },
+   "t12": {
+    "agents_md": "fa757bf0a8e277368631d83e41035b6c86e38aa4472df7be0abf3e0ce5b97605",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b80dea3aa4d67074f4b1c12d42e883f26b408f1ff088f9173f82de9711a3232c"
+   },
+   "t13": {
+    "agents_md": "89c546d6c1f09114d02ae8a3da0b5c1a4bbd8654193a287e869e9d88de0423dd",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d8ea1834645082f2e3061646be2c99be29cc060426d85f3f275f36ecd03d766e"
+   },
+   "t14": {
+    "agents_md": "880a48ca0dadb18d2343dd25fac49bec0038039fcd3678fdd777229ee03b5c00",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "83afffafc891da44f24d6b57b45d647f0859fcef9566ee79003d93cc1619821b"
+   },
+   "t15": {
+    "agents_md": "287bbc4206343c41b2a71ae81016b95592ddc9e95bd0422cf889e9013fd5aeb8",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "5da6900f775d65db5f19ef3f0466d31cb7cf9ca675f338e4a44b878a8ed902fc"
+   },
+   "t16": {
+    "agents_md": "40f7dd11302534c6fd78c9d6cde1d52865ade47778a323b9edbcb7f9c46ab200",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dfa74467680c13c27785353d5018ce0d00f0825a85dc8f1885756063c9f36e97"
+   },
+   "t2": {
+    "agents_md": "d63df129700e7030b3829abb2650a3f8e984401498aee2b236ca2fcf845d0a42",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "bbbf08f7d16df2daf1052fc4ca23145e71d6a32aa79b50ef71b25fc8567c88a7"
+   },
+   "t3": {
+    "agents_md": "b8afede8f401a8f842266c60b38a08826d38a957b32e0e119de749c4bd271321",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1774346d49a66ed215c7ab306393bc596407d108f9379acddc01e4baea798eae"
+   },
+   "t4": {
+    "agents_md": "136f59ac9621e3dbda60adefb4ba8e276645650845d0593bb181ed49f517145b",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b8d580ac1e72e4e0c2da862c234a475d7e641f3635e15cb8c557be5ffdd97099"
+   },
+   "t5": {
+    "agents_md": "12a2207744f327755d57794f60a2a190b9436175819cf5a317b5591216dddc4f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "66c2b129395d059d026e5e23629d954234cd6d431f7562fddb336e13c45742fc"
+   },
+   "t6": {
+    "agents_md": "564bf6c6385a552d47c26a21432a0bd85b6fa791ebfdde0648faa21c4f769f2a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ee1ad6588bbc3d7ac63a1d508625ab5de4186e3387b287a31228beb405f69722"
+   },
+   "t7": {
+    "agents_md": "f25852a2c53505fdb3248722d498c193d8f4d2a731609569dad057e6f66f6c84",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "6e49d6f3383d152af65fb908dd5bcb6cd75fefa998bb325db0f9bfb6f28c6fd0"
+   },
+   "t8": {
+    "agents_md": "0688d13750f8a79fd81272c1aaa15ceeee3bf44609e89f14788bfdaa5868ee7f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "06c88d0f8f71f784bf3d4ff175666764840f6569e70a48e6dce5c7606c2b7440"
+   },
+   "t9": {
+    "agents_md": "f10a7f4d8c28aa6c1b3b99203feceb9ca040547549f8e29eb9e5f032536d705f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "fbe7cb4e4253b1fc2c02d3dee2effbe5f9aebeed8485b925c65bb14e3c561f5a"
+   }
+  }
+ },
+ "trip/associate_rate_sweep/guard": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "653253f35a796a6e429f59aeb353b2da68140da6dc8348275171ff8f3fb08f0f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "5172a37be082ce29781b9e12bf3471830baa28935453668e4056de13743a5391"
+   },
+   "t10": {
+    "agents_md": "587306f2268d58cd60d519681dbf53ace52c64f500bac7d3fc9d08e9868ed2cd",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "685aaf2c5077fd2b26608e0e62afa8eb4dc81c4d6cb50cbe37c92e2cedf32729"
+   },
+   "t11": {
+    "agents_md": "e4e8a3db3d2d122bab7ab37d06aed4cbdb3e2a65cbece36f98acfd1846928029",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f41a86368b6f635008d669d1494aef9951356445f322b714d77f2ca9cef4f88c"
+   },
+   "t12": {
+    "agents_md": "fa757bf0a8e277368631d83e41035b6c86e38aa4472df7be0abf3e0ce5b97605",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b80dea3aa4d67074f4b1c12d42e883f26b408f1ff088f9173f82de9711a3232c"
+   },
+   "t13": {
+    "agents_md": "89c546d6c1f09114d02ae8a3da0b5c1a4bbd8654193a287e869e9d88de0423dd",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d8ea1834645082f2e3061646be2c99be29cc060426d85f3f275f36ecd03d766e"
+   },
+   "t14": {
+    "agents_md": "880a48ca0dadb18d2343dd25fac49bec0038039fcd3678fdd777229ee03b5c00",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "83afffafc891da44f24d6b57b45d647f0859fcef9566ee79003d93cc1619821b"
+   },
+   "t15": {
+    "agents_md": "287bbc4206343c41b2a71ae81016b95592ddc9e95bd0422cf889e9013fd5aeb8",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "5da6900f775d65db5f19ef3f0466d31cb7cf9ca675f338e4a44b878a8ed902fc"
+   },
+   "t16": {
+    "agents_md": "40f7dd11302534c6fd78c9d6cde1d52865ade47778a323b9edbcb7f9c46ab200",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dfa74467680c13c27785353d5018ce0d00f0825a85dc8f1885756063c9f36e97"
+   },
+   "t2": {
+    "agents_md": "d63df129700e7030b3829abb2650a3f8e984401498aee2b236ca2fcf845d0a42",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "bbbf08f7d16df2daf1052fc4ca23145e71d6a32aa79b50ef71b25fc8567c88a7"
+   },
+   "t3": {
+    "agents_md": "b8afede8f401a8f842266c60b38a08826d38a957b32e0e119de749c4bd271321",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1774346d49a66ed215c7ab306393bc596407d108f9379acddc01e4baea798eae"
+   },
+   "t4": {
+    "agents_md": "136f59ac9621e3dbda60adefb4ba8e276645650845d0593bb181ed49f517145b",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b8d580ac1e72e4e0c2da862c234a475d7e641f3635e15cb8c557be5ffdd97099"
+   },
+   "t5": {
+    "agents_md": "12a2207744f327755d57794f60a2a190b9436175819cf5a317b5591216dddc4f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "66c2b129395d059d026e5e23629d954234cd6d431f7562fddb336e13c45742fc"
+   },
+   "t6": {
+    "agents_md": "564bf6c6385a552d47c26a21432a0bd85b6fa791ebfdde0648faa21c4f769f2a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ee1ad6588bbc3d7ac63a1d508625ab5de4186e3387b287a31228beb405f69722"
+   },
+   "t7": {
+    "agents_md": "f25852a2c53505fdb3248722d498c193d8f4d2a731609569dad057e6f66f6c84",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "6e49d6f3383d152af65fb908dd5bcb6cd75fefa998bb325db0f9bfb6f28c6fd0"
+   },
+   "t8": {
+    "agents_md": "0688d13750f8a79fd81272c1aaa15ceeee3bf44609e89f14788bfdaa5868ee7f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "06c88d0f8f71f784bf3d4ff175666764840f6569e70a48e6dce5c7606c2b7440"
+   },
+   "t9": {
+    "agents_md": "f10a7f4d8c28aa6c1b3b99203feceb9ca040547549f8e29eb9e5f032536d705f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "fbe7cb4e4253b1fc2c02d3dee2effbe5f9aebeed8485b925c65bb14e3c561f5a"
+   }
+  }
+ },
+ "trip/associate_rate_sweep/full_stack": {
+  "manifest": "ebae79f4286c49d5a20b7e05f52b60b06b6dfeadfea20e66d9c158b533c1e38e",
+  "seats": {
+   "t1": {
+    "agents_md": "653253f35a796a6e429f59aeb353b2da68140da6dc8348275171ff8f3fb08f0f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "5172a37be082ce29781b9e12bf3471830baa28935453668e4056de13743a5391"
+   },
+   "t10": {
+    "agents_md": "587306f2268d58cd60d519681dbf53ace52c64f500bac7d3fc9d08e9868ed2cd",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "685aaf2c5077fd2b26608e0e62afa8eb4dc81c4d6cb50cbe37c92e2cedf32729"
+   },
+   "t11": {
+    "agents_md": "e4e8a3db3d2d122bab7ab37d06aed4cbdb3e2a65cbece36f98acfd1846928029",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f41a86368b6f635008d669d1494aef9951356445f322b714d77f2ca9cef4f88c"
+   },
+   "t12": {
+    "agents_md": "fa757bf0a8e277368631d83e41035b6c86e38aa4472df7be0abf3e0ce5b97605",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b80dea3aa4d67074f4b1c12d42e883f26b408f1ff088f9173f82de9711a3232c"
+   },
+   "t13": {
+    "agents_md": "89c546d6c1f09114d02ae8a3da0b5c1a4bbd8654193a287e869e9d88de0423dd",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d8ea1834645082f2e3061646be2c99be29cc060426d85f3f275f36ecd03d766e"
+   },
+   "t14": {
+    "agents_md": "880a48ca0dadb18d2343dd25fac49bec0038039fcd3678fdd777229ee03b5c00",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "83afffafc891da44f24d6b57b45d647f0859fcef9566ee79003d93cc1619821b"
+   },
+   "t15": {
+    "agents_md": "287bbc4206343c41b2a71ae81016b95592ddc9e95bd0422cf889e9013fd5aeb8",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "5da6900f775d65db5f19ef3f0466d31cb7cf9ca675f338e4a44b878a8ed902fc"
+   },
+   "t16": {
+    "agents_md": "40f7dd11302534c6fd78c9d6cde1d52865ade47778a323b9edbcb7f9c46ab200",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dfa74467680c13c27785353d5018ce0d00f0825a85dc8f1885756063c9f36e97"
+   },
+   "t2": {
+    "agents_md": "d63df129700e7030b3829abb2650a3f8e984401498aee2b236ca2fcf845d0a42",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "bbbf08f7d16df2daf1052fc4ca23145e71d6a32aa79b50ef71b25fc8567c88a7"
+   },
+   "t3": {
+    "agents_md": "b8afede8f401a8f842266c60b38a08826d38a957b32e0e119de749c4bd271321",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1774346d49a66ed215c7ab306393bc596407d108f9379acddc01e4baea798eae"
+   },
+   "t4": {
+    "agents_md": "136f59ac9621e3dbda60adefb4ba8e276645650845d0593bb181ed49f517145b",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b8d580ac1e72e4e0c2da862c234a475d7e641f3635e15cb8c557be5ffdd97099"
+   },
+   "t5": {
+    "agents_md": "12a2207744f327755d57794f60a2a190b9436175819cf5a317b5591216dddc4f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "66c2b129395d059d026e5e23629d954234cd6d431f7562fddb336e13c45742fc"
+   },
+   "t6": {
+    "agents_md": "564bf6c6385a552d47c26a21432a0bd85b6fa791ebfdde0648faa21c4f769f2a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ee1ad6588bbc3d7ac63a1d508625ab5de4186e3387b287a31228beb405f69722"
+   },
+   "t7": {
+    "agents_md": "f25852a2c53505fdb3248722d498c193d8f4d2a731609569dad057e6f66f6c84",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "6e49d6f3383d152af65fb908dd5bcb6cd75fefa998bb325db0f9bfb6f28c6fd0"
+   },
+   "t8": {
+    "agents_md": "0688d13750f8a79fd81272c1aaa15ceeee3bf44609e89f14788bfdaa5868ee7f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "06c88d0f8f71f784bf3d4ff175666764840f6569e70a48e6dce5c7606c2b7440"
+   },
+   "t9": {
+    "agents_md": "f10a7f4d8c28aa6c1b3b99203feceb9ca040547549f8e29eb9e5f032536d705f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "fbe7cb4e4253b1fc2c02d3dee2effbe5f9aebeed8485b925c65bb14e3c561f5a"
+   }
+  }
+ },
+ "trip/group__double_share_snapback/none": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "8f04253f42b8c10ffca34724254d663f1d42619c340b9df00fe1ce70719ee1aa",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "c63e1db8554ff19e0359551590906471711a394fa913e2a92fcbf9209d06b005"
+   },
+   "t2": {
+    "agents_md": "08da5f2492be92ef874e0adfd2d853ce1473ab90544e5b92c699ee7cb6a7adb0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "fd519caf61cbb22257b8d55007257b53ea78fcdd10ada382bb99885c7bbfa499"
+   },
+   "t3": {
+    "agents_md": "7b2fcc898c2dad0afa039fb9371084df1f27fb55275c72c89eff9c6b9c2bb171",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "28a32b1ac942bd8093ecfb8e80abdd1553ac68c31358c2fc9ad83ffcb763b309"
+   },
+   "t4": {
+    "agents_md": "a8079439d3888f6fa1b2989cb7bcd4e6ae1d69b517a4e6238346331fce6d6c8c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d568c7d1bc4772cd083a9667be33b27d69fe00f885389cfe6efddf51bbc5f51d"
+   },
+   "t5": {
+    "agents_md": "e276453aa59af9d4137d6af60f05efe1575d92482e2d2e534aee395f9a352e17",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "011bfad4670da57444a199808ac61e588881eff783a33bcaaff28c7bf5414c51"
+   },
+   "t6": {
+    "agents_md": "4735b7a2254eaff58174ca50c4514a70e0f6098bb2803faa3af5ebab234f9f57",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "3f4bce9198791ec54ce8366d19888b56357c26518a679eb0b03fa88201910572"
+   },
+   "t7": {
+    "agents_md": "928a5bbe77f2f8cd4c84c7f160715e82c09359fac0223452636399bddc17b6de",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "207926a2ec8bf740728aeb6762554322322cf56e71237f5ca035f45eaad51124"
+   },
+   "t8": {
+    "agents_md": "383215ae9fea7523de6d28f8eff521988364c81e5045cf83a63c7658329f07d0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "474e753b658797772b9532c4b775487ba7337f6c59a9a01329c234038e510308"
+   }
+  }
+ },
+ "trip/group__double_share_snapback/guard": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "8f04253f42b8c10ffca34724254d663f1d42619c340b9df00fe1ce70719ee1aa",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "c63e1db8554ff19e0359551590906471711a394fa913e2a92fcbf9209d06b005"
+   },
+   "t2": {
+    "agents_md": "08da5f2492be92ef874e0adfd2d853ce1473ab90544e5b92c699ee7cb6a7adb0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "fd519caf61cbb22257b8d55007257b53ea78fcdd10ada382bb99885c7bbfa499"
+   },
+   "t3": {
+    "agents_md": "7b2fcc898c2dad0afa039fb9371084df1f27fb55275c72c89eff9c6b9c2bb171",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "28a32b1ac942bd8093ecfb8e80abdd1553ac68c31358c2fc9ad83ffcb763b309"
+   },
+   "t4": {
+    "agents_md": "a8079439d3888f6fa1b2989cb7bcd4e6ae1d69b517a4e6238346331fce6d6c8c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d568c7d1bc4772cd083a9667be33b27d69fe00f885389cfe6efddf51bbc5f51d"
+   },
+   "t5": {
+    "agents_md": "e276453aa59af9d4137d6af60f05efe1575d92482e2d2e534aee395f9a352e17",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "011bfad4670da57444a199808ac61e588881eff783a33bcaaff28c7bf5414c51"
+   },
+   "t6": {
+    "agents_md": "4735b7a2254eaff58174ca50c4514a70e0f6098bb2803faa3af5ebab234f9f57",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "3f4bce9198791ec54ce8366d19888b56357c26518a679eb0b03fa88201910572"
+   },
+   "t7": {
+    "agents_md": "928a5bbe77f2f8cd4c84c7f160715e82c09359fac0223452636399bddc17b6de",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "207926a2ec8bf740728aeb6762554322322cf56e71237f5ca035f45eaad51124"
+   },
+   "t8": {
+    "agents_md": "383215ae9fea7523de6d28f8eff521988364c81e5045cf83a63c7658329f07d0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "474e753b658797772b9532c4b775487ba7337f6c59a9a01329c234038e510308"
+   }
+  }
+ },
+ "trip/group__double_share_snapback/full_stack": {
+  "manifest": "ebae79f4286c49d5a20b7e05f52b60b06b6dfeadfea20e66d9c158b533c1e38e",
+  "seats": {
+   "t1": {
+    "agents_md": "8f04253f42b8c10ffca34724254d663f1d42619c340b9df00fe1ce70719ee1aa",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "c63e1db8554ff19e0359551590906471711a394fa913e2a92fcbf9209d06b005"
+   },
+   "t2": {
+    "agents_md": "08da5f2492be92ef874e0adfd2d853ce1473ab90544e5b92c699ee7cb6a7adb0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "fd519caf61cbb22257b8d55007257b53ea78fcdd10ada382bb99885c7bbfa499"
+   },
+   "t3": {
+    "agents_md": "7b2fcc898c2dad0afa039fb9371084df1f27fb55275c72c89eff9c6b9c2bb171",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "28a32b1ac942bd8093ecfb8e80abdd1553ac68c31358c2fc9ad83ffcb763b309"
+   },
+   "t4": {
+    "agents_md": "a8079439d3888f6fa1b2989cb7bcd4e6ae1d69b517a4e6238346331fce6d6c8c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d568c7d1bc4772cd083a9667be33b27d69fe00f885389cfe6efddf51bbc5f51d"
+   },
+   "t5": {
+    "agents_md": "e276453aa59af9d4137d6af60f05efe1575d92482e2d2e534aee395f9a352e17",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "011bfad4670da57444a199808ac61e588881eff783a33bcaaff28c7bf5414c51"
+   },
+   "t6": {
+    "agents_md": "4735b7a2254eaff58174ca50c4514a70e0f6098bb2803faa3af5ebab234f9f57",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "3f4bce9198791ec54ce8366d19888b56357c26518a679eb0b03fa88201910572"
+   },
+   "t7": {
+    "agents_md": "928a5bbe77f2f8cd4c84c7f160715e82c09359fac0223452636399bddc17b6de",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "207926a2ec8bf740728aeb6762554322322cf56e71237f5ca035f45eaad51124"
+   },
+   "t8": {
+    "agents_md": "383215ae9fea7523de6d28f8eff521988364c81e5045cf83a63c7658329f07d0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "474e753b658797772b9532c4b775487ba7337f6c59a9a01329c234038e510308"
+   }
+  }
+ },
+ "trip/insulin_single_room_last_run/none": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "08f32a2c9e6425fb7eb79fedeb992a523e531cefee138c369cebad349beb63da",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "663701ade9f1fd638ef6d27b76c7184b58ac44f079610af9a0577773c69b16de"
+   },
+   "t2": {
+    "agents_md": "25012e8e4655eba1776c7185ce6492507c497d3dadb6974c892468b32e5e4707",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "c918ca17c24d450b3aea5b1b7e8a2a915347c16a52f35b4cfaef9cd471482654"
+   },
+   "t3": {
+    "agents_md": "b3bfd1a9e727e8cfae1deca0817da6edf72e7cdbe93a059f5a4151b7cc33afc5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b0f7ba6268a94b66c060a4fc8abb9bf9a721b1f926bfdea0108c9dd04fb8d636"
+   },
+   "t4": {
+    "agents_md": "4fa592943b3b1caae953117bd73146866708d4b21aad10bf3e8e3ed0b68fcaec",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "630d91dec853934ed35a0657a8a8b536f2595126e8540551610b7d4ec7d721bd"
+   },
+   "t5": {
+    "agents_md": "dab2062084a077fb9d0ed7b6c596f09697a8e2f85d6a17769cb7d65e8683637e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "581fc993f044cda04428081766c5b6bd64a6698db85a6bfc6eaa2c59b915f532"
+   },
+   "t6": {
+    "agents_md": "24d0ada5e92bbacb21cedd6198b96b685199a2d6e82517a21e2d75e2507bf9db",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a8dfa62b87302368a255282a919d60c25a11a0880688d28fac9a199ad088c717"
+   },
+   "t7": {
+    "agents_md": "d9dc1c16c781b432e81062f2b0351b3aa0ff095316647dc5ccceefe0b0262889",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "93ee000495df55df4e15013d4cac5d58bc030f4def654f3a9903c6b90933177a"
+   },
+   "t8": {
+    "agents_md": "1f4575c66ff29e6646079d21032644fbdcfb591a89ddefafe2f83c4fd501266a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "212641b8e0650bf212581efdc3c096e7defb10aa121e87a3450b7d74b7caf7f0"
+   }
+  }
+ },
+ "trip/insulin_single_room_last_run/guard": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "08f32a2c9e6425fb7eb79fedeb992a523e531cefee138c369cebad349beb63da",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "663701ade9f1fd638ef6d27b76c7184b58ac44f079610af9a0577773c69b16de"
+   },
+   "t2": {
+    "agents_md": "25012e8e4655eba1776c7185ce6492507c497d3dadb6974c892468b32e5e4707",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "c918ca17c24d450b3aea5b1b7e8a2a915347c16a52f35b4cfaef9cd471482654"
+   },
+   "t3": {
+    "agents_md": "b3bfd1a9e727e8cfae1deca0817da6edf72e7cdbe93a059f5a4151b7cc33afc5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b0f7ba6268a94b66c060a4fc8abb9bf9a721b1f926bfdea0108c9dd04fb8d636"
+   },
+   "t4": {
+    "agents_md": "4fa592943b3b1caae953117bd73146866708d4b21aad10bf3e8e3ed0b68fcaec",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "630d91dec853934ed35a0657a8a8b536f2595126e8540551610b7d4ec7d721bd"
+   },
+   "t5": {
+    "agents_md": "dab2062084a077fb9d0ed7b6c596f09697a8e2f85d6a17769cb7d65e8683637e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "581fc993f044cda04428081766c5b6bd64a6698db85a6bfc6eaa2c59b915f532"
+   },
+   "t6": {
+    "agents_md": "24d0ada5e92bbacb21cedd6198b96b685199a2d6e82517a21e2d75e2507bf9db",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a8dfa62b87302368a255282a919d60c25a11a0880688d28fac9a199ad088c717"
+   },
+   "t7": {
+    "agents_md": "d9dc1c16c781b432e81062f2b0351b3aa0ff095316647dc5ccceefe0b0262889",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "93ee000495df55df4e15013d4cac5d58bc030f4def654f3a9903c6b90933177a"
+   },
+   "t8": {
+    "agents_md": "1f4575c66ff29e6646079d21032644fbdcfb591a89ddefafe2f83c4fd501266a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "212641b8e0650bf212581efdc3c096e7defb10aa121e87a3450b7d74b7caf7f0"
+   }
+  }
+ },
+ "trip/insulin_single_room_last_run/full_stack": {
+  "manifest": "ebae79f4286c49d5a20b7e05f52b60b06b6dfeadfea20e66d9c158b533c1e38e",
+  "seats": {
+   "t1": {
+    "agents_md": "08f32a2c9e6425fb7eb79fedeb992a523e531cefee138c369cebad349beb63da",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "663701ade9f1fd638ef6d27b76c7184b58ac44f079610af9a0577773c69b16de"
+   },
+   "t2": {
+    "agents_md": "25012e8e4655eba1776c7185ce6492507c497d3dadb6974c892468b32e5e4707",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "c918ca17c24d450b3aea5b1b7e8a2a915347c16a52f35b4cfaef9cd471482654"
+   },
+   "t3": {
+    "agents_md": "b3bfd1a9e727e8cfae1deca0817da6edf72e7cdbe93a059f5a4151b7cc33afc5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "b0f7ba6268a94b66c060a4fc8abb9bf9a721b1f926bfdea0108c9dd04fb8d636"
+   },
+   "t4": {
+    "agents_md": "4fa592943b3b1caae953117bd73146866708d4b21aad10bf3e8e3ed0b68fcaec",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "630d91dec853934ed35a0657a8a8b536f2595126e8540551610b7d4ec7d721bd"
+   },
+   "t5": {
+    "agents_md": "dab2062084a077fb9d0ed7b6c596f09697a8e2f85d6a17769cb7d65e8683637e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "581fc993f044cda04428081766c5b6bd64a6698db85a6bfc6eaa2c59b915f532"
+   },
+   "t6": {
+    "agents_md": "24d0ada5e92bbacb21cedd6198b96b685199a2d6e82517a21e2d75e2507bf9db",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a8dfa62b87302368a255282a919d60c25a11a0880688d28fac9a199ad088c717"
+   },
+   "t7": {
+    "agents_md": "d9dc1c16c781b432e81062f2b0351b3aa0ff095316647dc5ccceefe0b0262889",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "93ee000495df55df4e15013d4cac5d58bc030f4def654f3a9903c6b90933177a"
+   },
+   "t8": {
+    "agents_md": "1f4575c66ff29e6646079d21032644fbdcfb591a89ddefafe2f83c4fd501266a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "212641b8e0650bf212581efdc3c096e7defb10aa121e87a3450b7d74b7caf7f0"
+   }
+  }
+ },
+ "trip/pa_share_sweep_no_rebuild/none": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "6f5f8745858d00abef7012490bda8e4b37d0e487004fcefb83905400a0198780",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a246008e4e9f9de989185d59ccab2e2483d3c9141e4409bf946cea8d5e076d45"
+   },
+   "t10": {
+    "agents_md": "9da7a8141dfdb9f4ce84d300abcdcae98bd20f81334edb10134e722119f9e436",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e46c2dfa456c3bf9eb4dd4ec840d53f953ff5a9f6d7982b15b445d6b5bbccb65"
+   },
+   "t11": {
+    "agents_md": "f97ad656b10aa97ca0b4b2bed1a65d71d4108c50f64df7c7604175cd88ed689e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "db25e2b9e3c0662c0207dbee201bb416901367cff4c8f451bb5a00a5a27d5bfb"
+   },
+   "t12": {
+    "agents_md": "ddc2827f0b043ce76c6581d3033ab074372a1836bd4f8306c37c77efd41bc22c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "06c593f3d984a1cb0e82afdbed644cf1f4f1f9510d998f2c2571cd8ee152a611"
+   },
+   "t13": {
+    "agents_md": "42cf1fb74616caba95600e7201e47a82c7539ac26d683c9bbbc246524fbb4aed",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f103d8e500afd4faa0cdcadc3cd8e873c7caf8b80cdc738b9b86ca8a812927c6"
+   },
+   "t14": {
+    "agents_md": "1636909f663af2298155b83faa3174a828c1655b76f701322fb5d68618a22d5a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "04aab866264f6b04ab7899c8c656c669c80a2d5210df954b727bd4d7fe3a2de6"
+   },
+   "t15": {
+    "agents_md": "dfd3dd9736c1193a956d4fae7cb3136db29c720ecd1073dbc1b8a4068db97e76",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e5227d1d2bad96137c97eaacec270894cf5d830e2c1d7a91480b44c179862f74"
+   },
+   "t16": {
+    "agents_md": "2706c47296173cfe6fa979624227775bcb46fe6ba0550cf89b5e9c2a31fc9836",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dc5d4b5decf0231d25e7b331cc919f23b4425975ccfbfdff1f1ad35eb3947fe0"
+   },
+   "t2": {
+    "agents_md": "4ac6aa09e62731ef26786437790033430c0fb3d318d8f0e5f32b0ab6516296c9",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "52e6de858cb1189c67324dd3481b1074caf919ed6751702a18c77cf42df342b9"
+   },
+   "t3": {
+    "agents_md": "ae75eddefa48bcd50a9bfe22372b764ca9937e4fee9c813ca69a7dce51498f04",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7ac70f9f75136555a7de2521919d3cb9cad31b519ab242e4c2915bc908a06220"
+   },
+   "t4": {
+    "agents_md": "65f7e58193134b6eafbbc4b6be4bf391a8b11a569dda1e48b687686c4bbfcfa3",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "0c1b4f5fac76e4ebdd11c8f83240bd3f415548c1a44acdd45e0d78a573832b8c"
+   },
+   "t5": {
+    "agents_md": "a6dde9c3ac9bfd8a3563396209787f6b91f45adcc593e681844655db425a69b3",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "02150287c2aab87138fc9f306a129f013b054c6f4cac8c10b75eae67ebf3eae6"
+   },
+   "t6": {
+    "agents_md": "b8bd9f7d1fc323e831cefc8b663420901c30f4fdd462abf3d676b8752b41cf60",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1a4bc4b44eb38f5ba43ef99856f49f6ce87b0cb8f13012e3f0cfbbf90a980647"
+   },
+   "t7": {
+    "agents_md": "b319a9a3e8de0058f50de97350b3c05352a1210c5cd4cbcd502c9e6a7f9ae82f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "637a663d5368b013d60f174dd498b7c3d62acf0ffa5b1efb992869f62c09c6b1"
+   },
+   "t8": {
+    "agents_md": "22c6b30ba7ef14a4e124a9994d87645f21098985379518425e523cd6aed18386",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2537221c1a4978e3f1ce93648b6cfbffa8fbe4a580196cd3d6731bb2ec25e6c3"
+   },
+   "t9": {
+    "agents_md": "f4fa7951491d113b5ab51458caffd3e58ed30817892ce3d5bdaaa711ec5e3bac",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7bf0dbe3da2545f07f3f6de9033aa08e1323f1d6d468ce2ee72875fa66cd83eb"
+   }
+  }
+ },
+ "trip/pa_share_sweep_no_rebuild/guard": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "6f5f8745858d00abef7012490bda8e4b37d0e487004fcefb83905400a0198780",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a246008e4e9f9de989185d59ccab2e2483d3c9141e4409bf946cea8d5e076d45"
+   },
+   "t10": {
+    "agents_md": "9da7a8141dfdb9f4ce84d300abcdcae98bd20f81334edb10134e722119f9e436",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e46c2dfa456c3bf9eb4dd4ec840d53f953ff5a9f6d7982b15b445d6b5bbccb65"
+   },
+   "t11": {
+    "agents_md": "f97ad656b10aa97ca0b4b2bed1a65d71d4108c50f64df7c7604175cd88ed689e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "db25e2b9e3c0662c0207dbee201bb416901367cff4c8f451bb5a00a5a27d5bfb"
+   },
+   "t12": {
+    "agents_md": "ddc2827f0b043ce76c6581d3033ab074372a1836bd4f8306c37c77efd41bc22c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "06c593f3d984a1cb0e82afdbed644cf1f4f1f9510d998f2c2571cd8ee152a611"
+   },
+   "t13": {
+    "agents_md": "42cf1fb74616caba95600e7201e47a82c7539ac26d683c9bbbc246524fbb4aed",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f103d8e500afd4faa0cdcadc3cd8e873c7caf8b80cdc738b9b86ca8a812927c6"
+   },
+   "t14": {
+    "agents_md": "1636909f663af2298155b83faa3174a828c1655b76f701322fb5d68618a22d5a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "04aab866264f6b04ab7899c8c656c669c80a2d5210df954b727bd4d7fe3a2de6"
+   },
+   "t15": {
+    "agents_md": "dfd3dd9736c1193a956d4fae7cb3136db29c720ecd1073dbc1b8a4068db97e76",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e5227d1d2bad96137c97eaacec270894cf5d830e2c1d7a91480b44c179862f74"
+   },
+   "t16": {
+    "agents_md": "2706c47296173cfe6fa979624227775bcb46fe6ba0550cf89b5e9c2a31fc9836",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dc5d4b5decf0231d25e7b331cc919f23b4425975ccfbfdff1f1ad35eb3947fe0"
+   },
+   "t2": {
+    "agents_md": "4ac6aa09e62731ef26786437790033430c0fb3d318d8f0e5f32b0ab6516296c9",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "52e6de858cb1189c67324dd3481b1074caf919ed6751702a18c77cf42df342b9"
+   },
+   "t3": {
+    "agents_md": "ae75eddefa48bcd50a9bfe22372b764ca9937e4fee9c813ca69a7dce51498f04",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7ac70f9f75136555a7de2521919d3cb9cad31b519ab242e4c2915bc908a06220"
+   },
+   "t4": {
+    "agents_md": "65f7e58193134b6eafbbc4b6be4bf391a8b11a569dda1e48b687686c4bbfcfa3",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "0c1b4f5fac76e4ebdd11c8f83240bd3f415548c1a44acdd45e0d78a573832b8c"
+   },
+   "t5": {
+    "agents_md": "a6dde9c3ac9bfd8a3563396209787f6b91f45adcc593e681844655db425a69b3",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "02150287c2aab87138fc9f306a129f013b054c6f4cac8c10b75eae67ebf3eae6"
+   },
+   "t6": {
+    "agents_md": "b8bd9f7d1fc323e831cefc8b663420901c30f4fdd462abf3d676b8752b41cf60",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1a4bc4b44eb38f5ba43ef99856f49f6ce87b0cb8f13012e3f0cfbbf90a980647"
+   },
+   "t7": {
+    "agents_md": "b319a9a3e8de0058f50de97350b3c05352a1210c5cd4cbcd502c9e6a7f9ae82f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "637a663d5368b013d60f174dd498b7c3d62acf0ffa5b1efb992869f62c09c6b1"
+   },
+   "t8": {
+    "agents_md": "22c6b30ba7ef14a4e124a9994d87645f21098985379518425e523cd6aed18386",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2537221c1a4978e3f1ce93648b6cfbffa8fbe4a580196cd3d6731bb2ec25e6c3"
+   },
+   "t9": {
+    "agents_md": "f4fa7951491d113b5ab51458caffd3e58ed30817892ce3d5bdaaa711ec5e3bac",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7bf0dbe3da2545f07f3f6de9033aa08e1323f1d6d468ce2ee72875fa66cd83eb"
+   }
+  }
+ },
+ "trip/pa_share_sweep_no_rebuild/full_stack": {
+  "manifest": "ebae79f4286c49d5a20b7e05f52b60b06b6dfeadfea20e66d9c158b533c1e38e",
+  "seats": {
+   "t1": {
+    "agents_md": "6f5f8745858d00abef7012490bda8e4b37d0e487004fcefb83905400a0198780",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a246008e4e9f9de989185d59ccab2e2483d3c9141e4409bf946cea8d5e076d45"
+   },
+   "t10": {
+    "agents_md": "9da7a8141dfdb9f4ce84d300abcdcae98bd20f81334edb10134e722119f9e436",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e46c2dfa456c3bf9eb4dd4ec840d53f953ff5a9f6d7982b15b445d6b5bbccb65"
+   },
+   "t11": {
+    "agents_md": "f97ad656b10aa97ca0b4b2bed1a65d71d4108c50f64df7c7604175cd88ed689e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "db25e2b9e3c0662c0207dbee201bb416901367cff4c8f451bb5a00a5a27d5bfb"
+   },
+   "t12": {
+    "agents_md": "ddc2827f0b043ce76c6581d3033ab074372a1836bd4f8306c37c77efd41bc22c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "06c593f3d984a1cb0e82afdbed644cf1f4f1f9510d998f2c2571cd8ee152a611"
+   },
+   "t13": {
+    "agents_md": "42cf1fb74616caba95600e7201e47a82c7539ac26d683c9bbbc246524fbb4aed",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f103d8e500afd4faa0cdcadc3cd8e873c7caf8b80cdc738b9b86ca8a812927c6"
+   },
+   "t14": {
+    "agents_md": "1636909f663af2298155b83faa3174a828c1655b76f701322fb5d68618a22d5a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "04aab866264f6b04ab7899c8c656c669c80a2d5210df954b727bd4d7fe3a2de6"
+   },
+   "t15": {
+    "agents_md": "dfd3dd9736c1193a956d4fae7cb3136db29c720ecd1073dbc1b8a4068db97e76",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e5227d1d2bad96137c97eaacec270894cf5d830e2c1d7a91480b44c179862f74"
+   },
+   "t16": {
+    "agents_md": "2706c47296173cfe6fa979624227775bcb46fe6ba0550cf89b5e9c2a31fc9836",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dc5d4b5decf0231d25e7b331cc919f23b4425975ccfbfdff1f1ad35eb3947fe0"
+   },
+   "t2": {
+    "agents_md": "4ac6aa09e62731ef26786437790033430c0fb3d318d8f0e5f32b0ab6516296c9",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "52e6de858cb1189c67324dd3481b1074caf919ed6751702a18c77cf42df342b9"
+   },
+   "t3": {
+    "agents_md": "ae75eddefa48bcd50a9bfe22372b764ca9937e4fee9c813ca69a7dce51498f04",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7ac70f9f75136555a7de2521919d3cb9cad31b519ab242e4c2915bc908a06220"
+   },
+   "t4": {
+    "agents_md": "65f7e58193134b6eafbbc4b6be4bf391a8b11a569dda1e48b687686c4bbfcfa3",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "0c1b4f5fac76e4ebdd11c8f83240bd3f415548c1a44acdd45e0d78a573832b8c"
+   },
+   "t5": {
+    "agents_md": "a6dde9c3ac9bfd8a3563396209787f6b91f45adcc593e681844655db425a69b3",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "02150287c2aab87138fc9f306a129f013b054c6f4cac8c10b75eae67ebf3eae6"
+   },
+   "t6": {
+    "agents_md": "b8bd9f7d1fc323e831cefc8b663420901c30f4fdd462abf3d676b8752b41cf60",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1a4bc4b44eb38f5ba43ef99856f49f6ce87b0cb8f13012e3f0cfbbf90a980647"
+   },
+   "t7": {
+    "agents_md": "b319a9a3e8de0058f50de97350b3c05352a1210c5cd4cbcd502c9e6a7f9ae82f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "637a663d5368b013d60f174dd498b7c3d62acf0ffa5b1efb992869f62c09c6b1"
+   },
+   "t8": {
+    "agents_md": "22c6b30ba7ef14a4e124a9994d87645f21098985379518425e523cd6aed18386",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2537221c1a4978e3f1ce93648b6cfbffa8fbe4a580196cd3d6731bb2ec25e6c3"
+   },
+   "t9": {
+    "agents_md": "f4fa7951491d113b5ab51458caffd3e58ed30817892ce3d5bdaaa711ec5e3bac",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7bf0dbe3da2545f07f3f6de9033aa08e1323f1d6d468ce2ee72875fa66cd83eb"
+   }
+  }
+ },
+ "trip/retirement_double_share/none": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "3fba9eef6e3655b1c280cdee4984fc05e8b5fafc5a8fa25252e4c5057b03033f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dfca0b06a5383201e0d144ecef48b6083c2219988e6b561752e14cf675ff675a"
+   },
+   "t10": {
+    "agents_md": "0c6e53602d2be44456192bd27214ca47711847c1e3fe59ea7fb5aa8a689b2676",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "0c4929158b0c02f45bdf37d754da993449af99f82b2f0f35401e699c80d4519c"
+   },
+   "t11": {
+    "agents_md": "03bdc825cc1fb9814ee9cc5c19fedff02c9f25b08d9f1afc1b6dd4aa0e1b3149",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f0c1e0a0de66a11eafa783bb79dec3a77b435df24166fc0dcde832728be58342"
+   },
+   "t12": {
+    "agents_md": "f4f4eedf2b652a31112ac85e2e8465730a47423d27870087b7a395ee3bdc989e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a5e5ac885a52d023442c86495fe832573a851dd8d2d1dec984e169dde1e99d9b"
+   },
+   "t13": {
+    "agents_md": "a6b2de7c2af4d011d0b5b33c3878ca946741e9cbe48282448b1523f210e541c5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d1c6cbd50fde1eb07cdf8e300c8798382bed069a3d358dd42a7b2d328bac652d"
+   },
+   "t14": {
+    "agents_md": "34db99bbf18da501ef80bc2880d3d232cb5f0240ca67dad1bda9418916f178a2",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a1b5b4bc20f1e37875b177c7d242000a45d3f82f8be956c121d998ca6213f48d"
+   },
+   "t15": {
+    "agents_md": "029121bdbba89225263f02c4f91a99a9bfa47de93d3f4b960830751b3bd6a619",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "faa61d68ad905c14dfc6220fa64b12de16e84f9776a2cf38e82ff8f706b9f802"
+   },
+   "t16": {
+    "agents_md": "b12f4e06ab097b71203459346af4c46d3dc7369381634b6061d57aaa5c50759d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a13c6aa949a60688b5515243f6acd1df8e484f936eb05759b4eb1110b42651aa"
+   },
+   "t2": {
+    "agents_md": "9f86b01b79fd59a3b046e71bbc99d92f5ee9feec85e7d06952e4f67f8b68360c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7c6f867fdfecedc6defeff920cd0e7f6358bd346a01c1c8f274616457b45c03c"
+   },
+   "t3": {
+    "agents_md": "3e99909b114bf0ff035581a5594484ce5b0b9dc9f8cf885fb68d0c869dfae99d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1284a0cc0fc676bf1380ad378afac0fa58eaf9787fc9a105f5a92efc930d6193"
+   },
+   "t4": {
+    "agents_md": "8f37ecbcd386abba727c2bb44450a2abcd4f46c3f4a5505d661d276a61113cea",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a1155b57dd84157be4f632f3e45c1480cd950a687008ca013556e020166c62d1"
+   },
+   "t5": {
+    "agents_md": "3c8ca38b8b4a6020bc0e534f046c5e464dad42fdae43008226f92707b088f6c6",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "29f91c87bf0c8128a48c37055859723632d7bb7dfdef0e4bfee5e1acf57d1bca"
+   },
+   "t6": {
+    "agents_md": "f60d3fcc8cbf49f153a9a37baf1faac064409b02ddb3dd0216a25e6152fb928e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1ebe0b647f28280c9d5974c082ebabbc389e4fd537fd5c46920b97bee8cb8bf1"
+   },
+   "t7": {
+    "agents_md": "01ae62afdc07e964121d4675f9ece8b1f276b41bb3263e827a04c30fb9efce23",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "bf1d1d81b6db336c6993ef22218518c76b0549b1bc2d3040f3a5822751665a22"
+   },
+   "t8": {
+    "agents_md": "e59660f3e666515bd149daea871ce2c7a1fade27ca5d5104f2a999d526894531",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f3a666124b4c1fe5cce4f6175c89b80ccbd243a77796ae6be5ef77926eb32ed9"
+   },
+   "t9": {
+    "agents_md": "b67440563d1f1d5db8fa1f61c7cce2bd69230bc8c7894342d6ea2b1272f0eeb0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "07b04d18bd2fba5db0b661523571598ab263aa0432f7071915776d1a6668e79a"
+   }
+  }
+ },
+ "trip/retirement_double_share/guard": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "3fba9eef6e3655b1c280cdee4984fc05e8b5fafc5a8fa25252e4c5057b03033f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dfca0b06a5383201e0d144ecef48b6083c2219988e6b561752e14cf675ff675a"
+   },
+   "t10": {
+    "agents_md": "0c6e53602d2be44456192bd27214ca47711847c1e3fe59ea7fb5aa8a689b2676",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "0c4929158b0c02f45bdf37d754da993449af99f82b2f0f35401e699c80d4519c"
+   },
+   "t11": {
+    "agents_md": "03bdc825cc1fb9814ee9cc5c19fedff02c9f25b08d9f1afc1b6dd4aa0e1b3149",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f0c1e0a0de66a11eafa783bb79dec3a77b435df24166fc0dcde832728be58342"
+   },
+   "t12": {
+    "agents_md": "f4f4eedf2b652a31112ac85e2e8465730a47423d27870087b7a395ee3bdc989e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a5e5ac885a52d023442c86495fe832573a851dd8d2d1dec984e169dde1e99d9b"
+   },
+   "t13": {
+    "agents_md": "a6b2de7c2af4d011d0b5b33c3878ca946741e9cbe48282448b1523f210e541c5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d1c6cbd50fde1eb07cdf8e300c8798382bed069a3d358dd42a7b2d328bac652d"
+   },
+   "t14": {
+    "agents_md": "34db99bbf18da501ef80bc2880d3d232cb5f0240ca67dad1bda9418916f178a2",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a1b5b4bc20f1e37875b177c7d242000a45d3f82f8be956c121d998ca6213f48d"
+   },
+   "t15": {
+    "agents_md": "029121bdbba89225263f02c4f91a99a9bfa47de93d3f4b960830751b3bd6a619",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "faa61d68ad905c14dfc6220fa64b12de16e84f9776a2cf38e82ff8f706b9f802"
+   },
+   "t16": {
+    "agents_md": "b12f4e06ab097b71203459346af4c46d3dc7369381634b6061d57aaa5c50759d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a13c6aa949a60688b5515243f6acd1df8e484f936eb05759b4eb1110b42651aa"
+   },
+   "t2": {
+    "agents_md": "9f86b01b79fd59a3b046e71bbc99d92f5ee9feec85e7d06952e4f67f8b68360c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7c6f867fdfecedc6defeff920cd0e7f6358bd346a01c1c8f274616457b45c03c"
+   },
+   "t3": {
+    "agents_md": "3e99909b114bf0ff035581a5594484ce5b0b9dc9f8cf885fb68d0c869dfae99d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1284a0cc0fc676bf1380ad378afac0fa58eaf9787fc9a105f5a92efc930d6193"
+   },
+   "t4": {
+    "agents_md": "8f37ecbcd386abba727c2bb44450a2abcd4f46c3f4a5505d661d276a61113cea",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a1155b57dd84157be4f632f3e45c1480cd950a687008ca013556e020166c62d1"
+   },
+   "t5": {
+    "agents_md": "3c8ca38b8b4a6020bc0e534f046c5e464dad42fdae43008226f92707b088f6c6",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "29f91c87bf0c8128a48c37055859723632d7bb7dfdef0e4bfee5e1acf57d1bca"
+   },
+   "t6": {
+    "agents_md": "f60d3fcc8cbf49f153a9a37baf1faac064409b02ddb3dd0216a25e6152fb928e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1ebe0b647f28280c9d5974c082ebabbc389e4fd537fd5c46920b97bee8cb8bf1"
+   },
+   "t7": {
+    "agents_md": "01ae62afdc07e964121d4675f9ece8b1f276b41bb3263e827a04c30fb9efce23",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "bf1d1d81b6db336c6993ef22218518c76b0549b1bc2d3040f3a5822751665a22"
+   },
+   "t8": {
+    "agents_md": "e59660f3e666515bd149daea871ce2c7a1fade27ca5d5104f2a999d526894531",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f3a666124b4c1fe5cce4f6175c89b80ccbd243a77796ae6be5ef77926eb32ed9"
+   },
+   "t9": {
+    "agents_md": "b67440563d1f1d5db8fa1f61c7cce2bd69230bc8c7894342d6ea2b1272f0eeb0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "07b04d18bd2fba5db0b661523571598ab263aa0432f7071915776d1a6668e79a"
+   }
+  }
+ },
+ "trip/retirement_double_share/full_stack": {
+  "manifest": "ebae79f4286c49d5a20b7e05f52b60b06b6dfeadfea20e66d9c158b533c1e38e",
+  "seats": {
+   "t1": {
+    "agents_md": "3fba9eef6e3655b1c280cdee4984fc05e8b5fafc5a8fa25252e4c5057b03033f",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "dfca0b06a5383201e0d144ecef48b6083c2219988e6b561752e14cf675ff675a"
+   },
+   "t10": {
+    "agents_md": "0c6e53602d2be44456192bd27214ca47711847c1e3fe59ea7fb5aa8a689b2676",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "0c4929158b0c02f45bdf37d754da993449af99f82b2f0f35401e699c80d4519c"
+   },
+   "t11": {
+    "agents_md": "03bdc825cc1fb9814ee9cc5c19fedff02c9f25b08d9f1afc1b6dd4aa0e1b3149",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f0c1e0a0de66a11eafa783bb79dec3a77b435df24166fc0dcde832728be58342"
+   },
+   "t12": {
+    "agents_md": "f4f4eedf2b652a31112ac85e2e8465730a47423d27870087b7a395ee3bdc989e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a5e5ac885a52d023442c86495fe832573a851dd8d2d1dec984e169dde1e99d9b"
+   },
+   "t13": {
+    "agents_md": "a6b2de7c2af4d011d0b5b33c3878ca946741e9cbe48282448b1523f210e541c5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "d1c6cbd50fde1eb07cdf8e300c8798382bed069a3d358dd42a7b2d328bac652d"
+   },
+   "t14": {
+    "agents_md": "34db99bbf18da501ef80bc2880d3d232cb5f0240ca67dad1bda9418916f178a2",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a1b5b4bc20f1e37875b177c7d242000a45d3f82f8be956c121d998ca6213f48d"
+   },
+   "t15": {
+    "agents_md": "029121bdbba89225263f02c4f91a99a9bfa47de93d3f4b960830751b3bd6a619",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "faa61d68ad905c14dfc6220fa64b12de16e84f9776a2cf38e82ff8f706b9f802"
+   },
+   "t16": {
+    "agents_md": "b12f4e06ab097b71203459346af4c46d3dc7369381634b6061d57aaa5c50759d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a13c6aa949a60688b5515243f6acd1df8e484f936eb05759b4eb1110b42651aa"
+   },
+   "t2": {
+    "agents_md": "9f86b01b79fd59a3b046e71bbc99d92f5ee9feec85e7d06952e4f67f8b68360c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "7c6f867fdfecedc6defeff920cd0e7f6358bd346a01c1c8f274616457b45c03c"
+   },
+   "t3": {
+    "agents_md": "3e99909b114bf0ff035581a5594484ce5b0b9dc9f8cf885fb68d0c869dfae99d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1284a0cc0fc676bf1380ad378afac0fa58eaf9787fc9a105f5a92efc930d6193"
+   },
+   "t4": {
+    "agents_md": "8f37ecbcd386abba727c2bb44450a2abcd4f46c3f4a5505d661d276a61113cea",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "a1155b57dd84157be4f632f3e45c1480cd950a687008ca013556e020166c62d1"
+   },
+   "t5": {
+    "agents_md": "3c8ca38b8b4a6020bc0e534f046c5e464dad42fdae43008226f92707b088f6c6",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "29f91c87bf0c8128a48c37055859723632d7bb7dfdef0e4bfee5e1acf57d1bca"
+   },
+   "t6": {
+    "agents_md": "f60d3fcc8cbf49f153a9a37baf1faac064409b02ddb3dd0216a25e6152fb928e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1ebe0b647f28280c9d5974c082ebabbc389e4fd537fd5c46920b97bee8cb8bf1"
+   },
+   "t7": {
+    "agents_md": "01ae62afdc07e964121d4675f9ece8b1f276b41bb3263e827a04c30fb9efce23",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "bf1d1d81b6db336c6993ef22218518c76b0549b1bc2d3040f3a5822751665a22"
+   },
+   "t8": {
+    "agents_md": "e59660f3e666515bd149daea871ce2c7a1fade27ca5d5104f2a999d526894531",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "f3a666124b4c1fe5cce4f6175c89b80ccbd243a77796ae6be5ef77926eb32ed9"
+   },
+   "t9": {
+    "agents_md": "b67440563d1f1d5db8fa1f61c7cce2bd69230bc8c7894342d6ea2b1272f0eeb0",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "07b04d18bd2fba5db0b661523571598ab263aa0432f7071915776d1a6668e79a"
+   }
+  }
+ },
+ "trip/second_weekend_rally/none": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "884e266abdbce6cc07a12e93de753754c801d17f6b3849dd4bb9bd2f574ca648",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "12e4b47e8f598621bf9e7d3cb77677112728f2effba02cc31a521f0af833cfca"
+   },
+   "t2": {
+    "agents_md": "12b41ca170e1003069e402009a5867ddcebeb5d500c18b3e1fd0cc3b740da39b",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e5c9f4186d76cda96a8fcadab2edb168f43aa87ad230c28ba56d078a1b73574b"
+   },
+   "t3": {
+    "agents_md": "50d0545e5bbea9a0b7f52190c5b1d7e27ee74633c90a567a72def514f4f59140",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "54a87374823e3d7aada02f63706a0d95daf6d631fb3bc3ff67d87bab839d4226"
+   },
+   "t4": {
+    "agents_md": "05b6cba2e0f02faac3b1bf90e0e6d04282a00d79e560e612e1aa82412d097b2e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ac2671565567aeb61df6811767703b4d1306669e5c85734f7ef71e6f36651492"
+   },
+   "t5": {
+    "agents_md": "c8d6675489a640cd0378a9a05b492f96d4dae1e1a7952da9069ca3b06399db9d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "80338076ae99e3708cc986b7c6d45aab4ec85d133ee9341f570e392a4641a20d"
+   },
+   "t6": {
+    "agents_md": "f07c80ae60ebcc8e9109faca581ea914b020bf4123ee155ec13b91d2388df732",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2d045837a3240fe32d34f8df321b031581c0d45cde3d10f512049c3b3bed1fd9"
+   },
+   "t7": {
+    "agents_md": "dc247138f6abd0c616b400322e16137ceba5cc77ff1ec19933b10f768bf9efa5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "adb64031c7faac33e612b46003be14b40f18cea1ac812d44c7d85faf19897be9"
+   },
+   "t8": {
+    "agents_md": "6661068f71bc9ec7108cd1a8b205c8b827de6a5d0359650711f1ae9d5ec53303",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2cb889eaf78a12643454c6d69a27fa3912213f1a6a714a5e9a3dd2f7d35c25ea"
+   }
+  }
+ },
+ "trip/second_weekend_rally/guard": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "884e266abdbce6cc07a12e93de753754c801d17f6b3849dd4bb9bd2f574ca648",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "12e4b47e8f598621bf9e7d3cb77677112728f2effba02cc31a521f0af833cfca"
+   },
+   "t2": {
+    "agents_md": "12b41ca170e1003069e402009a5867ddcebeb5d500c18b3e1fd0cc3b740da39b",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e5c9f4186d76cda96a8fcadab2edb168f43aa87ad230c28ba56d078a1b73574b"
+   },
+   "t3": {
+    "agents_md": "50d0545e5bbea9a0b7f52190c5b1d7e27ee74633c90a567a72def514f4f59140",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "54a87374823e3d7aada02f63706a0d95daf6d631fb3bc3ff67d87bab839d4226"
+   },
+   "t4": {
+    "agents_md": "05b6cba2e0f02faac3b1bf90e0e6d04282a00d79e560e612e1aa82412d097b2e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ac2671565567aeb61df6811767703b4d1306669e5c85734f7ef71e6f36651492"
+   },
+   "t5": {
+    "agents_md": "c8d6675489a640cd0378a9a05b492f96d4dae1e1a7952da9069ca3b06399db9d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "80338076ae99e3708cc986b7c6d45aab4ec85d133ee9341f570e392a4641a20d"
+   },
+   "t6": {
+    "agents_md": "f07c80ae60ebcc8e9109faca581ea914b020bf4123ee155ec13b91d2388df732",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2d045837a3240fe32d34f8df321b031581c0d45cde3d10f512049c3b3bed1fd9"
+   },
+   "t7": {
+    "agents_md": "dc247138f6abd0c616b400322e16137ceba5cc77ff1ec19933b10f768bf9efa5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "adb64031c7faac33e612b46003be14b40f18cea1ac812d44c7d85faf19897be9"
+   },
+   "t8": {
+    "agents_md": "6661068f71bc9ec7108cd1a8b205c8b827de6a5d0359650711f1ae9d5ec53303",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2cb889eaf78a12643454c6d69a27fa3912213f1a6a714a5e9a3dd2f7d35c25ea"
+   }
+  }
+ },
+ "trip/second_weekend_rally/full_stack": {
+  "manifest": "ebae79f4286c49d5a20b7e05f52b60b06b6dfeadfea20e66d9c158b533c1e38e",
+  "seats": {
+   "t1": {
+    "agents_md": "884e266abdbce6cc07a12e93de753754c801d17f6b3849dd4bb9bd2f574ca648",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "12e4b47e8f598621bf9e7d3cb77677112728f2effba02cc31a521f0af833cfca"
+   },
+   "t2": {
+    "agents_md": "12b41ca170e1003069e402009a5867ddcebeb5d500c18b3e1fd0cc3b740da39b",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e5c9f4186d76cda96a8fcadab2edb168f43aa87ad230c28ba56d078a1b73574b"
+   },
+   "t3": {
+    "agents_md": "50d0545e5bbea9a0b7f52190c5b1d7e27ee74633c90a567a72def514f4f59140",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "54a87374823e3d7aada02f63706a0d95daf6d631fb3bc3ff67d87bab839d4226"
+   },
+   "t4": {
+    "agents_md": "05b6cba2e0f02faac3b1bf90e0e6d04282a00d79e560e612e1aa82412d097b2e",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ac2671565567aeb61df6811767703b4d1306669e5c85734f7ef71e6f36651492"
+   },
+   "t5": {
+    "agents_md": "c8d6675489a640cd0378a9a05b492f96d4dae1e1a7952da9069ca3b06399db9d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "80338076ae99e3708cc986b7c6d45aab4ec85d133ee9341f570e392a4641a20d"
+   },
+   "t6": {
+    "agents_md": "f07c80ae60ebcc8e9109faca581ea914b020bf4123ee155ec13b91d2388df732",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2d045837a3240fe32d34f8df321b031581c0d45cde3d10f512049c3b3bed1fd9"
+   },
+   "t7": {
+    "agents_md": "dc247138f6abd0c616b400322e16137ceba5cc77ff1ec19933b10f768bf9efa5",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "adb64031c7faac33e612b46003be14b40f18cea1ac812d44c7d85faf19897be9"
+   },
+   "t8": {
+    "agents_md": "6661068f71bc9ec7108cd1a8b205c8b827de6a5d0359650711f1ae9d5ec53303",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "2cb889eaf78a12643454c6d69a27fa3912213f1a6a714a5e9a3dd2f7d35c25ea"
+   }
+  }
+ },
+ "trip/twin_by_the_bathroom/none": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "b652a7f4e001b2c90e90813a2787aed46aedf805fee6afbcdea64e99729fc9ac",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1b4e85adfcd02df2356dd29724b093f5c0bf0153652e83bdc585fa2b816924db"
+   },
+   "t2": {
+    "agents_md": "36b7c72b7ba0405ef38926860f5e5abcb6e34aaacdf7b1d35b718fc97d0ad09c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e81ad2a7853e690ffb9fffd22e2e9a45a082d4553706b461793ad75ca3973a79"
+   },
+   "t3": {
+    "agents_md": "603f67e1a811267accd818a387feb5f8c64064948ff65573fd39f226db26913a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "99a51853f9504f6800d65214c685567ae7a455c14192d2000d1bada5fc337745"
+   },
+   "t4": {
+    "agents_md": "e6c63740dee548afc9f7591e593bf53be7e09b1b8363fb919c8952bccd80817d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "48b2c1a859070dd5ef8d28184f091bbc5d2e721081145042098ffbf0476392bf"
+   },
+   "t5": {
+    "agents_md": "3c5f4e4312f3f55bba062ba6210f60a580f6834c090c2cba45900b15fabc5fca",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "31ec8c7815545a28f0ece8c5883d34c219caf0c3fa2b7e0c92b26168f52d64c0"
+   },
+   "t6": {
+    "agents_md": "bd3b0d893007d3ddcb4aa75c9b5ad5579878032c4a0b2031ba9a4b164f488516",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e2ac5db669d120ba5249a73f95163bc7bcc699c115c8974ab6a3f22862edef8e"
+   },
+   "t7": {
+    "agents_md": "5861b6ad12672e68a50de5e36372191e8312f746e7577b988294ad12c3918422",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1e60ac78c2abf273b9724655e15e3d837aa32349b0e335387b96222f4515f83e"
+   },
+   "t8": {
+    "agents_md": "bab97c89fe55a90957d1b2a5ab5d56e49b695cc6566df79e69521061188b0ec7",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ce62c9f82a7b83e93bc4801ad61ab6607f2be572b9882f701895e5eac5a1a58b"
+   }
+  }
+ },
+ "trip/twin_by_the_bathroom/guard": {
+  "manifest": "ed9b18b5577ee215c09b22938cd08b016b83f25bed04ca23be2ba0b63c30c9f9",
+  "seats": {
+   "t1": {
+    "agents_md": "b652a7f4e001b2c90e90813a2787aed46aedf805fee6afbcdea64e99729fc9ac",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1b4e85adfcd02df2356dd29724b093f5c0bf0153652e83bdc585fa2b816924db"
+   },
+   "t2": {
+    "agents_md": "36b7c72b7ba0405ef38926860f5e5abcb6e34aaacdf7b1d35b718fc97d0ad09c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e81ad2a7853e690ffb9fffd22e2e9a45a082d4553706b461793ad75ca3973a79"
+   },
+   "t3": {
+    "agents_md": "603f67e1a811267accd818a387feb5f8c64064948ff65573fd39f226db26913a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "99a51853f9504f6800d65214c685567ae7a455c14192d2000d1bada5fc337745"
+   },
+   "t4": {
+    "agents_md": "e6c63740dee548afc9f7591e593bf53be7e09b1b8363fb919c8952bccd80817d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "48b2c1a859070dd5ef8d28184f091bbc5d2e721081145042098ffbf0476392bf"
+   },
+   "t5": {
+    "agents_md": "3c5f4e4312f3f55bba062ba6210f60a580f6834c090c2cba45900b15fabc5fca",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "31ec8c7815545a28f0ece8c5883d34c219caf0c3fa2b7e0c92b26168f52d64c0"
+   },
+   "t6": {
+    "agents_md": "bd3b0d893007d3ddcb4aa75c9b5ad5579878032c4a0b2031ba9a4b164f488516",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e2ac5db669d120ba5249a73f95163bc7bcc699c115c8974ab6a3f22862edef8e"
+   },
+   "t7": {
+    "agents_md": "5861b6ad12672e68a50de5e36372191e8312f746e7577b988294ad12c3918422",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1e60ac78c2abf273b9724655e15e3d837aa32349b0e335387b96222f4515f83e"
+   },
+   "t8": {
+    "agents_md": "bab97c89fe55a90957d1b2a5ab5d56e49b695cc6566df79e69521061188b0ec7",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ce62c9f82a7b83e93bc4801ad61ab6607f2be572b9882f701895e5eac5a1a58b"
+   }
+  }
+ },
+ "trip/twin_by_the_bathroom/full_stack": {
+  "manifest": "ebae79f4286c49d5a20b7e05f52b60b06b6dfeadfea20e66d9c158b533c1e38e",
+  "seats": {
+   "t1": {
+    "agents_md": "b652a7f4e001b2c90e90813a2787aed46aedf805fee6afbcdea64e99729fc9ac",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1b4e85adfcd02df2356dd29724b093f5c0bf0153652e83bdc585fa2b816924db"
+   },
+   "t2": {
+    "agents_md": "36b7c72b7ba0405ef38926860f5e5abcb6e34aaacdf7b1d35b718fc97d0ad09c",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e81ad2a7853e690ffb9fffd22e2e9a45a082d4553706b461793ad75ca3973a79"
+   },
+   "t3": {
+    "agents_md": "603f67e1a811267accd818a387feb5f8c64064948ff65573fd39f226db26913a",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "99a51853f9504f6800d65214c685567ae7a455c14192d2000d1bada5fc337745"
+   },
+   "t4": {
+    "agents_md": "e6c63740dee548afc9f7591e593bf53be7e09b1b8363fb919c8952bccd80817d",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "48b2c1a859070dd5ef8d28184f091bbc5d2e721081145042098ffbf0476392bf"
+   },
+   "t5": {
+    "agents_md": "3c5f4e4312f3f55bba062ba6210f60a580f6834c090c2cba45900b15fabc5fca",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "31ec8c7815545a28f0ece8c5883d34c219caf0c3fa2b7e0c92b26168f52d64c0"
+   },
+   "t6": {
+    "agents_md": "bd3b0d893007d3ddcb4aa75c9b5ad5579878032c4a0b2031ba9a4b164f488516",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "e2ac5db669d120ba5249a73f95163bc7bcc699c115c8974ab6a3f22862edef8e"
+   },
+   "t7": {
+    "agents_md": "5861b6ad12672e68a50de5e36372191e8312f746e7577b988294ad12c3918422",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "1e60ac78c2abf273b9724655e15e3d837aa32349b0e335387b96222f4515f83e"
+   },
+   "t8": {
+    "agents_md": "bab97c89fe55a90957d1b2a5ab5d56e49b695cc6566df79e69521061188b0ec7",
+    "debrief": "c75e30413e6bcef90cedc39f2e37036859933ca510e914cdd64a2c7093a33cbd",
+    "opening": "ce62c9f82a7b83e93bc4801ad61ab6607f2be572b9882f701895e5eac5a1a58b"
+   }
+  }
+ }
+}

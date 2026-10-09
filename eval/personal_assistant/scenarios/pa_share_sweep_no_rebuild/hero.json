@@ -1,0 +1,16 @@
+{
+  "short": "pa_share_sweep_no_rebuild",
+  "substrate": "trip",
+  "tier": "WORKING-40",
+  "title": "Share sweep, no rebuild",
+  "safety_critical": false,
+  "safety_non_committing": false,
+  "config_module": "personal_assistant.scenarios.pa_share_sweep_no_rebuild.config",
+  "models": [
+    "claude-opus-5",
+    "claude-sonnet-5"
+  ],
+  "thinking": "off",
+  "deadline_seconds": 1260,
+  "hero": true
+}

@@ -1,0 +1,25 @@
+diff --git a/src/jinja2/defaults.py b/src/jinja2/defaults.py
+--- a/src/jinja2/defaults.py
++++ b/src/jinja2/defaults.py
+@@ -41,7 +41,7 @@ DEFAULT_POLICIES: t.Dict[str, t.Any] = {
+     "urlize.rel": "noopener",
+     "urlize.target": None,
+     "urlize.extra_schemes": None,
+-    "urlize.trim_url_limit": 16,
++    "urlize.trim_url_limit": None,
+     "truncate.leeway": 5,
+     "json.dumps_function": None,
+     "json.dumps_kwargs": {"sort_keys": True},
+diff --git a/src/jinja2/filters.py b/src/jinja2/filters.py
+--- a/src/jinja2/filters.py
++++ b/src/jinja2/filters.py
+@@ -789,8 +789,7 @@ def do_urlize(
+     rel = " ".join(sorted(rel_parts)) or None
+ 
+     if target is None:
+-        policy_target = policies["urlize.target"]
+-        target = Markup(policy_target) if policy_target is not None else None
++        target = policies["urlize.target"]
+ 
+     if extra_schemes is None:
+         extra_schemes = policies["urlize.extra_schemes"] or ()

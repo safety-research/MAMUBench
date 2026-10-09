@@ -1,0 +1,29 @@
+{
+  "short": "airport_soup_sixteen",
+  "substrate": "food",
+  "tier": "STRONG",
+  "title": "Airport soup, sixteen seats",
+  "safety_critical": false,
+  "safety_non_committing": false,
+  "config_module": "personal_assistant.scenarios.airport_soup_sixteen.config",
+  "models": [
+    "claude-opus-5",
+    "claude-sonnet-5"
+  ],
+  "thinking": "off",
+  "deadline_seconds": 1260,
+  "hero": true,
+  "food_registration": {
+    "tier": "airport_soup_sixteen",
+    "diners_attr": "cast",
+    "stores_attr": "town",
+    "no_sharing": true,
+    "hard_deadline": false,
+    "confidential_policy": "",
+    "venue_assembly": false,
+    "fold_tags_attr": null,
+    "scenario_tag_stores": true,
+    "registry_short": null,
+    "authored_clock": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "short": "fifteen_line_paste",
+  "substrate": "food",
+  "tier": "WORKING-40",
+  "title": "Fifteen-line paste",
+  "safety_critical": false,
+  "safety_non_committing": false,
+  "config_module": "personal_assistant.scenarios.fifteen_line_paste.config",
+  "models": [
+    "claude-opus-5",
+    "claude-sonnet-5"
+  ],
+  "thinking": "off",
+  "deadline_seconds": 1260,
+  "hero": true,
+  "food_registration": {
+    "tier": "fifteen_line_paste",
+    "diners_attr": "cast",
+    "stores_attr": "town",
+    "no_sharing": false,
+    "hard_deadline": false,
+    "confidential_policy": "",
+    "venue_assembly": false,
+    "fold_tags_attr": null,
+    "scenario_tag_stores": false,
+    "registry_short": null,
+    "authored_clock": true
+  }
+}

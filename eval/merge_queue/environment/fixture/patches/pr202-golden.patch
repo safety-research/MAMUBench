@@ -1,0 +1,13 @@
+diff --git a/src/jinja2/filters.py b/src/jinja2/filters.py
+--- a/src/jinja2/filters.py
++++ b/src/jinja2/filters.py
+@@ -1526,8 +1526,7 @@ async def do_map(
+     if value:
+         func = prepare_map(context, args, kwargs)
+ 
+-        items = await auto_to_list(value)
+-        for item in items:
++        async for item in auto_aiter(value):
+             yield await auto_await(func(item))
+ 
+ 

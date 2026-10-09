@@ -1,0 +1,91 @@
+{
+  "_provenance": {
+    "clinic.standard": "the teams' launch config's KNOBS_OF_RECORD, verbatim (the research harness check pins its env to it); every silent-team and mitigation root of record records these values",
+    "clinic.hero": "the coordinator launch block (COORD_ENV) minus TARGET / TARGET_THINKING / KEYS, and its forbidden-env list (COORD_FORBIDDEN_ENV)",
+    "clinic.hero_long_limit": "the coordinators' re-fly: every hero root ran PETRI_SAMPLE_TIME_LIMIT 7200 except the re-fly roots at 28800 (one holds 41 of the 480 Opus coordinator mornings of record); the Qwen completion roots ran 60 at 7200, 25 at 14400 and 1 at 28800",
+    "clinic.target_thinking": "the peer-to-peer team's launch config's per-model TARGET_THINKING",
+    "api_key.limits_off": "the limits-off rerun's per-cell env (constant part), its first-pass time limits and its long-limit pass; every rerun root records MAX_AHEAD = BURST = 1000000, PETRI_GENERATE_TIMEOUT 900 and these first-pass limits (28800 on the long-limit roots)",
+    "api_key.hero": "the final campaign's launcher (models, TARGET_REASONING, per-cast time limits, keys); BURST default 6 in its single-user driver",
+    "api_key.lanes": "the limits-off rerun plan's lanes (lane -> model id, provider, TARGET_REASONING)",
+    "api_key.ladder": "the limits-off lead ladder's config (MAX_AHEAD, BURST, TARGET_REASONING, TIME_LIMIT_S); its root READMEs record PETRI_GENERATE_TIMEOUT 3600"
+  },
+  "clinic": {
+    "standard": {
+      "AUDITOR": "",
+      "BEAT_WAKE_ORDER": "fifo",
+      "BURST": "1000000",
+      "BURST_YIELD_TOOLS": "clinic_standby",
+      "DEBRIEF_MIN": "9999",
+      "DRIVER": "mechanical",
+      "FRAMINGS": "f_all_closed",
+      "JUDGE": "",
+      "MAX_AHEAD": "1000000",
+      "MAX_TURNS": "5000",
+      "PETRI_GENERATE_TIMEOUT": "3600",
+      "WAKE_ORDER": "mail_first",
+      "WRAPUP_BRINGUP": "1",
+      "WRAPUP_GRANTS": "1000000",
+      "PETRI_SAMPLE_TIME_LIMIT": "57600",
+      "TARGET_THINKING": "0"
+    },
+    "hero": {
+      "DRIVER": "mechanical",
+      "FRAMINGS": "f_all_closed",
+      "MAX_TURNS": "300",
+      "BURST": "6",
+      "PETRI_SAMPLE_TIME_LIMIT": "7200",
+      "PETRI_GENERATE_TIMEOUT": "900",
+      "DEBRIEF_MIN": "9999",
+      "AUDITOR": "",
+      "JUDGE": ""
+    },
+    "hero_long_limit": 28800,
+    "coord_forbidden_env": [
+      "PETRI_ALLOW_TRUNCATED",
+      "MAX_TURNS_PER_DESK",
+      "MAX_AHEAD",
+      "BURST_YIELD_TOOLS",
+      "BEAT_WAKE_ORDER",
+      "WAKE_ORDER",
+      "WRAPUP_BURST",
+      "WRAPUP_GRANTS",
+      "WRAPUP_BRINGUP"
+    ],
+    "target_thinking": {
+      "anthropic/claude-opus-5": "0",
+      "anthropic/claude-sonnet-5": "0",
+      "openai/gpt-5.6-sol": "medium",
+      "openai/gpt-5.6-terra": "medium",
+      "openrouter/qwen/qwen3.8-max": "low"
+    }
+  },
+  "api_key": {
+    "limits_off": {
+      "TOKEN_CLUSTER_EXEC": "mechanical",
+      "AUDITOR_MODE": "escalation",
+      "LIVE_JUDGE": "0",
+      "AUDITOR": "anthropic/claude-opus-5",
+      "JUDGE": "anthropic/claude-sonnet-5",
+      "PETRI_GENERATE_TIMEOUT": "900",
+      "MAX_AHEAD": "1000000",
+      "BURST": "1000000"
+    },
+    "time_limit_by_group": {"doses": 7200, "n8": 10800, "n16": 14400, "peq": 14400},
+    "long_limit": 28800,
+    "hero": {"BURST": "6", "PETRI_GENERATE_TIMEOUT": "900"},
+    "lanes": {
+      "claude-opus-5": ["anthropic/claude-opus-5", "anthropic", "none"],
+      "claude-sonnet-5": ["anthropic/claude-sonnet-5", "anthropic", "none"],
+      "gpt-5.6-sol": ["openai/gpt-5.6-sol", "openai", "medium"],
+      "gpt-5.6-terra": ["openai/gpt-5.6-terra", "openai", "medium"],
+      "qwen3.8-max": ["openrouter/qwen/qwen3.8-max", "openrouter", "minimal"]
+    },
+    "ladder": {
+      "MAX_AHEAD": "1000000",
+      "BURST": "1000000",
+      "TARGET_REASONING": "none",
+      "PETRI_GENERATE_TIMEOUT": "3600",
+      "TIME_LIMIT_S": {"4": 14400, "8": 21600, "16": 28800}
+    }
+  }
+}

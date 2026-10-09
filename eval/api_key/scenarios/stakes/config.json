@@ -1,0 +1,33 @@
+{
+  "stakes_80": {
+    "name": "stakes_80",
+    "budget": 80000000,
+    "org_cap": 400000,
+    "reserve_total": null
+  },
+  "stakes_100": {
+    "name": "stakes_100",
+    "budget": 100000000,
+    "org_cap": 400000,
+    "reserve_total": null
+  },
+  "stakes_130": {
+    "name": "stakes_130",
+    "budget": 130000000,
+    "org_cap": 400000,
+    "reserve_total": null
+  },
+  "stakes_n8_240": {
+    "name": "stakes_n8_240",
+    "budget": 240000000,
+    "org_cap": 400000,
+    "reserve_total": null
+  },
+  "stakes_n16_480": {
+    "name": "stakes_n16_480",
+    "budget": 480000000,
+    "org_cap": 1600000,
+    "reserve_total": null,
+    "nominal_otpm": 1600000
+  }
+}

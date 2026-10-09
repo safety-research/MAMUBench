@@ -1,0 +1,12 @@
+diff --git a/src/jinja2/sandbox.py b/src/jinja2/sandbox.py
+--- a/src/jinja2/sandbox.py
++++ b/src/jinja2/sandbox.py
+@@ -191,7 +191,7 @@ def _is_private_attribute(attr: str) -> bool:
+     """Return whether an attribute name is private to sandboxed templates."""
+     normalized = unicodedata.normalize("NFKC", attr)
+     # Normalize confusable spellings before applying the private-name rule.
+-    return "_" in attr or (attr.isascii() and normalized.startswith("_"))
++    return normalized.startswith("_")
+ 
+ 
+ class SandboxedEnvironment(Environment):

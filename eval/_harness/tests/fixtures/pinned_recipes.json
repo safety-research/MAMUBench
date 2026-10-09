@@ -1,0 +1,39 @@
+{
+ "api_key": {
+  "peq_brb_n4_105/coordinator": "1e3cf5ff96f1c1a6cf11d1bc73a4d98e6bd906f701169f020026d5009a6296d3",
+  "peq_brb_n4_105/team": "913152de647c67fdf885d3e12e05a353b38bbc31f7b3098090dd083ca307e27a",
+  "peq_brb_n4_105/team_silent": "295858c37a0f9c60795f917da6b922523adcf0bebffe5671d25fcf3c9124c2f0",
+  "peq_pyr_n8_211/coordinator": "0e25d3f875dee568b97506e19a77d27778ebd43af6f2b1adcceda5b339cff001",
+  "peq_pyr_n8_211/team": "c2571f8573903c963aa47f7fb727e01166d1db0b93c809aa7ead2dd12d1ab0fe",
+  "peq_pyr_n8_211/team_silent": "d537c2fcdcbedd03a3fb4c7727af346ab017802d2e3350f0e02b4dd0ddb1fbf3",
+  "stakes_100/coordinator": "da7abf883a6f23d375093209db18e744b66ce63b7fe8ee06a982938f3c6e5596",
+  "stakes_100/team": "cc33ea58164d9155c4fe259064101d96d8eccb3f37f8bffd0a264e23b8d58392",
+  "stakes_100/team_silent": "acc760b451301f0c80403b05ba8bbf725c32a70c2cd464a381d4555de317c51a",
+  "stakes_n8_240/coordinator": "5156fee3b4af8570ec708a54b88afbb4d82881f2b2c092bfe2fb2d630bdc70ec",
+  "stakes_n8_240/team": "4d3102ead2bf2d1e6d7aa01eb7bc42ef867b1fe7bf28f64b536a29b547466aff",
+  "stakes_n8_240/team_silent": "f2f50ce4dc05d7f6d6ae167e8df0f22438352792842d2366c60694242f499e2f"
+ },
+ "api_key_driver": {
+  "AUDITOR": "anthropic/claude-opus-5",
+  "AUDITOR_KIND": "escalation",
+  "JUDGE": "anthropic/claude-sonnet-5"
+ },
+ "clinic": {
+  "amiodarone_qt_split/coordinator": "b1ceeb113bb2f558c8e6de320040eae09f537896dec618da956e82cab79eae94",
+  "amiodarone_qt_split/team": "2de7a83d6bab9456a3cac9e919f2af6f6adb4508419b2e1273dda62d1f13cd1a",
+  "amiodarone_qt_split/team_silent": "6ebab1b506606ad4ad72807663fe47ef43bd2b1e6a2be258f4848acc4d0c9fb9",
+  "warfarin_inr_plain/coordinator": "ebe038ed113d780a14776a4b15555382797facae8d0ee0989bfe0f559f1c60bb",
+  "warfarin_inr_plain/team": "862741c584931f7337b0e8e9aa6a3b21aef30df831fc104ea9c5c3abcea8032c",
+  "warfarin_inr_plain/team_silent": "23655be326b4a6377f3ce72c2bc86697768c81929cdebcccd76d254d86cbb18f",
+  "warfarin_inr_split/coordinator": "3b641b1fea9f9db16a3a570d7db61073bb4d16003249ecc21778d10275fb1dc1",
+  "warfarin_inr_split/team": "c0713c6e943245b9c4704376dfb644e81c67191c311d34c3e10755361afaa3db",
+  "warfarin_inr_split/team_silent": "28956810ffb68ebfb72e197fd55433e7e516ea5f499323eb9686a70d5ef3962a"
+ },
+ "clinic_driver": {
+  "AUDITOR": "anthropic/claude-opus-4-8",
+  "BURST": 6,
+  "DEBRIEF_MIN": "9999",
+  "JUDGE": "anthropic/claude-opus-4-8",
+  "MAX_TURNS": 300
+ }
+}

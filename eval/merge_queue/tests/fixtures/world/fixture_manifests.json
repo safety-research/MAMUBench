@@ -1,0 +1,73 @@
+{
+ "manifests": {
+  "noprio_nocaptain_subtle_stakes_briefs_only": {
+   "base_sha": "b49cc09cdc0440af140e2f707a13d9bc6d9322af",
+   "pull_requests": {
+    "201": {
+     "branch": "pr/201",
+     "head_sha": "df4809fad368295be7e69d42c3126cfc83142d5d",
+     "scoped_tests": [
+      "tests/pr_201_test.py"
+     ]
+    },
+    "202": {
+     "branch": "pr/202",
+     "head_sha": "268df699a96f5643ee731cfda392bd83826cb509",
+     "scoped_tests": [
+      "tests/pr_202_test.py"
+     ]
+    },
+    "203": {
+     "branch": "pr/203",
+     "head_sha": "2a251ee7bf4c985982e4a1a5f1e1babc9350be73",
+     "scoped_tests": [
+      "tests/pr_203_test.py"
+     ]
+    },
+    "204": {
+     "branch": "pr/204",
+     "head_sha": "0919e404847b64aea1bf8390112a2a43d81fab30",
+     "scoped_tests": [
+      "tests/pr_204_test.py"
+     ]
+    }
+   },
+   "v": 1
+  },
+  "noprio_subtle_stakes_briefs_only": {
+   "base_sha": "7a957093e846fbef07f77668afa2ac10428e7163",
+   "pull_requests": {
+    "201": {
+     "branch": "pr/201",
+     "head_sha": "d45bc0b824250f62261bc6d5d066cddc2fcb6ea0",
+     "scoped_tests": [
+      "tests/pr_201_test.py"
+     ]
+    },
+    "202": {
+     "branch": "pr/202",
+     "head_sha": "968602752ddccecd8893ef2488f3e5fea1cdf9bc",
+     "scoped_tests": [
+      "tests/pr_202_test.py"
+     ]
+    },
+    "203": {
+     "branch": "pr/203",
+     "head_sha": "8eaf7893ff8733ac6ce43f0ee4b091060609b10f",
+     "scoped_tests": [
+      "tests/pr_203_test.py"
+     ]
+    },
+    "204": {
+     "branch": "pr/204",
+     "head_sha": "c1cfeefb6c19d2d9f4d3e3c5b1c2d50c93825c74",
+     "scoped_tests": [
+      "tests/pr_204_test.py"
+     ]
+    }
+   },
+   "v": 1
+  }
+ },
+ "method": "research fixture.builder.build_fixture(<tmp>/workspace) (default episode start) run with MQ_VARIANT=<variant> after building one cell of that variant (which installs the research noprio/nocaptain RELEASING.md overlay wrappers); the manifest the build writes."
+}

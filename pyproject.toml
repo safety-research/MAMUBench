@@ -1,0 +1,75 @@
+[project]
+name = "mamubench"
+version = "0.1.0"
+description = "MAMUBench: a benchmark for multi-user, multi-agent coordination (API key, clinic and personal assistant environments, plus the merge queue extension), with Modal and local execution, pi and simulated harnesses, and mechanical scoring."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "MIT License" }
+dependencies = [
+    # The runtime pins the paper's runs used, except anyio (4.13.0 then; 4.14.2 carries security fixes).
+    "inspect-ai==0.3.233",
+    "pydantic==2.13.0",
+    "anyio==4.14.2",
+    "shortuuid==1.0.13",
+    "click==8.2.1",
+    "pyyaml==6.0.3",
+    "python-dotenv==1.2.2",
+    "modal==1.5.0",
+    # inspect_ai's Anthropic/OpenAI providers are imported at module load by the role binding (_multiagent_pi/roles.py).
+    "anthropic==0.105.2",
+    "openai==2.30.0",
+    # inspect_ai's retry wait leaves tenacity unbounded and calls an argument later releases deprecate.
+    "tenacity==9.1.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.0.3",
+    "pytest-xdist==3.8.0",
+    "pytest-timeout==2.4.0",
+    "pyright==1.1.408",
+    "ruff==0.15.8",
+]
+# analysis/stats.py --plot
+plot = [
+    "matplotlib==3.11.2",
+]
+
+[tool.uv]
+# Not an installable package: the code runs from the checkout (run.py and eval/<env>/run.py put eval/ on sys.path).
+package = false
+
+[tool.pytest.ini_options]
+# tests/: the repository's own (the release scrub, analysis/stats.py)
+testpaths = ["eval", "tests"]
+# run dirs hold the seats' workspaces (merge_queue pulls carry the Jinja fixture's own tests);
+# results/ holds readouts written before they moved to readouts/
+norecursedirs = ["runs", "readouts", "results", "fixtures", ".*", "__pycache__"]
+addopts = "-n auto"
+
+[tool.ruff]
+src = ["."]
+# Scenario/world sources are preserved artifacts (and readouts/ is report output, results/ the readouts
+# written before they moved to readouts/); lint maintained wrappers.
+extend-exclude = ["eval/*/readouts", "eval/*/results", "eval/*/environment", "eval/*/scenarios", "eval/*/runtime", "eval/clinic/scoring", "eval/_harness/env_core", "eval/_harness/_multiagent_pi", "eval/**/tests/fixtures"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "D", "I", "B", "SIM101"]
+ignore = ["E203", "E501", "D10", "D212", "D415"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pyright]
+include = ["eval", "run.py", "analysis", "tests"]
+exclude = [
+    # results: readouts written before they moved to readouts/
+    "**/runs", "**/readouts", "**/results", "**/__pycache__", "**/tests/fixtures",
+    "eval/*/environment", "eval/*/scenarios", "eval/*/runtime", "eval/clinic/scoring",
+    "eval/_harness/env_core", "eval/_harness/_multiagent_pi", "eval/_harness/_eval_runner.py",
+    "eval/_harness/_metadata_sidecar.py", "eval/_harness/docker_tier.py",
+    "analysis/out",
+]
+extraPaths = ["eval", "eval/_harness", "."]
+typeCheckingMode = "strict"
+reportMissingModuleSource = "none"
